@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Study Material | E-Business Course Practice</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/landing.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <span class="logo-badge">NPTEL</span>
+      <span class="brand-text">E-Business</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation"><span></span></button>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html#home">Home</a>
+      <a href="study-material.html" class="active">Study Material</a>
+      <button class="nav-link" id="navExamBtn" type="button">Exam</button>
+      <button class="nav-link" id="navPyqBtn" type="button">PYQs</button>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="study-page">
+    <div class="material-header">
+      <h1>Study Material</h1>
+      <p>Browse course content on the left, then view or download any item.</p>
+    </div>
+
+    <div class="study-layout">
+      <aside class="study-sidebar">
+        <div class="study-sidebar-header">Course Content</div>
+        <ul class="study-list" id="studyList">
+          <li class="materials-loading">Loading materials…</li>
+        </ul>
+      </aside>
+
+      <section class="study-content">
+        <div class="study-content-header">
+          <h2 id="studyContentTitle">Select a material</h2>
+          <a class="btn btn-primary btn-sm" id="studyDownloadBtn" href="#" download hidden>Download</a>
+        </div>
+        <div class="pdf-frame-wrap" id="pdfFrameWrap">
+          <div class="pdf-placeholder">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 4h11l5 5v11a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1z"/><path d="M15 4v5h5"/></svg>
+            <h3>Select a material</h3>
+            <p>Click any item on the left to view it here.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h4>E-Business Practice</h4>
+      <p>An online practice platform for E-Business course preparation.</p>
+    </div>
+    <div>
+      <h4>Links</h4>
+      <ul>
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="study-material.html">Study Material</a></li>
+        <li><a href="#" id="footerExamLink">Exam</a></li>
+        <li><a href="#" id="footerPyqLink">PYQs</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>About</h4>
+      <p>Practice portal for the NPTEL E-Business course. Not affiliated with, endorsed by, or an official product of NPTEL.</p>
+    </div>
+  </div>
+  <div class="footer-bottom container">
+    © 2026 E-Business Practice. All Rights Reserved.<br>
+    This platform is intended for educational and practice purposes.<br>
+    Developed by Sufal Basak
+  </div>
+</footer>
+
+<!-- Exam Candidate Modal -->
+<div class="modal-overlay" id="examModalOverlay">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="examModalTitle">
+    <div class="modal-header">
+      <h3 id="examModalTitle">Start E-Business Exam</h3>
+      <button class="modal-close" type="button" data-close-modal="examModalOverlay">&times;</button>
+    </div>
+    <form id="examForm" novalidate>
+      <div class="form-field" data-field="name">
+        <label class="field-label">Your Name</label>
+        <input type="text" name="name" placeholder="Enter your name" autocomplete="off">
+        <div class="field-error">Please enter your name.</div>
+      </div>
+      <div class="form-field" data-field="food">
+        <label class="field-label">What is your favorite food?</label>
+        <div class="radio-group" data-radio-group="food">
+          <label class="radio-option"><input type="radio" name="food" value="Biryani"> Biryani</label>
+          <label class="radio-option"><input type="radio" name="food" value="Momo"> Momo</label>
+          <label class="radio-option"><input type="radio" name="food" value="Pizza"> Pizza</label>
+          <label class="radio-option"><input type="radio" name="food" value="Other"> Other</label>
+        </div>
+        <div class="field-error">Please select an option.</div>
+      </div>
+      <div class="form-field" data-field="color">
+        <label class="field-label">What is your favorite color?</label>
+        <div class="radio-group" data-radio-group="color">
+          <label class="radio-option"><input type="radio" name="color" value="Blue"> Blue</label>
+          <label class="radio-option"><input type="radio" name="color" value="Red"> Red</label>
+          <label class="radio-option"><input type="radio" name="color" value="Green"> Green</label>
+          <label class="radio-option"><input type="radio" name="color" value="Black"> Black</label>
+        </div>
+        <div class="field-error">Please select an option.</div>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block">Enter Exam</button>
+    </form>
+  </div>
+</div>
+
+<!-- PYQ Candidate Modal -->
+<div class="modal-overlay" id="pyqModalOverlay">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="pyqModalTitle">
+    <div class="modal-header">
+      <h3 id="pyqModalTitle">Start PYQ Examination</h3>
+      <button class="modal-close" type="button" data-close-modal="pyqModalOverlay">&times;</button>
+    </div>
+    <form id="pyqForm" novalidate>
+      <div class="form-field" data-field="name">
+        <label class="field-label">Name</label>
+        <input type="text" name="name" placeholder="Enter your name" autocomplete="off">
+        <div class="field-error">Please enter your name.</div>
+      </div>
+      <div class="form-field" data-field="food">
+        <label class="field-label">Favorite Food</label>
+        <div class="radio-group" data-radio-group="food">
+          <label class="radio-option"><input type="radio" name="food" value="Biryani"> Biryani</label>
+          <label class="radio-option"><input type="radio" name="food" value="Momo"> Momo</label>
+          <label class="radio-option"><input type="radio" name="food" value="Pizza"> Pizza</label>
+          <label class="radio-option"><input type="radio" name="food" value="Other"> Other</label>
+        </div>
+        <div class="field-error">Please select an option.</div>
+      </div>
+      <div class="form-field" data-field="color">
+        <label class="field-label">Favorite Color</label>
+        <div class="radio-group" data-radio-group="color">
+          <label class="radio-option"><input type="radio" name="color" value="Blue"> Blue</label>
+          <label class="radio-option"><input type="radio" name="color" value="Red"> Red</label>
+          <label class="radio-option"><input type="radio" name="color" value="Green"> Green</label>
+          <label class="radio-option"><input type="radio" name="color" value="Black"> Black</label>
+        </div>
+        <div class="field-error">Please select an option.</div>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block">Enter PYQ Exam</button>
+    </form>
+  </div>
+</div>
+
+<!-- Coming Soon Modal -->
+<div class="modal-overlay" id="comingSoonModalOverlay">
+  <div class="modal modal-sm" role="dialog" aria-modal="true">
+    <div class="modal-header">
+      <h3>Coming Soon</h3>
+      <button class="modal-close" type="button" data-close-modal="comingSoonModalOverlay">&times;</button>
+    </div>
+    <p class="coming-soon-text">PYQs are on the way. Please check back soon!</p>
+    <button class="btn btn-primary btn-block" type="button" data-close-modal="comingSoonModalOverlay">Got it</button>
+  </div>
+</div>
+
+<script src="js/app.js"></script>
+<script src="js/study-material.js"></script>
+</body>
+</html>

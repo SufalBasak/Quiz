@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title id="pageTitle">Online Assessment | E-Business Course Practice</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/exam.css">
+</head>
+<body class="exam-body">
+
+<header class="exam-header">
+  <div class="exam-title">
+    <span class="logo-badge">NPTEL</span>
+    <div>
+      <span id="examTitleText">E-Business Online Assessment</span>
+      <span class="candidate-name" id="candidateNameLabel"></span>
+    </div>
+  </div>
+  <div class="header-right">
+    <div class="timer-box" id="timerBox">
+      <span class="timer-label">Time Left</span>
+      <span class="timer-value" id="timerValue">30:00</span>
+    </div>
+    <button class="btn btn-danger btn-header-submit" id="submitExamBtn" type="button">Submit Exam</button>
+  </div>
+</header>
+
+<div class="exam-body-wrap">
+  <div class="exam-main">
+    <div class="section-tabs">
+      <button class="section-tab" type="button" id="sectionTab">General Awareness</button>
+    </div>
+
+    <div class="question-card">
+      <div class="question-card-top">
+        <h2 id="questionNoLabel">Question No. 1</h2>
+        <div class="question-meta">
+          <span id="questionMarks">Marks: 1</span>
+          <span id="questionYear"></span>
+        </div>
+      </div>
+      <div class="question-text" id="questionText">Loading question...</div>
+      <div class="options-list" id="optionsList"></div>
+    </div>
+
+    <div class="exam-actions">
+      <div class="left-actions">
+        <button class="btn btn-outline" id="markReviewBtn" type="button">Mark for Review &amp; Next</button>
+        <button class="btn btn-ghost" id="clearResponseBtn" type="button">Clear Response</button>
+      </div>
+      <div class="right-actions">
+        <button class="btn btn-ghost" id="prevBtn" type="button">Previous</button>
+        <button class="btn btn-primary" id="saveNextBtn" type="button">Save &amp; Next</button>
+      </div>
+    </div>
+  </div>
+
+  <aside class="palette-panel">
+    <button class="palette-toggle-btn" id="paletteToggleBtn" type="button">
+      <span>Question Palette</span>
+      <span id="paletteToggleIcon">&#9660;</span>
+    </button>
+    <div class="palette-content open" id="paletteContent">
+      <div class="candidate-card">
+        <div class="candidate-avatar" id="candidateAvatar">?</div>
+        <div>
+          <div class="cname" id="candidateCardName">Candidate</div>
+          <div class="crole">Candidate</div>
+        </div>
+      </div>
+
+      <div class="palette-summary" id="paletteSummary"></div>
+
+      <div>
+        <p class="palette-title">Question Palette</p>
+        <div class="palette-grid" id="paletteGrid"></div>
+      </div>
+
+      <div class="legend">
+        <div class="legend-item"><span class="legend-dot answered"></span> Answered</div>
+        <div class="legend-item"><span class="legend-dot not-answered"></span> Not Answered</div>
+        <div class="legend-item"><span class="legend-dot marked"></span> Marked for Review</div>
+        <div class="legend-item"><span class="legend-dot not-visited"></span> Not Visited</div>
+      </div>
+    </div>
+  </aside>
+</div>
+
+<!-- Submit confirmation modal -->
+<div class="modal-overlay" id="submitModalOverlay">
+  <div class="modal" role="dialog" aria-modal="true">
+    <div class="modal-header">
+      <h3>Submit Exam?</h3>
+      <button class="modal-close" type="button" data-close-modal="submitModalOverlay">&times;</button>
+    </div>
+    <p style="color:var(--text-muted); font-size:14.5px; margin:0;">Are you sure you want to submit your exam?</p>
+    <div class="submit-stats">
+      <div class="stat-answered"><strong id="statAnswered">0</strong>Answered</div>
+      <div class="stat-unanswered"><strong id="statUnanswered">0</strong>Unanswered</div>
+      <div class="stat-marked"><strong id="statMarked">0</strong>Marked</div>
+    </div>
+    <div class="modal-actions">
+      <button class="btn btn-ghost" type="button" data-close-modal="submitModalOverlay">Cancel</button>
+      <button class="btn btn-danger" id="confirmSubmitBtn" type="button">Submit Exam</button>
+    </div>
+  </div>
+</div>
+
+<script src="js/sheets-config.js"></script>
+<script src="js/exam.js"></script>
+</body>
+</html>

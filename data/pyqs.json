@@ -1,0 +1,198 @@
+[
+  {
+    "id": 1,
+    "year": 2024,
+    "question": "Which of the following is considered a pillar of e-business infrastructure?",
+    "options": [
+      "Network infrastructure",
+      "Office furniture",
+      "Print advertising",
+      "Physical retail stores only"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "explanation": "E-business infrastructure rests on networks, hardware, software, and content management, which enable digital transactions."
+  },
+  {
+    "id": 2,
+    "year": 2024,
+    "question": "Which of the following best describes 'value chain analysis' as applied to e-business?",
+    "options": [
+      "Identifying and improving the activities that create value for the customer, from inbound logistics to after-sales service",
+      "A method for encrypting credit card numbers",
+      "A legal process for company dissolution",
+      "A technique used only for physical retail store layout"
+    ],
+    "correctAnswer": 0,
+    "marks": 2
+  },
+  {
+    "id": 3,
+    "year": 2023,
+    "question": "Which of the following best explains 'click and mortar' businesses?",
+    "options": [
+      "Businesses operating purely online with no physical presence",
+      "Businesses that combine online and offline (physical store) operations",
+      "Businesses that only sell offline",
+      "Government-run businesses"
+    ],
+    "correctAnswer": 1,
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "year": 2023,
+    "question": "In e-business, 'phishing' refers to:",
+    "options": [
+      "A method of catching network errors",
+      "A fraudulent attempt to obtain sensitive information by disguising as a trustworthy entity",
+      "A type of online payment",
+      "A search engine optimization technique"
+    ],
+    "correctAnswer": 1,
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "year": 2023,
+    "question": "Which of the following is an advantage of cloud computing for e-business?",
+    "options": [
+      "Higher upfront hardware investment",
+      "Scalability and on-demand resource allocation",
+      "Reduced accessibility",
+      "Mandatory physical server maintenance by the business"
+    ],
+    "correctAnswer": 1,
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "year": 2022,
+    "question": "Which of the following best describes 'm-commerce'?",
+    "options": [
+      "Commerce conducted via mobile devices",
+      "Commerce conducted only via mail order",
+      "A type of manufacturing process",
+      "A government commerce policy"
+    ],
+    "correctAnswer": 0,
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "year": 2022,
+    "question": "What is the role of a payment gateway in an e-business transaction?",
+    "options": [
+      "It designs the website's user interface",
+      "It authorizes and processes online payment transactions securely",
+      "It manages employee attendance",
+      "It handles product photography"
+    ],
+    "correctAnswer": 1,
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "year": 2022,
+    "question": "Which of the following is a characteristic of the B2B e-business model?",
+    "options": [
+      "Transactions occur between two businesses rather than a business and an individual consumer",
+      "It only involves government agencies",
+      "It excludes bulk transactions",
+      "It cannot use EDI"
+    ],
+    "correctAnswer": 0,
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "year": 2021,
+    "question": "Which of the following best defines 'affiliate marketing' in e-business?",
+    "options": [
+      "A model where affiliates earn commission for driving traffic or sales to a merchant's site",
+      "A method for encrypting customer data",
+      "A government tax filing process",
+      "A type of inventory management system"
+    ],
+    "correctAnswer": 0,
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "year": 2021,
+    "question": "Which of the following is an example of a Digital Rights Management (DRM) use case?",
+    "options": [
+      "Protecting copyrighted digital content from unauthorized distribution",
+      "Managing physical warehouse inventory",
+      "Processing cash-on-delivery orders",
+      "Scheduling employee shifts"
+    ],
+    "correctAnswer": 0,
+    "marks": 1
+  },
+  {
+    "id": 11,
+    "year": 2021,
+    "question": "Which of the following is a key challenge of cross-border e-business?",
+    "options": [
+      "Differing regulations, currencies, and taxation across countries",
+      "Lack of internet access in developed nations",
+      "Absence of any competition",
+      "Inability to use email"
+    ],
+    "correctAnswer": 0,
+    "marks": 1
+  },
+  {
+    "id": 12,
+    "year": 2020,
+    "question": "Which of the following best describes 'Search Engine Optimization (SEO)'?",
+    "options": [
+      "Paying for banner advertisements only",
+      "Improving a website's visibility in organic search engine results",
+      "A method of securing payment gateways",
+      "A logistics management technique"
+    ],
+    "correctAnswer": 1,
+    "marks": 1
+  },
+  {
+    "id": 13,
+    "year": 2020,
+    "question": "In e-business, what is a 'shopping cart abandonment' rate?",
+    "options": [
+      "The percentage of users who add items to their cart but leave without completing the purchase",
+      "The number of physical shopping carts damaged in a store",
+      "The rate at which a warehouse restocks products",
+      "The number of successful transactions per day"
+    ],
+    "correctAnswer": 0,
+    "marks": 1
+  },
+  {
+    "id": 14,
+    "year": 2020,
+    "question": "Which of the following technologies enables real-time inventory visibility across an e-business supply chain?",
+    "options": [
+      "RFID (Radio Frequency Identification)",
+      "Fax machines",
+      "Printed catalogs",
+      "Manual ledger entries only"
+    ],
+    "correctAnswer": 0,
+    "marks": 1
+  },
+  {
+    "id": 15,
+    "year": 2019,
+    "question": "Which of the following best describes 'omnichannel' retailing in e-business?",
+    "options": [
+      "Selling through a single channel only",
+      "Providing a seamless, integrated customer experience across multiple channels (online, mobile, in-store)",
+      "Avoiding the use of mobile apps",
+      "Selling exclusively through third-party marketplaces"
+    ],
+    "correctAnswer": 1,
+    "marks": 1
+  }
+]
