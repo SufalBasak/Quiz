@@ -45,10 +45,11 @@
     li.classList.add("active");
 
     titleEl.textContent = item.title;
-    downloadBtn.href = item.file;
+    var fileUri = encodeURI(item.file);
+    downloadBtn.href = fileUri;
     downloadBtn.hidden = false;
 
-    viewerWrap.innerHTML = '<iframe src="' + item.file + '" title="' + escapeHtml(item.title) + '"></iframe>';
+    viewerWrap.innerHTML = '<iframe src="' + fileUri + '" title="' + escapeHtml(item.title) + '"></iframe>';
   }
 
   function escapeHtml(str) {

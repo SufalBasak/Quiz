@@ -1118,5 +1118,145 @@
     "correctAnswer": 2,
     "marks": 1,
     "explanation": "PaaS supports application development and testing, whereas SaaS provides ready-to-use software. (Week 7 Slides: 110–113)"
+  },
+  {
+    "id": 81,
+    "topic": "Auto-ID, RFID, GIS & Intelligent Logistics",
+    "question": "Compared with bar codes, RFID improves automated data capture by enabling __________ identification of objects and reducing dependence on __________ during scanning.",
+    "options": [
+      "category-level, middleware",
+      "product-family, network connectivity",
+      "unique-item, line-of-sight conditions",
+      "batch-level, frequency standards"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "explanation": "RFID supports unique item identification through EPC codes and can be read without direct line-of-sight. (Week 8 Slide: 5–6)"
+  },
+  {
+    "id": 82,
+    "topic": "Auto-ID, RFID, GIS & Intelligent Logistics",
+    "question": "An RFID tag stores a unique identifier, the RFID __________ captures it, and the RFID __________ processes the captured data before updating enterprise systems.",
+    "options": [
+      "middleware, reader",
+      "antenna, database",
+      "database, middleware",
+      "reader, middleware"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "The reader captures tag information, while middleware processes and forwards it to backend systems. (Week 8 Slide: 9–10)"
+  },
+  {
+    "id": 83,
+    "topic": "Auto-ID, RFID, GIS & Intelligent Logistics",
+    "question": "Two statements are given.\n\nI. Fixed RFID readers are generally installed at permanent locations.\nII. Multi-frequency readers can operate across more than one RFID frequency band.\n\nWhich option is correct?",
+    "options": [
+      "Only I is correct",
+      "Only II is correct",
+      "Both I and II are correct",
+      "Neither I nor II is correct"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "explanation": "RFID readers may be classified as fixed/handheld and single-frequency/multi-frequency. (Week 8 Slide: 16)"
+  },
+  {
+    "id": 84,
+    "topic": "Auto-ID, RFID, GIS & Intelligent Logistics",
+    "question": "Fill in the blanks:\n\nWithin the EPCglobal Network, the __________ resolves EPC references, while the __________ stores detailed information about the identified object.",
+    "options": [
+      "EPC Middleware, EPC Reader",
+      "ID System, Discovery Service",
+      "EPC Reader, EPC Middleware",
+      "Discovery Services (ONS), EPC Information Services"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "ONS resolves EPC references and EPC Information Services maintain object-related information. (Week 8 Slide: 20, 25)"
+  },
+  {
+    "id": 85,
+    "topic": "Auto-ID, RFID, GIS & Intelligent Logistics",
+    "question": "A manufacturer stores product information directly on rewritable RFID tags. Another company receiving the goods cannot interpret the stored information because the encoding scheme differs. This problem is primarily related to",
+    "options": [
+      "electromagnetic interference",
+      "lack of standardized data formats",
+      "privacy protection",
+      "reader coordination"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "explanation": "RFID data representation on rewritable tags is not fully standardized. (Week 8 Slide: 33)"
+  },
+  {
+    "id": 86,
+    "topic": "Auto-ID, RFID, GIS & Intelligent Logistics",
+    "question": "A shipment leaves a warehouse equipped with RFID infrastructure and travels across the country. During transit, managers still need continuous visibility of vehicle location. Which technology becomes essential after the shipment leaves RFID coverage?",
+    "options": [
+      "EPC Information Service",
+      "RFID Middleware",
+      "GPS",
+      "Barcode scanning"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "explanation": "GPS is used once the vehicle moves beyond RFID reader coverage. (Week 8 Slide: 38)"
+  },
+  {
+    "id": 87,
+    "topic": "Auto-ID, RFID, GIS & Intelligent Logistics",
+    "question": "A transportation planner wants software that can combine road maps, depot locations, customer positions, and vehicle attributes for route analysis. Which technology provides this capability?",
+    "options": [
+      "RFID",
+      "GPS",
+      "EPC Network",
+      "GIS"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "GIS integrates spatial and attribute data for analysis and decision-making. (Week 8 Slide: 45–48)"
+  },
+  {
+    "id": 88,
+    "topic": "Auto-ID, RFID, GIS & Intelligent Logistics",
+    "question": "A logistics company must deliver goods using vehicles with limited carrying capacity. Each customer must be visited exactly once, and route demand cannot exceed vehicle capacity. Which routing variant is most appropriate?",
+    "options": [
+      "Vehicle Routing Problem with Time Windows (VRPTW)",
+      "Capacitated Vehicle Routing Problem (CVRP)",
+      "Multiple Depot Vehicle Routing Problem (MDVRP)",
+      "Periodic Vehicle Routing Problem (PVRP)"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "explanation": "CVRP incorporates vehicle-capacity constraints. (Week 8 Slide: 54)"
+  },
+  {
+    "id": 89,
+    "topic": "Auto-ID, RFID, GIS & Intelligent Logistics",
+    "question": "Which situation best represents a Dynamic Vehicle Routing Problem (DVRP)?",
+    "options": [
+      "All customer requests are known before planning begins",
+      "Routes remain fixed throughout execution",
+      "Vehicle capacities are ignored during planning",
+      "New customer requests arrive after routes have already been generated"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "DVRP allows routing information to change after initial planning. (Week 8 Slide: 63–67)"
+  },
+  {
+    "id": 90,
+    "topic": "Auto-ID, RFID, GIS & Intelligent Logistics",
+    "question": "Two statements are given.\n\nI. Tracking focuses on the current and future status of an item.\nII. Tracing focuses on reconstructing the historical path of an item.\n\nWhich option is correct?",
+    "options": [
+      "Only I is correct",
+      "Only II is correct",
+      "Neither I nor II is correct",
+      "Both I and II are correct"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "Tracking concerns present/future movement; tracing concerns past history. (Week 8 Slide: 79–80)"
   }
 ]

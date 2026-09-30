@@ -66,16 +66,14 @@
   els.sectionTab.textContent = examType === "pyq" ? "Previous Year Questions" : "General Awareness";
   els.candidateNameLabel.textContent = candidate.name + " · " + candidate.food + " · " + candidate.color;
   els.candidateCardName.textContent = candidate.name;
-  setCandidateAvatar(candidate.name);
+  setCandidateAvatar();
 
-  function setCandidateAvatar(name) {
-    var initial = (name || "?").trim().charAt(0).toUpperCase();
-    var seed = encodeURIComponent((name || "candidate").trim().toLowerCase());
+  function setCandidateAvatar() {
     var img = document.createElement("img");
-    img.alt = name || "Candidate";
-    img.src = "https://api.dicebear.com/9.x/avataaars/svg?seed=" + seed + "&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc,ffdfbf";
+    img.alt = "Candidate Profile";
+    img.src = "assets/images/nptel-logo.png";
     img.onerror = function () {
-      els.candidateAvatar.textContent = initial;
+      els.candidateAvatar.textContent = "NPTEL";
     };
     els.candidateAvatar.textContent = "";
     els.candidateAvatar.appendChild(img);
