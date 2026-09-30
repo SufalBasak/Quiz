@@ -978,5 +978,145 @@
     "correctAnswer": 2,
     "marks": 1,
     "explanation": "In a CSID, a directed arc between nodes represents a message (request/response) sent from one party to another — not a physical link, timing value, or cryptographic key."
+  },
+  {
+    "id": 71,
+    "topic": "Electronic Payment Systems, B2B Interoperability & Cloud Services",
+    "question": "A start-up launches a digital currency system where every payment token is verified by the issuing bank before the transaction is completed. Which problem is primarily reduced by this design?",
+    "options": [
+      "Excessive storage requirements at the customer wallet",
+      "Lack of interoperability among databases",
+      "Double spending of electronic money",
+      "Need for XML-based data exchange"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "explanation": "Online electronic money involves active participation of the bank in validating the money, reducing the possibility of double spending. (Week 7 Slide: 20-22)"
+  },
+  {
+    "id": 72,
+    "topic": "Electronic Payment Systems, B2B Interoperability & Cloud Services",
+    "question": "A merchant accepts a payment card and immediately contacts the card issuer to verify available funds before approving the purchase. What is the primary purpose of this step?",
+    "options": [
+      "To generate the monthly statement",
+      "To create a merchant account",
+      "To establish a VAN connection",
+      "To place a hold on the required funds or credit line"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "During payment processing, the issuer verifies available funds and places a hold on the amount needed for the transaction. (Week 7 Slide: 11)"
+  },
+  {
+    "id": 73,
+    "topic": "Electronic Payment Systems, B2B Interoperability & Cloud Services",
+    "question": "A retailer and supplier use different database systems and operating systems. They can exchange purchase-order data successfully after adopting XML. Which interoperability challenge is XML primarily helping to address?",
+    "options": [
+      "Business interoperability",
+      "Process interoperability",
+      "Data interoperability",
+      "Service interoperability"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "explanation": "XML helps exchange information among heterogeneous databases and systems. (Week 7 Slide: 32)"
+  },
+  {
+    "id": 74,
+    "topic": "Electronic Payment Systems, B2B Interoperability & Cloud Services",
+    "question": "A company is evaluating different electronic payment systems. Management wants a solution that minimizes the possibility that a payer can later deny having initiated a transaction. Which assessment criterion is most relevant?",
+    "options": [
+      "Confidentiality",
+      "Integrity",
+      "Non-repudiation",
+      "User friendliness"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "explanation": "Non-repudiation ensures that a party cannot later deny participating in a transaction. (Week 7 Slide: 6)"
+  },
+  {
+    "id": 75,
+    "topic": "Electronic Payment Systems, B2B Interoperability & Cloud Services",
+    "question": "A manufacturer and retailer decide to implement VMI. As a result, they must revise responsibilities, information-sharing policies, and operating procedures. Which interoperability dimension is being addressed?",
+    "options": [
+      "Data interoperability",
+      "Service interoperability",
+      "Process interoperability",
+      "Business interoperability"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "Business interoperability deals with organizational structures, work methods, and business policies. (Week 7 Slide: 44)"
+  },
+  {
+    "id": 76,
+    "topic": "Electronic Payment Systems, B2B Interoperability & Cloud Services",
+    "question": "A company is replacing a legacy CORBA-based integration platform with REST APIs and microservices. Despite the technology change, the primary objective remains enabling software components running on different systems to exchange requests and responses. Which B2B interoperability layer is being addressed?",
+    "options": [
+      "Content/Data level",
+      "Process level",
+      "Communication level",
+      "Business level"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "explanation": "Both legacy distributed-object frameworks (e.g., CORBA) and modern API-based integration solutions address interoperability at the communication layer. (Week 7 Slides: 48–49)"
+  },
+  {
+    "id": 77,
+    "topic": "Electronic Payment Systems, B2B Interoperability & Cloud Services",
+    "question": "Fill in the blanks: Compared with traditional EDI, XML is generally considered ________, whereas traditional EDI is often regarded as ________.",
+    "options": [
+      "more cryptic and less readable; easier to understand and extend",
+      "easier to read and implement over the Internet; more established with a larger existing user base",
+      "less platform independent; more dependent on Internet protocols",
+      "more bandwidth efficient; more verbose in data representation"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "explanation": "XML is Internet-friendly and human-readable, while traditional EDI benefits from a long-established user base and proven adoption in industry. (Week 7 Slides: 78–79)"
+  },
+  {
+    "id": 78,
+    "topic": "Electronic Payment Systems, B2B Interoperability & Cloud Services",
+    "question": "A company chooses a third-party network that receives transactions, examines sender and receiver information, routes messages, and maintains audit records. Which EDI communication mechanism is being used?",
+    "options": [
+      "AS1",
+      "AS2",
+      "Value-Added Network (VAN)",
+      "XML Wrapper"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "explanation": "VANs provide routing, auditing, retransmission, and communication support services. (Week 7 Slide: 62)"
+  },
+  {
+    "id": 79,
+    "topic": "Electronic Payment Systems, B2B Interoperability & Cloud Services",
+    "question": "A travel portal accesses railway reservation functionality hosted by another organization through a platform-independent interface. Which characteristic of web services makes this integration possible?",
+    "options": [
+      "Human-readable output only",
+      "Database independence only",
+      "Interoperable machine-to-machine interaction",
+      "Proprietary communication protocols"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "explanation": "Web services are designed to support interoperable machine-to-machine interactions. (Week 7 Slide: 84)"
+  },
+  {
+    "id": 80,
+    "topic": "Electronic Payment Systems, B2B Interoperability & Cloud Services",
+    "question": "A company wants a cloud solution where developers can build and test applications without managing servers. Another department only wants to use ready-made software through a browser. The appropriate cloud service models respectively are:",
+    "options": [
+      "IaaS and PaaS",
+      "SaaS and IaaS",
+      "PaaS and SaaS",
+      "SaaS and Community Cloud"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "explanation": "PaaS supports application development and testing, whereas SaaS provides ready-to-use software. (Week 7 Slides: 110–113)"
   }
 ]
