@@ -1,111 +1,1657 @@
 [
   {
     "id": 1,
-    "year": 2024,
-    "question": "Which of the following is considered a pillar of e-business infrastructure?",
+    "set": 1,
+    "topic": "E-business models, e-procurement basics",
+    "question": "A startup integrates its customer data, supplier performance dashboards, and internal workflow approvals into a single intranet-based system. Managers report that they can now see procurement delays instantly and act before stockouts occur. Which phase of ICT evolution best explains this capability?",
     "options": [
-      "Network infrastructure",
-      "Office furniture",
-      "Print advertising",
-      "Physical retail stores only"
+      "Management Information Systems",
+      "Decision Support Systems",
+      "Strategic and End-User Support Systems",
+      "E-Business Systems"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 3,
     "marks": 1,
-    "explanation": "E-business infrastructure rests on networks, hardware, software, and content management, which enable digital transactions."
+    "explanation": "Integrating customers, suppliers and internal workflows into one networked (intranet-based) platform is the hallmark of the *e-business* phase. MIS focuses on internal reporting, DSS on decision models, and end-user/strategic systems on individual or executive support — none of them capture cross-partner integration."
   },
   {
     "id": 2,
-    "year": 2024,
-    "question": "Which of the following best describes 'value chain analysis' as applied to e-business?",
+    "set": 1,
+    "topic": "E-business models, e-procurement basics",
+    "question": "A retail chain finds that customers increasingly compare online prices before visiting the physical stores. To stay competitive, it redesigns its website to include inventory visibility, AI chat assistance, and same-day pickup options. Which primary business objective does this strategy strengthen?",
     "options": [
-      "Identifying and improving the activities that create value for the customer, from inbound logistics to after-sales service",
-      "A method for encrypting credit card numbers",
-      "A legal process for company dissolution",
-      "A technique used only for physical retail store layout"
+      "Delivering value to the customer",
+      "Reducing total customer value",
+      "Increasing capital expenditure",
+      "Eliminating support activities"
     ],
     "correctAnswer": 0,
-    "marks": 2
+    "marks": 1,
+    "explanation": "Inventory visibility, AI assistance and same-day pickup all make buying easier and faster, which raises customer value. Options b, c and d are either the opposite of a goal or unrelated to it."
   },
   {
     "id": 3,
-    "year": 2023,
-    "question": "Which of the following best explains 'click and mortar' businesses?",
+    "set": 1,
+    "topic": "E-business models, e-procurement basics",
+    "question": "A company that traditionally relied on distributors decides to sell directly to consumers through its website. As a result, it reduces product delivery time and builds better insight into consumer preferences. Which business model does this transformation reflect?",
     "options": [
-      "Businesses operating purely online with no physical presence",
-      "Businesses that combine online and offline (physical store) operations",
-      "Businesses that only sell offline",
-      "Government-run businesses"
+      "Brokerage Model",
+      "Merchant Model",
+      "Manufacturer (Direct) Model",
+      "Affiliate Model"
     ],
-    "correctAnswer": 1,
-    "marks": 1
+    "correctAnswer": 2,
+    "marks": 1,
+    "explanation": "The manufacturer sells straight to consumers, bypassing distributors (disintermediation). That gives faster delivery and direct customer data. A merchant model involves a *reseller*, not the producer itself."
   },
   {
     "id": 4,
-    "year": 2023,
-    "question": "In e-business, 'phishing' refers to:",
+    "set": 1,
+    "topic": "E-business models, e-procurement basics",
+    "question": "A citizen submits a complaint about road maintenance through a municipal website, and the system routes it to the correct department. Which type of transaction is illustrated?",
     "options": [
-      "A method of catching network errors",
-      "A fraudulent attempt to obtain sensitive information by disguising as a trustworthy entity",
-      "A type of online payment",
-      "A search engine optimization technique"
+      "C2B",
+      "C2G",
+      "G2B",
+      "B2G"
     ],
     "correctAnswer": 1,
-    "marks": 1
+    "marks": 1,
+    "explanation": "A *citizen* (consumer) interacts with *government* → Consumer-to-Government (C2G). G2B is government dealing with businesses; B2G is business dealing with government."
   },
   {
     "id": 5,
-    "year": 2023,
-    "question": "Which of the following is an advantage of cloud computing for e-business?",
+    "set": 1,
+    "topic": "E-business models, e-procurement basics",
+    "question": "A portal provides high-quality tutorials and research summaries for free. It monetizes by tracking user behavior and selling aggregated insights to advertisers. Which model does the portal primarily operate under?",
     "options": [
-      "Higher upfront hardware investment",
-      "Scalability and on-demand resource allocation",
-      "Reduced accessibility",
-      "Mandatory physical server maintenance by the business"
+      "Utility Model",
+      "Community Model",
+      "Subscription Model",
+      "Infomediary Model"
     ],
-    "correctAnswer": 1,
-    "marks": 1
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "An infomediary collects and aggregates information about users or markets and sells that information (here, to advertisers). The content is free; the data is the product."
   },
   {
     "id": 6,
-    "year": 2022,
-    "question": "Which of the following best describes 'm-commerce'?",
+    "set": 1,
+    "topic": "E-business models, e-procurement basics",
+    "question": "An online travel site displays airline options from hundreds of carriers and earns a fixed commission for every flight booked through its platform. Which business model combination best explains this?",
     "options": [
-      "Commerce conducted via mobile devices",
-      "Commerce conducted only via mail order",
-      "A type of manufacturing process",
-      "A government commerce policy"
+      "Brokerage + Merchant",
+      "Affiliate + Community",
+      "Advertising + Utility",
+      "Manufacturer + Merchant"
     ],
     "correctAnswer": 0,
-    "marks": 1
+    "marks": 1,
+    "explanation": "The site brings buyers and sellers together and earns a commission per transaction — that is the *brokerage* model — while running the sales storefront (merchant-style selling). The other pairs don't match a commission-per-booking revenue stream."
   },
   {
     "id": 7,
-    "year": 2022,
-    "question": "What is the role of a payment gateway in an e-business transaction?",
+    "set": 1,
+    "topic": "E-business models, e-procurement basics",
+    "question": "A manufacturing firm implements SAP-MM ERP solution and integrates it with e-negotiation tools and online bidding platforms. As a result, suppliers begin participating more actively in competitive reverse auctions. Which key benefit of e-procurement is most directly achieved?",
     "options": [
-      "It designs the website's user interface",
-      "It authorizes and processes online payment transactions securely",
-      "It manages employee attendance",
-      "It handles product photography"
+      "Increased inventory levels",
+      "Reduction in sourcing cost",
+      "Increased supplier switching cost",
+      "Lower accuracy of quotations"
     ],
     "correctAnswer": 1,
-    "marks": 1
+    "marks": 1,
+    "explanation": "Reverse auctions make suppliers compete on price, pushing prices down and lowering sourcing cost. E-procurement aims to *reduce* inventory, *lower* switching costs and *improve* quotation accuracy — the opposite of a, c and d."
   },
   {
     "id": 8,
-    "year": 2022,
-    "question": "Which of the following is a characteristic of the B2B e-business model?",
+    "set": 1,
+    "topic": "E-business models, e-procurement basics",
+    "question": "A steel producer uses Metaljunction.com when it expects extreme price fluctuations in the market and wants a wide supplier base instantly. Which characteristic of the transaction makes Metaljunction the most suitable choice?",
     "options": [
-      "Transactions occur between two businesses rather than a business and an individual consumer",
-      "It only involves government agencies",
-      "It excludes bulk transactions",
-      "It cannot use EDI"
+      "Low transaction volume and high trust",
+      "High transaction volume and low market volatility",
+      "Need for broad market scanning with high cost sensitivity",
+      "Guaranteed long-term contracts"
     ],
-    "correctAnswer": 0,
-    "marks": 1
+    "correctAnswer": 2,
+    "marks": 1,
+    "explanation": "An e-marketplace/exchange suits situations where prices swing and the buyer wants to scan many suppliers quickly to find the best price. Long-term contracts (d) and stable, high-trust relationships (a, b) favour direct or private arrangements instead."
   },
   {
     "id": 9,
+    "set": 1,
+    "topic": "E-business models, e-procurement basics",
+    "question": "Farmers who previously relied on agents for market information begin accessing global soy price trends, local mandi prices, and agronomic advice directly via the eChoupal portal. Which strategic benefit does this new flow of information generate?",
+    "options": [
+      "Reduced marketing expenditure",
+      "Empowered decision-making through price transparency",
+      "Guaranteed post-harvest insurance",
+      "Lower cost of establishing kiosks"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "explanation": "ITC's eChoupal gives farmers direct price and agronomy information, so they can decide when and where to sell rather than depend on intermediaries. Insurance and kiosk costs are not what the information flow delivers."
+  },
+  {
+    "id": 10,
+    "set": 1,
+    "topic": "E-business models, e-procurement basics",
+    "question": "A community-driven open-source project releases its code freely but sustains itself by selling training, documentation, and integration services to enterprises. Which web business model does this scenario represent?",
+    "options": [
+      "Community Model",
+      "Merchant Model",
+      "Demand-Collection System",
+      "Utility Model"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "explanation": "In the community model, users contribute/support a free product (like open-source software) and the organisation earns from related services such as training and integration (e.g., Red Hat-style). *Note: the answer letter for this question is partly hidden by the watermark in the PDF; a) is the only option that fits the content.*"
+  },
+  {
+    "id": 11,
+    "set": 1,
+    "topic": "Information systems, processes, DSS/MIS/ESS",
+    "question": "A workflow requires marketing to forecast demand, production to estimate capacity, and finance to verify budgets. This is an example of:",
+    "options": [
+      "A decentralized process",
+      "A functional process",
+      "A cross-functional process",
+      "A strategic oversight process"
+    ],
+    "correctAnswer": 2,
+    "marks": 2,
+    "explanation": "The workflow spans several departments (marketing, production, finance), which defines a cross-functional process. A functional process stays within one department."
+  },
+  {
+    "id": 12,
+    "set": 1,
+    "topic": "Information systems, processes, DSS/MIS/ESS",
+    "question": "Which stakeholder group is entirely internal to the organization's information system boundary as depicted in the slides?",
+    "options": [
+      "Creditors",
+      "Customers",
+      "Employees",
+      "Government agencies"
+    ],
+    "correctAnswer": 2,
+    "marks": 2,
+    "explanation": "Employees operate *inside* the organisation. Creditors, customers and government agencies are external stakeholders that interact across the boundary."
+  },
+  {
+    "id": 13,
+    "set": 1,
+    "topic": "Information systems, processes, DSS/MIS/ESS",
+    "question": "A firm removes several approval layers that add no value and redesigns the workflow. This reflects:",
+    "options": [
+      "Continuous improvement",
+      "Reengineering",
+      "Performance auditing",
+      "Standardization"
+    ],
+    "correctAnswer": 1,
+    "marks": 2,
+    "explanation": "Business process reengineering means radically redesigning workflows and eliminating non-value-adding steps. Continuous improvement is gradual and incremental."
+  },
+  {
+    "id": 14,
+    "set": 1,
+    "topic": "Information systems, processes, DSS/MIS/ESS",
+    "question": "Arranging rainfall observations into meaningful patterns and then forming rules for irrigation illustrates movement from:",
+    "options": [
+      "Information to Knowledge",
+      "Wisdom to Knowledge",
+      "Data to Wisdom",
+      "Knowledge to Data"
+    ],
+    "correctAnswer": 2,
+    "marks": 2,
+    "explanation": "Raw rainfall observations are *data*; organising them into patterns gives *information*; turning those into rules gives *knowledge*; and applying those rules to irrigation decisions is *wisdom*. The overall movement runs from data toward wisdom. II *Option a is also partly plausible; the source key gives c.*"
+  },
+  {
+    "id": 15,
+    "set": 1,
+    "topic": "Information systems, processes, DSS/MIS/ESS",
+    "question": "A manager updates data-entry rules after noticing recurring errors in reports. This is an example of:",
+    "options": [
+      "Feedforward",
+      "Processing",
+      "Input adjustment",
+      "Feedback"
+    ],
+    "correctAnswer": 3,
+    "marks": 2,
+    "explanation": "Output (the error-filled reports) is evaluated and used to adjust the input rules — the definition of feedback in a system."
+  },
+  {
+    "id": 16,
+    "set": 1,
+    "topic": "Information systems, processes, DSS/MIS/ESS",
+    "question": "A refinery uses sensors to automatically regulate chemical temperatures. This is an example of:",
+    "options": [
+      "Management information system",
+      "Decision support system",
+      "Process control system",
+      "Transaction processing system"
+    ],
+    "correctAnswer": 2,
+    "marks": 2,
+    "explanation": "Process control systems monitor and automatically control physical processes (temperature, pressure, flow) using sensors."
+  },
+  {
+    "id": 17,
+    "set": 1,
+    "topic": "Information systems, processes, DSS/MIS/ESS",
+    "question": "Which report type highlights only conditions requiring managerial attention?",
+    "options": [
+      "Scheduled report",
+      "Exception report",
+      "Summary report",
+      "Trigger report"
+    ],
+    "correctAnswer": 1,
+    "marks": 2,
+    "explanation": "Exception reports show only items that deviate from thresholds or norms (\"management by exception\"). Scheduled reports come at fixed intervals; summary reports condense everything."
+  },
+  {
+    "id": 18,
+    "set": 1,
+    "topic": "Information systems, processes, DSS/MIS/ESS",
+    "question": "A dashboard combining competitor news with internal financial summaries is most likely part of:",
+    "options": [
+      "TPS",
+      "MIS",
+      "DSS",
+      "ESS"
+    ],
+    "correctAnswer": 3,
+    "marks": 2,
+    "explanation": "Executive Support Systems blend *external* information (competitors, industry news) with *internal* summaries for top management. MIS is mostly internal; TPS handles transactions."
+  },
+  {
+    "id": 19,
+    "set": 1,
+    "topic": "Information systems, processes, DSS/MIS/ESS",
+    "question": "A firm examining transportation delays using map-based visualization is relying on:",
+    "options": [
+      "Expert systems",
+      "Data mining",
+      "GIS",
+      "OLAP"
+    ],
+    "correctAnswer": 2,
+    "marks": 2,
+    "explanation": "Geographic Information Systems display and analyse data on maps, which is exactly what map-based delay analysis needs."
+  },
+  {
+    "id": 20,
+    "set": 1,
+    "topic": "Information systems, processes, DSS/MIS/ESS",
+    "question": "Which ERP feature enables coordination across departments?",
+    "options": [
+      "Multiple independent databases",
+      "Separate modules for each function",
+      "A unified data repository",
+      "Individualized reporting formats"
+    ],
+    "correctAnswer": 2,
+    "marks": 2,
+    "explanation": "ERP's core idea is one shared database that every module reads and writes, so departments see the same up-to-date data. Independent databases and separate formats create silos."
+  },
+  {
+    "id": 21,
+    "set": 1,
+    "topic": "Portals, spend analysis, e-procurement risk, CRM",
+    "question": "A company wants to give personalized dashboards to different employee groups, each showing tailored access to internal systems and external news feeds. Which digital interface best fits this requirement?",
+    "options": [
+      "Enterprise portal",
+      "Corporate website",
+      "CRM interface",
+      "Extranet-only portal"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "explanation": "Enterprise portals give role-based, personalised access to internal applications plus external content. Corporate websites are public-facing and not personalised per employee group."
+  },
+  {
+    "id": 22,
+    "set": 1,
+    "topic": "Portals, spend analysis, e-procurement risk, CRM",
+    "question": "A corporate website lists investor relations, careers, media releases, and product summaries. Which of the following is a feature unique to corporate websites compared to enterprise portals?",
+    "options": [
+      "Personalized access to intranet databases",
+      "Providing company-wide public information to external stakeholders",
+      "Access to HR self-service tools",
+      "Real-time access to operational databases"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "explanation": "Corporate websites are outward-facing and publish general information for the public. Options a, c and d are internal, personalised functions typical of enterprise portals."
+  },
+  {
+    "id": 23,
+    "set": 1,
+    "topic": "Portals, spend analysis, e-procurement risk, CRM",
+    "question": "Which metric reflects the sequence of pages viewed by a visitor, enabling understanding of user navigation patterns?",
+    "options": [
+      "Visits/Sessions",
+      "Page Views",
+      "Click Paths",
+      "Hits"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "explanation": "A click path is the ordered trail of pages a visitor follows. Page views and hits only count events; visits count sessions."
+  },
+  {
+    "id": 24,
+    "set": 1,
+    "topic": "Portals, spend analysis, e-procurement risk, CRM",
+    "question": "Which activity in the traditional purchasing process most closely corresponds to \"Specification Development\" and \"EPI/ESI activities\"?",
+    "options": [
+      "Supplier evaluation",
+      "Contract Agreement",
+      "Define requirement",
+      "Select supplier"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "explanation": "Writing specifications and involving early purchasing/supplier input (EPI/ESI) happens when the buyer is defining what needs to be purchased."
+  },
+  {
+    "id": 25,
+    "set": 1,
+    "topic": "Portals, spend analysis, e-procurement risk, CRM",
+    "question": "Spend analysis helps negotiate better prices. This reflects which underlying principle?",
+    "options": [
+      "Data cleansing for supplier consolidation",
+      "Category management over all the suppliers",
+      "Increasing volume to a small number of preferred suppliers",
+      "Supplier scorecarding"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "explanation": "Spend analysis reveals how much is bought from whom; consolidating that volume with fewer preferred suppliers gives leverage for better prices (volume discounts)."
+  },
+  {
+    "id": 26,
+    "set": 1,
+    "topic": "Portals, spend analysis, e-procurement risk, CRM",
+    "question": "A company uses both text similarity and machine learning to normalize supplier names across departments. This capability falls under which requirement of spend analysis?",
+    "options": [
+      "Data warehousing",
+      "Data cleansing/scrubbing",
+      "Analytics",
+      "Transaction processing"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "explanation": "Standardising variants of the same supplier name (e.g., \"IBM\", \"I.B.M. Ltd\") is data cleansing, a prerequisite for accurate spend analysis."
+  },
+  {
+    "id": 27,
+    "set": 1,
+    "topic": "Portals, spend analysis, e-procurement risk, CRM",
+    "question": "A buyer wants suppliers to propose bundled bids for multiple items, while also allowing item-wise bids. Which auction format supports this?",
+    "options": [
+      "Multi-attribute auction",
+      "Volume discount auction",
+      "Combinatorial auction",
+      "Single-round tendering"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "explanation": "Combinatorial auctions let bidders bid on *combinations (bundles)* of items as well as individual items."
+  },
+  {
+    "id": 28,
+    "set": 1,
+    "topic": "Portals, spend analysis, e-procurement risk, CRM",
+    "question": "Which e-procurement risk arises when suppliers hesitate to invest in technology without assurance of returns?",
+    "options": [
+      "Technology risk",
+      "Internal business risk",
+      "External business risk",
+      "Process risk"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "explanation": "Supplier reluctance and market-side behaviour lie outside the buyer's own organisation, so they are classed as external business risk."
+  },
+  {
+    "id": 29,
+    "set": 1,
+    "topic": "Portals, spend analysis, e-procurement risk, CRM",
+    "question": "CRM's aim of giving every customer a unified, consistent view of the company across all channels is best achieved through:",
+    "options": [
+      "Collaborative CRM",
+      "Operational CRM",
+      "Portal-based CRM",
+      "Analytical CRM"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "explanation": "Per the source key, operational CRM automates and integrates customer-facing processes (sales, marketing, service) so that all channels present one consistent face. II *Some textbooks would argue for collaborative CRM (channel integration); the key gives b.*"
+  },
+  {
+    "id": 30,
+    "set": 1,
+    "topic": "Portals, spend analysis, e-procurement risk, CRM",
+    "question": "A bank applies advanced analytics to identify customers likely to respond to a new investment plan. This activity is part of:",
+    "options": [
+      "Operational CRM",
+      "Portal-based CRM",
+      "Analytical CRM",
+      "Collaborative CRM"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "explanation": "Analysing customer data to predict behaviour (propensity to respond, segmentation) is the job of analytical CRM."
+  },
+  {
+    "id": 31,
+    "set": 1,
+    "topic": "E-marketing, supply chain, TMS",
+    "question": "A startup enables customers to design their own backpacks online and visualize the result instantly. This directly supports which e-marketing characteristic?",
+    "options": [
+      "Associative information acquisition",
+      "Market pull communication",
+      "One-to-one marketing",
+      "Disintermediation"
+    ],
+    "correctAnswer": 0,
+    "marks": 2,
+    "explanation": "Per the source key, the customer explores and builds a product interactively, associating choices with results in real time. II *Option c (one-to-one marketing) is also a reasonable reading; the key gives a.*"
+  },
+  {
+    "id": 32,
+    "set": 1,
+    "topic": "E-marketing, supply chain, TMS",
+    "question": "Which step of the AIDA model is strengthened when a company uses attention-grabbing animations and catchy taglines on its homepage?",
+    "options": [
+      "Interest",
+      "Attention",
+      "Desire",
+      "Action"
+    ],
+    "correctAnswer": 1,
+    "marks": 2,
+    "explanation": "AIDA = Attention, Interest, Desire, Action. Eye-catching animations and taglines are designed to capture attention first."
+  },
+  {
+    "id": 33,
+    "set": 1,
+    "topic": "E-marketing, supply chain, TMS",
+    "question": "A retailer places banner ads only on travel blogs when promoting a new luggage line. This is an example of:",
+    "options": [
+      "Demographic targeting",
+      "Online behaviour targeting",
+      "Content targeting",
+      "Community targeting"
+    ],
+    "correctAnswer": 2,
+    "marks": 2,
+    "explanation": "Ads are placed according to the *content* of the page (travel) that relates to the product, regardless of who the visitor is."
+  },
+  {
+    "id": 34,
+    "set": 1,
+    "topic": "E-marketing, supply chain, TMS",
+    "question": "In supply chain terms, which cycle involves selecting between on-demand production and just-in-time manufacturing?",
+    "options": [
+      "Replenishment cycle",
+      "Procurement cycle",
+      "Manufacturing cycle",
+      "Customer buying cycle"
+    ],
+    "correctAnswer": 2,
+    "marks": 2,
+    "explanation": "Choosing how and when to produce (make-to-order vs JIT) belongs to the manufacturing cycle."
+  },
+  {
+    "id": 35,
+    "set": 1,
+    "topic": "E-marketing, supply chain, TMS",
+    "question": "A distributor increases its order size excessively during festive seasons to secure stock, even when demand is stable. This behaviour induces:",
+    "options": [
+      "Lower transportation cost",
+      "Greater visibility",
+      "Improved coordination",
+      "Bullwhip Effect"
+    ],
+    "correctAnswer": 3,
+    "marks": 2,
+    "explanation": "Over-ordering distorts demand signals; small changes at the retail end are amplified as they move upstream, which is the bullwhip effect."
+  },
+  {
+    "id": 36,
+    "set": 1,
+    "topic": "E-marketing, supply chain, TMS",
+    "question": "Which of the following is essential for two systems to interpret exchanged information with the same meaning?",
+    "options": [
+      "Data interoperability",
+      "Semantic interoperability",
+      "Service interoperability",
+      "Workflow interoperability"
+    ],
+    "correctAnswer": 1,
+    "marks": 2,
+    "explanation": "Semantic interoperability ensures both systems attach the *same meaning* to the exchanged data, not just the same format."
+  },
+  {
+    "id": 37,
+    "set": 1,
+    "topic": "E-marketing, supply chain, TMS",
+    "question": "In which collaboration model does the supplier take charge of monitoring retailer stock levels and generating replenishment orders?",
+    "options": [
+      "Collaborative Planning and Forecasting (CPF)",
+      "Synchronized supply chain",
+      "Vendor Managed Inventory (VMI)",
+      "Traditional supply chain"
+    ],
+    "correctAnswer": 2,
+    "marks": 2,
+    "explanation": "In VMI the supplier monitors the customer's inventory and decides when and how much to replenish."
+  },
+  {
+    "id": 38,
+    "set": 1,
+    "topic": "E-marketing, supply chain, TMS",
+    "question": "A warehouse system receives an Advance Shipping Notice (ASN) and assigns dock space automatically. This falls under:",
+    "options": [
+      "Dispatch activities",
+      "Cross-docking",
+      "Receiving activities",
+      "Picking"
+    ],
+    "correctAnswer": 2,
+    "marks": 2,
+    "explanation": "ASN handling and dock scheduling prepare for inbound goods, which is part of receiving."
+  },
+  {
+    "id": 39,
+    "set": 1,
+    "topic": "E-marketing, supply chain, TMS",
+    "question": "A logistics company aims to reduce COI emissions by evaluating transportation mode choices and distribution network redesigns. Which TMS functionality supports this?",
+    "options": [
+      "Route planning",
+      "Parcel management",
+      "Network execution",
+      "Carbon footprint calculation"
+    ],
+    "correctAnswer": 3,
+    "marks": 2,
+    "explanation": "Estimating emissions across modes and network designs is what a carbon-footprint module does."
+  },
+  {
+    "id": 40,
+    "set": 1,
+    "topic": "E-marketing, supply chain, TMS",
+    "question": "Selling digital goods online without inventory, physical distribution, or intermediaries provides immediate delivery. This model is:",
+    "options": [
+      "Hybrid distribution of digital products",
+      "Offline distribution of digital products",
+      "Online distribution of digital products",
+      "Distributor storage with carrier delivery of digital products"
+    ],
+    "correctAnswer": 2,
+    "marks": 2,
+    "explanation": "Digital goods are delivered directly over the network — no stock, no shipping, no middlemen. *(The letter is partly hidden by the watermark; c is the only option matching the description.)*"
+  },
+  {
+    "id": 41,
+    "set": 1,
+    "topic": "Web, HTTP, TCP/IP, networking, storage",
+    "question": "Which of the following most directly affects the response time of an information service?",
+    "options": [
+      "Number of database tables",
+      "ISP latency and network congestion",
+      "Browser rendering speed",
+      "Storage format of HTML files"
+    ],
+    "correctAnswer": 1,
+    "marks": 2,
+    "explanation": "Response time is dominated by network delay between client and server; the other factors have far smaller or indirect effects."
+  },
+  {
+    "id": 42,
+    "set": 1,
+    "topic": "Web, HTTP, TCP/IP, networking, storage",
+    "question": "Which of the following statements correctly describes a characteristic of a Web server?",
+    "options": [
+      "It processes only one client request at a time",
+      "It uses HTTP only for sending data, not receiving",
+      "It can handle multiple client requests",
+      "It does not listen for client requests continuously"
+    ],
+    "correctAnswer": 2,
+    "marks": 2,
+    "explanation": "Web servers listen continuously and serve many clients concurrently, using HTTP for both requests and responses."
+  },
+  {
+    "id": 43,
+    "set": 1,
+    "topic": "Web, HTTP, TCP/IP, networking, storage",
+    "question": "Which of the following may increase a webpage's latency?",
+    "options": [
+      "Reducing embedded images",
+      "Using edge caching",
+      "Adding third-party services",
+      "Using a faster DNS resolver"
+    ],
+    "correctAnswer": 2,
+    "marks": 2,
+    "explanation": "Each third-party script or service adds extra DNS lookups and connections, increasing load time. The other options reduce latency."
+  },
+  {
+    "id": 44,
+    "set": 1,
+    "topic": "Web, HTTP, TCP/IP, networking, storage",
+    "question": "Packet switching (during data transfer over the internet) allows packets to arrive out of order because:",
+    "options": [
+      "Every packet uses a fixed pre-allocated route",
+      "Routers always broadcast packets to all neighbors",
+      "Packets independently choose routes based on current network state",
+      "Hosts do not maintain any transport-layer information"
+    ],
+    "correctAnswer": 2,
+    "marks": 2,
+    "explanation": "Each packet is routed on its own, so packets may take different paths with different delays and arrive out of sequence."
+  },
+  {
+    "id": 45,
+    "set": 1,
+    "topic": "Web, HTTP, TCP/IP, networking, storage",
+    "question": "HTTP is called a stateless protocol primarily because:",
+    "options": [
+      "It maintains only a partial session per client",
+      "Servers do not store session information between independent requests",
+      "It never uses TCP for maintaining state",
+      "It allows only static webpages from the server which do not require session information"
+    ],
+    "correctAnswer": 1,
+    "marks": 2,
+    "explanation": "Each HTTP request is treated independently; the server keeps no memory of earlier requests unless cookies or sessions are added."
+  },
+  {
+    "id": 46,
+    "set": 1,
+    "topic": "Web, HTTP, TCP/IP, networking, storage",
+    "question": "Cookies are essential in e-business systems because they:",
+    "options": [
+      "Encrypt all web traffic",
+      "Maintain logs of all websites",
+      "Preserve application context across stateless HTTP interactions",
+      "Remove the need for server sessions"
+    ],
+    "correctAnswer": 2,
+    "marks": 2,
+    "explanation": "Cookies carry identifiers (e.g., session IDs, cart references) so a stateless protocol can behave statefully."
+  },
+  {
+    "id": 47,
+    "set": 1,
+    "topic": "Web, HTTP, TCP/IP, networking, storage",
+    "question": "TCP ensures reliable delivery even when packets arrive out of order by:",
+    "options": [
+      "TTL expiration",
+      "Sequence numbers and acknowledgements",
+      "DNS lookups",
+      "Multipath link-layer routing"
+    ],
+    "correctAnswer": 1,
+    "marks": 2,
+    "explanation": "Sequence numbers let the receiver reorder segments; ACKs and retransmissions recover lost ones."
+  },
+  {
+    "id": 48,
+    "set": 1,
+    "topic": "Web, HTTP, TCP/IP, networking, storage",
+    "question": "Which device performs protocol translation?",
+    "options": [
+      "Switch",
+      "Router",
+      "Gateway",
+      "Repeater"
+    ],
+    "correctAnswer": 2,
+    "marks": 2,
+    "explanation": "A gateway connects networks that use different protocols and converts between them. Routers forward packets between networks using the *same* protocol suite."
+  },
+  {
+    "id": 49,
+    "set": 1,
+    "topic": "Web, HTTP, TCP/IP, networking, storage",
+    "question": "Which memory component benefits from temporal and spatial locality?",
+    "options": [
+      "Virtual memory",
+      "Cache",
+      "Disk buffer",
+      "Flash storage"
+    ],
+    "correctAnswer": 1,
+    "marks": 2,
+    "explanation": "Caches keep recently used (temporal) and nearby (spatial) data close to the processor, exploiting locality of reference."
+  },
+  {
+    "id": 50,
+    "set": 1,
+    "topic": "Web, HTTP, TCP/IP, networking, storage",
+    "question": "Network-attached storage (NAS) differs from direct-attached storage (DAS) mainly because NAS:",
+    "options": [
+      "Is restricted to a single server to provide file-level access",
+      "Uses TCP/IP protocols to provide file-level access over a network",
+      "Can only store backup data in a server cluster",
+      "Requires fiber channel connectivity to provide file-level access over a network"
+    ],
+    "correctAnswer": 1,
+    "marks": 2,
+    "explanation": "NAS shares files over an IP network to many clients, whereas DAS connects directly to one host. Fibre Channel is associated with SANs, not NAS."
+  },
+  {
+    "id": 51,
+    "set": 1,
+    "topic": "Security, PKI, X.509, TLS",
+    "question": "Which security category ensures that only authorized entities can access the content of a transmitted message?",
+    "options": [
+      "Integrity",
+      "Availability",
+      "Legitimate use",
+      "Confidentiality"
+    ],
+    "correctAnswer": 3,
+    "marks": 2,
+    "explanation": "Confidentiality = only authorised parties can read the content. Integrity is about unaltered data; availability is about access when needed."
+  },
+  {
+    "id": 52,
+    "set": 1,
+    "topic": "Security, PKI, X.509, TLS",
+    "question": "A passive attacker is one who:",
+    "options": [
+      "Modifies packets",
+      "Deletes packets",
+      "Injects fake messages",
+      "Only listens to ongoing communication"
+    ],
+    "correctAnswer": 3,
+    "marks": 2,
+    "explanation": "Passive attacks (eavesdropping, traffic analysis) observe without altering. Modifying, deleting or injecting are active attacks."
+  },
+  {
+    "id": 53,
+    "set": 1,
+    "topic": "Security, PKI, X.509, TLS",
+    "question": "Which cryptographic technique uses different keys for encryption and decryption?",
+    "options": [
+      "Hashing",
+      "Symmetric key cryptography",
+      "Asymmetric key cryptography",
+      "Session key exchange"
+    ],
+    "correctAnswer": 2,
+    "marks": 2,
+    "explanation": "Public-key systems use a key pair: one key encrypts and the other decrypts. Symmetric systems use one shared key."
+  },
+  {
+    "id": 54,
+    "set": 1,
+    "topic": "Security, PKI, X.509, TLS",
+    "question": "In a large e-business environment, a client receives a server's X.509 certificate and successfully verifies the CA's digital signature. However, before establishing the TLS session, the client discovers from an Online Certificate Status Protocol (OCSP) responder that the certificate has been listed as invalid. Which PKI subsystem or function is responsible for enabling the client to detect this situation?",
+    "options": [
+      "Public key generation",
+      "Certificate issuance",
+      "Certificate status validation mechanism",
+      "Cross-certification"
+    ],
+    "correctAnswer": 2,
+    "marks": 2,
+    "explanation": "A valid signature only proves the CA signed it. Checking whether it has since been revoked is done by status validation (CRL/OCSP)."
+  },
+  {
+    "id": 55,
+    "set": 1,
+    "topic": "Security, PKI, X.509, TLS",
+    "question": "A client verifies the server by validating an X.509 certificate. If the certificate contains correct server information but fails verification, which condition must be true?",
+    "options": [
+      "The hash function was incorrect",
+      "The public key length was insufficient",
+      "Session keys cannot be generated",
+      "The CA's public key failed to decrypt the signed hash correctly"
+    ],
+    "correctAnswer": 3,
+    "marks": 2,
+    "explanation": "Verification decrypts the signature with the CA's public key and compares the hash. If decryption fails to yield the matching hash, verification fails even when the visible content looks right."
+  },
+  {
+    "id": 56,
+    "set": 1,
+    "topic": "Security, PKI, X.509, TLS",
+    "question": "During certificate verification, the client decrypts the hash inside the server's X.509 certificate using the CA's public key. The client also computes a fresh hash over the server information received in the certificate. The two hashes do not match, even though the certificate has not expired and the CA's signature is correctly formatted. Which PKI-related process is most directly responsible for detecting this mismatch?",
+    "options": [
+      "Certificate issuance",
+      "Certificate revocation",
+      "Certificate validation",
+      "Session key generation"
+    ],
+    "correctAnswer": 2,
+    "marks": 2,
+    "explanation": "Comparing the decrypted hash with the recomputed hash is part of validating the certificate's integrity and authenticity. Revocation deals with certificates cancelled by the CA."
+  },
+  {
+    "id": 57,
+    "set": 1,
+    "topic": "Security, PKI, X.509, TLS",
+    "question": "A client presents an old session ID to the server. The server finds it in its cache. Which of the following steps is skipped in this resumed handshake?",
+    "options": [
+      "Exchange of random numbers",
+      "Public key decryption of premaster secret",
+      "Client Finished message",
+      "Server Finished message"
+    ],
+    "correctAnswer": 1,
+    "marks": 2,
+    "explanation": "Session resumption reuses the previously established master secret, so the expensive public-key exchange is skipped. Fresh randoms and both Finished messages are still exchanged."
+  },
+  {
+    "id": 58,
+    "set": 1,
+    "topic": "Security, PKI, X.509, TLS",
+    "question": "A sender transmits a message along with its hash value. An attacker attempts to replace the original message with a different one, but wants the new message to produce the same hash value so that the receiver does not detect tampering. Which characteristic of a secure hash function directly prevents this attack?",
+    "options": [
+      "The hash must be easy to compute for any message",
+      "The hash must be difficult to invert",
+      "It must be very hard to find another message that produces the same hash value",
+      "The hash must be reversible with a key"
+    ],
+    "correctAnswer": 2,
+    "marks": 2,
+    "explanation": "This is (second-preimage / collision) resistance. Being hard to invert (b) is preimage resistance and doesn't stop substitution with a colliding message."
+  },
+  {
+    "id": 59,
+    "set": 1,
+    "topic": "Security, PKI, X.509, TLS",
+    "question": "A server deploys a cryptographic accelerator that speeds up all RSA-related handshake computations during TLS by a factor of 50. Which aspect of TLS performance is guaranteed to improve as a direct consequence of using the accelerator, regardless of file sizes, network delays, or disk speeds?",
+    "options": [
+      "Size of the Server Hello message",
+      "Number of round trips required for TLS",
+      "Time spent on cryptographic operations during the handshake",
+      "Compression efficiency in the Record Protocol"
+    ],
+    "correctAnswer": 2,
+    "marks": 2,
+    "explanation": "A hardware accelerator only shortens the computation time of the RSA operations. Message sizes, round trips and compression are unaffected."
+  },
+  {
+    "id": 60,
+    "set": 1,
+    "topic": "Security, PKI, X.509, TLS",
+    "question": "Which TLS message contains the largest amount of data during handshake and therefore contributes most to byte overhead?",
+    "options": [
+      "Client Hello",
+      "Server Hello",
+      "Client Finished",
+      "Server Finished"
+    ],
+    "correctAnswer": 1,
+    "marks": 2,
+    "explanation": "The server's first flight (Server Hello together with its certificate chain) is the biggest chunk of handshake data. Finished messages are tiny hashes. *(The letter is partly hidden by the watermark; b fits both the visible stroke and the content.)*"
+  },
+  {
+    "id": 61,
+    "set": 1,
+    "topic": "E-payments, digital cash, interoperability, XML/SOAP/REST",
+    "question": "Which payment card type has no preset spending limit and must be fully settled at the end of the billing cycle?",
+    "options": [
+      "Credit card",
+      "Debit card",
+      "Smart card",
+      "Charge card"
+    ],
+    "correctAnswer": 3,
+    "marks": 2,
+    "explanation": "Charge cards require full payment each cycle and have no pre-set limit. Credit cards allow revolving balances; debit cards draw directly from an account."
+  },
+  {
+    "id": 62,
+    "set": 1,
+    "topic": "E-payments, digital cash, interoperability, XML/SOAP/REST",
+    "question": "Which security weakness remains when a credit-card transaction is protected only by TLS?",
+    "options": [
+      "TLS encrypts only the server's identity",
+      "TLS does not validate whether the merchant is authorized to charge the given card",
+      "TLS protects only integrity, not confidentiality",
+      "TLS is not compatible with payment gateways"
+    ],
+    "correctAnswer": 1,
+    "marks": 2,
+    "explanation": "TLS secures the channel but does not verify that the merchant has the right to charge that card. That gap is what protocols like SET address."
+  },
+  {
+    "id": 63,
+    "set": 1,
+    "topic": "E-payments, digital cash, interoperability, XML/SOAP/REST",
+    "question": "In offline anonymous digital cash, why does the double-spending problem arise?",
+    "options": [
+      "The customer's wallet encrypts data incorrectly",
+      "Anonymous digital coins cannot be traced back to the spender",
+      "Banks cannot decrypt blinded signatures offline",
+      "Smart cards lack cryptographic checks"
+    ],
+    "correctAnswer": 1,
+    "marks": 2,
+    "explanation": "Anonymity means the bank cannot link a coin to its owner, and offline verification can't check whether it was already spent, so a coin can be reused undetected."
+  },
+  {
+    "id": 64,
+    "set": 1,
+    "topic": "E-payments, digital cash, interoperability, XML/SOAP/REST",
+    "question": "Which of the following describes a key characteristic of anonymous electronic money?",
+    "options": [
+      "Customer creates a blinded serial number which the bank signs",
+      "Bank creates and signs the serial number",
+      "Bank blinds the serial number and customer signs it",
+      "Customer signs a bank-generated serial number"
+    ],
+    "correctAnswer": 0,
+    "marks": 2,
+    "explanation": "In blind-signature digital cash, the customer hides (blinds) the serial number, the bank signs without seeing it, and the customer unblinds it. This keeps the coin unlinkable to the customer."
+  },
+  {
+    "id": 65,
+    "set": 1,
+    "topic": "E-payments, digital cash, interoperability, XML/SOAP/REST",
+    "question": "In VMI implementation, coordinating steps like stock updates, consignment usage, and invoice generation requires which interoperability level?",
+    "options": [
+      "Interoperability of data",
+      "Interoperability of service",
+      "Interoperability of process",
+      "Interoperability of business"
+    ],
+    "correctAnswer": 2,
+    "marks": 2,
+    "explanation": "Coordinating a sequence of business steps between partners is process interoperability."
+  },
+  {
+    "id": 66,
+    "set": 1,
+    "topic": "E-payments, digital cash, interoperability, XML/SOAP/REST",
+    "question": "TCP/IP enables two partners to exchange data across heterogeneous systems. This corresponds to which interoperability level?",
+    "options": [
+      "Communication level",
+      "Content level",
+      "Process level",
+      "Business level"
+    ],
+    "correctAnswer": 0,
+    "marks": 2,
+    "explanation": "TCP/IP provides the basic transport of bits between systems, which is the communication level. Content, process and business levels sit above it."
+  },
+  {
+    "id": 67,
+    "set": 1,
+    "topic": "E-payments, digital cash, interoperability, XML/SOAP/REST",
+    "question": "Which software module converts a proprietary data file into an XML file with tags and tree structure?",
+    "options": [
+      "XML Wrapper",
+      "XML parser",
+      "XML database",
+      "XML server"
+    ],
+    "correctAnswer": 0,
+    "marks": 2,
+    "explanation": "A wrapper *creates* XML from proprietary or legacy formats. A parser *reads* XML."
+  },
+  {
+    "id": 68,
+    "set": 1,
+    "topic": "E-payments, digital cash, interoperability, XML/SOAP/REST",
+    "question": "Which statement correctly differentiates SOAP from REST?",
+    "options": [
+      "SOAP supports JSON natively; REST supports XML",
+      "SOAP is faster than REST",
+      "REST uses readable XML/JSON; SOAP uses WSDL for communication",
+      "REST requires WSDL; SOAP uses JSON"
+    ],
+    "correctAnswer": 2,
+    "marks": 2,
+    "explanation": "SOAP services are described by WSDL and use XML envelopes; REST uses simple URLs with lightweight, human-readable formats like JSON or XML."
+  },
+  {
+    "id": 69,
+    "set": 1,
+    "topic": "E-payments, digital cash, interoperability, XML/SOAP/REST",
+    "question": "AS2-based EDI communication uses which transport and security mechanisms?",
+    "options": [
+      "SMTP with S/MIME",
+      "FTP without encryption",
+      "HTTP/HTTPS with S/MIME",
+      "HTTP without signing"
+    ],
+    "correctAnswer": 2,
+    "marks": 2,
+    "explanation": "AS2 (Applicability Statement 2) sends EDI over HTTP/HTTPS with S/MIME signing and encryption. (SMTP-based is AS1.)"
+  },
+  {
+    "id": 70,
+    "set": 1,
+    "topic": "E-payments, digital cash, interoperability, XML/SOAP/REST",
+    "question": "Which cloud computing characteristic best describes users accessing documents (e.g., Google Docs) from anywhere?",
+    "options": [
+      "Ubiquitous access",
+      "Commodified pricing",
+      "Rapid elasticity",
+      "Resource pooling"
+    ],
+    "correctAnswer": 0,
+    "marks": 2,
+    "explanation": "Access from any device and location over the network is ubiquitous (broad network) access. *(The letter is partly hidden by the watermark; a is the only match.)*"
+  },
+  {
+    "id": 71,
+    "set": 1,
+    "topic": "AIDC, RFID, EPC, GIS, IoT, VRP",
+    "question": "Which automatic identification technology requires a direct line-of-sight between the reader and the labelled object?",
+    "options": [
+      "Bar code",
+      "RFID",
+      "IoT sensor",
+      "GPS receiver"
+    ],
+    "correctAnswer": 0,
+    "marks": 2,
+    "explanation": "Optical scanners must \"see\" the bar code. RFID works with radio waves and needs no line of sight."
+  },
+  {
+    "id": 72,
+    "set": 1,
+    "topic": "AIDC, RFID, EPC, GIS, IoT, VRP",
+    "question": "Automated Identification and Data Capture (AIDC) is essential in modern supply chains primarily because it:",
+    "options": [
+      "Eliminates the need for ERP systems",
+      "Reduces product variety",
+      "Reduces human intervention",
+      "Requires no integration with backend systems"
+    ],
+    "correctAnswer": 2,
+    "marks": 2,
+    "explanation": "AIDC captures data automatically, cutting manual entry, errors and delays. It still integrates with ERP and backend systems."
+  },
+  {
+    "id": 73,
+    "set": 1,
+    "topic": "AIDC, RFID, EPC, GIS, IoT, VRP",
+    "question": "In a typical RFID setup, which component is responsible for filtering, processing, and routing data to backend enterprise systems?",
+    "options": [
+      "RFID tag",
+      "RFID reader",
+      "RFID middleware",
+      "EPC code"
+    ],
+    "correctAnswer": 2,
+    "marks": 2,
+    "explanation": "Middleware sits between readers and enterprise applications, filtering duplicate reads, aggregating data and routing it onward."
+  },
+  {
+    "id": 74,
+    "set": 1,
+    "topic": "AIDC, RFID, EPC, GIS, IoT, VRP",
+    "question": "Which RFID tag type relies entirely on the electromagnetic field emitted by the reader and has the shortest read range?",
+    "options": [
+      "Active tag",
+      "Semi-active tag",
+      "Passive tag",
+      "Hybrid tag"
+    ],
+    "correctAnswer": 2,
+    "marks": 2,
+    "explanation": "Passive tags have no battery; they harvest power from the reader's field, which limits their range."
+  },
+  {
+    "id": 75,
+    "set": 1,
+    "topic": "AIDC, RFID, EPC, GIS, IoT, VRP",
+    "question": "Which component in the EPCglobal network maps an EPC to a network address containing product information?",
+    "options": [
+      "ID System",
+      "EPC Middleware",
+      "Discovery Services (ONS)",
+      "EPC Information Services"
+    ],
+    "correctAnswer": 2,
+    "marks": 2,
+    "explanation": "The Object Name Service works like DNS for EPCs: it resolves an EPC to the address where its information is held."
+  },
+  {
+    "id": 76,
+    "set": 1,
+    "topic": "AIDC, RFID, EPC, GIS, IoT, VRP",
+    "question": "A truck carrying EPC-tagged goods leaves the facility. The items are no longer readable during transit because:",
+    "options": [
+      "The EPC code has expired",
+      "The middleware cannot process mobile signals",
+      "GPS is not active",
+      "The tags are outside the reader antenna coverage"
+    ],
+    "correctAnswer": 3,
+    "marks": 2,
+    "explanation": "RFID needs the tag to be within the reader's range. Once the truck leaves, no reader can detect the tags."
+  },
+  {
+    "id": 77,
+    "set": 1,
+    "topic": "AIDC, RFID, EPC, GIS, IoT, VRP",
+    "question": "GIS enhances GPS-based location data primarily by ______ for decision-making.",
+    "options": [
+      "Increasing satellite signal strength",
+      "Improving battery efficiency of sensors",
+      "Providing spatial databases and analytical tools",
+      "Replacing the need for GPS receivers"
+    ],
+    "correctAnswer": 2,
+    "marks": 2,
+    "explanation": "GPS supplies coordinates; GIS stores, maps and analyses them so they can support decisions."
+  },
+  {
+    "id": 78,
+    "set": 1,
+    "topic": "AIDC, RFID, EPC, GIS, IoT, VRP",
+    "question": "In the Vehicle Routing Problem (VRP), the planner must determine:",
+    "options": [
+      "The average speed of vehicles",
+      "The number of vehicles required",
+      "The optimal set of routes connecting all customers",
+      "The manufacturing schedule"
+    ],
+    "correctAnswer": 2,
+    "marks": 2,
+    "explanation": "VRP seeks the best set of routes for a fleet to serve all customers at minimum cost or distance."
+  },
+  {
+    "id": 79,
+    "set": 1,
+    "topic": "AIDC, RFID, EPC, GIS, IoT, VRP",
+    "question": "Within an IoT ecosystem, a sensor node is best described as:",
+    "options": [
+      "A cloud-based analytics engine",
+      "A passive device that only stores data and builds prediction models",
+      "A unit containing sensors, processor, memory, transceiver, and power supply",
+      "A device used only for visualization containing camera and other sensors"
+    ],
+    "correctAnswer": 2,
+    "marks": 2,
+    "explanation": "A sensor node is a small self-contained device: it senses, processes, stores, communicates and is powered."
+  },
+  {
+    "id": 80,
+    "set": 1,
+    "topic": "AIDC, RFID, EPC, GIS, IoT, VRP",
+    "question": "In supply chain traceability, tracking refers to:",
+    "options": [
+      "Examining the production history of a product",
+      "Knowing the current and forward movement status of items",
+      "Conducting root-cause analysis",
+      "Evaluating supplier performance"
+    ],
+    "correctAnswer": 1,
+    "marks": 2,
+    "explanation": "*Tracking* = where an item is now and where it is going. *Tracing* = reconstructing its history. *(The letter is partly hidden by the watermark; b matches the definition.)*"
+  },
+  {
+    "id": 81,
+    "set": 1,
+    "topic": "DSS models, web-log mining, OLAP",
+    "question": "A model-driven DSS becomes particularly valuable when a manager needs to analyse complex alternatives under varying assumptions.",
+    "options": [
+      "Examine alternative outcomes generated through structured exploration of analytical routines",
+      "Interpret qualitative feedback by referencing descriptive summaries of organizational activity",
+      "Review aggregated historical results that require minimal analytical intervention at runtime",
+      "Evaluate scenarios using optimization, simulation, or statistical models to guide decisions"
+    ],
+    "correctAnswer": 3,
+    "marks": 2,
+    "explanation": "Model-driven DSS rely on quantitative models (optimisation, simulation, statistics) for what-if analysis under different assumptions."
+  },
+  {
+    "id": 82,
+    "set": 1,
+    "topic": "DSS models, web-log mining, OLAP",
+    "question": "A supply-chain analyst wants to determine reorder frequencies under uncertain daily demand. Which model category is most appropriate?",
+    "options": [
+      "Deterministic model where variances are assumed negligible during analysis",
+      "Static model where intertemporal variability is intentionally suppressed",
+      "Analytical model where uncertainty is incorporated only in cost parameters",
+      "Stochastic model where demand randomness is explicitly represented"
+    ],
+    "correctAnswer": 3,
+    "marks": 2,
+    "explanation": "When demand is random, a stochastic model captures that uncertainty directly. Deterministic and static models ignore it."
+  },
+  {
+    "id": 83,
+    "set": 1,
+    "topic": "DSS models, web-log mining, OLAP",
+    "question": "In extended HTTP log files, the Referrer field is critical because it captures:",
+    "options": [
+      "A numerical index used for associating page requests with caching events",
+      "Routing descriptors indicating which intermediary proxies handled the request",
+      "Contextual pointers to previously accessed resources for navigation reconstruction",
+      "A URL reference showing where the user came from prior to the current request"
+    ],
+    "correctAnswer": 3,
+    "marks": 2,
+    "explanation": "The referrer gives the previous page's URL, which helps reconstruct navigation paths and identify traffic sources."
+  },
+  {
+    "id": 84,
+    "set": 1,
+    "topic": "DSS models, web-log mining, OLAP",
+    "question": "A major challenge in log-based session identification arises from:",
+    "options": [
+      "Parametric inconsistencies caused by non-standard HTML formats",
+      "Deviations in server configurations that modify protocol functionality",
+      "Fluctuations in timestamp precision across distributed servers",
+      "The stateless nature of HTTP, which prevents linking consecutive requests"
+    ],
+    "correctAnswer": 3,
+    "marks": 2,
+    "explanation": "Because HTTP doesn't tie requests to a session, analysts must infer sessions from IP, user agent and timing heuristics."
+  },
+  {
+    "id": 85,
+    "set": 1,
+    "topic": "DSS models, web-log mining, OLAP",
+    "question": "A server logs 160 transitions from Page A to Page B. Caching leads to an estimated additional 40 unlogged transitions. What should be the adjusted transition count?",
+    "options": [
+      "160",
+      "200",
+      "180",
+      "40"
+    ],
+    "correctAnswer": 1,
+    "marks": 2,
+    "explanation": "Adjusted count = logged + unlogged = 160 + 40 = 200."
+  },
+  {
+    "id": 86,
+    "set": 1,
+    "topic": "DSS models, web-log mining, OLAP",
+    "question": "A travel website maps pages into concepts such as *Explore Region*, *Filter Options*, and *Book Item*. The main benefit of this semantic session modelling is that it:",
+    "options": [
+      "Produces normalized clusters that replicate server-side directory structures",
+      "Classifies pages based solely on superficial keyword similarity",
+      "Ensures all sessions contain equivalent conceptual representations",
+      "Transforms raw URLs into conceptual behaviours, improving pattern discovery"
+    ],
+    "correctAnswer": 3,
+    "marks": 2,
+    "explanation": "Mapping URLs to meaningful concepts lets mining algorithms find patterns of *behaviour* instead of patterns of arbitrary URLs."
+  },
+  {
+    "id": 87,
+    "set": 1,
+    "topic": "DSS models, web-log mining, OLAP",
+    "question": "Static aggregation is often insufficient because it:",
+    "options": [
+      "Cannot reliably incorporate patterns arising from multimedia content",
+      "Treats all navigation events as equivalent across sessions",
+      "Requires data warehouses for constructing minimal summaries",
+      "Lacks the ability to drill into or adjust aggregation across multiple dimensions"
+    ],
+    "correctAnswer": 3,
+    "marks": 2,
+    "explanation": "Fixed summaries can't be sliced, diced or drilled down, which is what OLAP-style analysis provides."
+  },
+  {
+    "id": 88,
+    "set": 1,
+    "topic": "DSS models, web-log mining, OLAP",
+    "question": "An OLAP cube shows Electronics: 2400 sessions and Audio Devices (subcategory): 600 sessions. What fraction of Electronics traffic belongs to Audio Devices?",
+    "options": [
+      "0.25",
+      "0.40",
+      "0.15",
+      "0.55"
+    ],
+    "correctAnswer": 0,
+    "marks": 2,
+    "explanation": "600 ÷ 2400 = 0.25."
+  },
+  {
+    "id": 89,
+    "set": 1,
+    "topic": "DSS models, web-log mining, OLAP",
+    "question": "A retailer observes that users viewing *Accessories → Chargers* often proceed to *Accessories → Batteries*. A suitable e-commerce application of this finding is:",
+    "options": [
+      "Replacing both links with a combined-accessories index",
+      "Showing unrelated product categories to vary navigation",
+      "Highlighting non-accessory categories above both products",
+      "Recommending batteries on charger pages (and vice versa) to support cross-selling"
+    ],
+    "correctAnswer": 3,
+    "marks": 2,
+    "explanation": "A frequent navigation pattern signals related interest, so cross-recommendations can increase sales."
+  },
+  {
+    "id": 90,
+    "set": 1,
+    "topic": "DSS models, web-log mining, OLAP",
+    "question": "From the state *Browse*, transitions occur as follows: Add to Cart: 12, Select: 18, Exit: 10. What is the probability of transitioning to *Select*?",
+    "options": [
+      "0.20",
+      "0.30",
+      "0.45",
+      "0.15"
+    ],
+    "correctAnswer": 2,
+    "marks": 2,
+    "explanation": "Total transitions = 12 + 18 + 10 = 40. P(Select) = 18 ÷ 40 = 0.45."
+  },
+  {
+    "id": 91,
+    "set": 1,
+    "topic": "CBMG, capacity planning, recommender basics",
+    "question": "Which property of the Customer Behaviour Model Graph (CBMG) ensures that the Entry state cannot be reached from any state other than the Exit state?",
+    "options": [
+      "Transition restriction preventing cyclic returns except via the central exit node",
+      "Logical constraint disallowing reverse navigation except from terminating points",
+      "Structural rule ensuring p(i,1) = 0 for 2 ≤ i ≤ n−1 in the transition probability specification",
+      "Controlled limitation on inbound edges to avoid irregular backtracking"
+    ],
+    "correctAnswer": 2,
+    "marks": 2,
+    "explanation": "State 1 is Entry and state n is Exit. Setting the transition probability *into* Entry to zero from all intermediate states means Entry is reachable only from Exit, and this is stated as a structural condition on the probability matrix."
+  },
+  {
+    "id": 92,
+    "set": 1,
+    "topic": "CBMG, capacity planning, recommender basics",
+    "question": "In the CBMG, the expected time a visitor spends in state *i* before making a transition is computed using which expression?",
+    "options": [
+      "Σ p(j,i) · z(j,i), combining inbound transition probabilities with holding times",
+      "A ratio that normalizes mixed-direction holding times using outbound probabilities",
+      "½ Σ (p(m,i) + p(i,m)) · z(i,m), using symmetric probability terms to approximate dwell time",
+      "Σ p(i,j) · z(i,j), multiplying each outbound transition probability with its holding time contribution"
+    ],
+    "correctAnswer": 3,
+    "marks": 2,
+    "explanation": "Expected time in state *i* is the probability-weighted average of the holding times over all *outgoing* transitions."
+  },
+  {
+    "id": 93,
+    "set": 1,
+    "topic": "CBMG, capacity planning, recommender basics",
+    "question": "In Example 1, the migration rate from \"Shopping Cart\" refers to:",
+    "options": [
+      "Ratio of time spent browsing to number of transitions leaving the cart",
+      "Transition counts normalized by the session length to measure abandonment",
+      "Proportion of sessions whose final action involves the cart before exiting",
+      "Fraction of transitions from Shopping Cart that move to exit state"
+    ],
+    "correctAnswer": 3,
+    "marks": 2,
+    "explanation": "Migration rate is the share of transitions out of a given state that lead to a specified state (here, exit/abandonment)."
+  },
+  {
+    "id": 94,
+    "set": 1,
+    "topic": "CBMG, capacity planning, recommender basics",
+    "question": "In a CBMG-based analysis of user sessions, suppose V(b) represents the number of browsing-related transitions and V(s) the number of searching-related transitions. Which behavioural pattern is likely to be indicated by a high value of the combined metric (V(b) + V(s))?",
+    "options": [
+      "Users spending extended time on checkout or payment-related pages",
+      "Sessions frequently interrupted by navigation errors or system delays",
+      "Customers making rapid purchase decisions with little exploratory activity",
+      "Users engaging in substantial browsing and searching before evaluating or purchasing items"
+    ],
+    "correctAnswer": 3,
+    "marks": 2,
+    "explanation": "Many browse and search transitions reflect exploration before a decision, not quick purchasing or checkout activity."
+  },
+  {
+    "id": 95,
+    "set": 1,
+    "topic": "CBMG, capacity planning, recommender basics",
+    "question": "Adequate capacity depends on which of the following groups of factors?",
+    "options": [
+      "User demographics, browsing time, multichannel engagement",
+      "Software licensing terms, GUI style, content management choices",
+      "Real-time monitoring, firewall rules, disaster recovery routines",
+      "Service-level requirements, technology standards, and cost constraints"
+    ],
+    "correctAnswer": 3,
+    "marks": 2,
+    "explanation": "Capacity planning balances performance targets (SLAs), the technology in use and the budget available."
+  },
+  {
+    "id": 96,
+    "set": 1,
+    "topic": "CBMG, capacity planning, recommender basics",
+    "question": "Which performance requirement reflects the classical \"8-second rule\"?",
+    "options": [
+      "Maximum queuing delay allowed before rejecting a user session",
+      "Upper bound on acceptable client-perceived response time",
+      "Time limit after which the server refreshes its cache cycles",
+      "Duration threshold to confirm idle-state before session termination"
+    ],
+    "correctAnswer": 1,
+    "marks": 2,
+    "explanation": "The 8-second rule says users tend to abandon a page if it takes more than about eight seconds to respond."
+  },
+  {
+    "id": 97,
+    "set": 1,
+    "topic": "CBMG, capacity planning, recommender basics",
+    "question": "In performance modeling of server workloads, why does the response time increase sharply when the system load becomes very high?",
+    "options": [
+      "Because background database maintenance tasks begin to dominate the processing cycle",
+      "Because caching layers start failing to serve repeated requests efficiently",
+      "Because the server becomes nearly fully utilized, causing waiting time to rise steeply for incoming requests",
+      "Because incoming requests are automatically redistributed across multiple machines"
+    ],
+    "correctAnswer": 2,
+    "marks": 2,
+    "explanation": "In queueing theory, as utilisation approaches 100% the queueing delay grows non-linearly, so response time explodes."
+  },
+  {
+    "id": 98,
+    "set": 1,
+    "topic": "CBMG, capacity planning, recommender basics",
+    "question": "Which step in capacity planning requires mapping CBMG functions to CSID diagrams?",
+    "options": [
+      "Workload forecasting for fluctuating seasonal demand",
+      "Predicting infrastructure cost variations over time",
+      "Evaluating recursive load distributions via renewal theory",
+      "Characterizing site workload through service-demand computation"
+    ],
+    "correctAnswer": 3,
+    "marks": 2,
+    "explanation": "Mapping CBMG functions to CSID (client/server interaction) diagrams yields the service demand each function places on system resources, which characterises the workload."
+  },
+  {
+    "id": 99,
+    "set": 1,
+    "topic": "CBMG, capacity planning, recommender basics",
+    "question": "When a recommender system produces the same set of suggested items for every user, which characteristic best describes the underlying recommendation approach?",
+    "options": [
+      "It applies rule-driven scoring that blends multiple item attributes uniformly",
+      "It selects frequently accessed content based on broad community behaviour",
+      "It estimates preference similarity using patterns shared across user groups",
+      "It compares item features with user profiles to create individualized lists"
+    ],
+    "correctAnswer": 1,
+    "marks": 2,
+    "explanation": "Non-personalised recommendation (e.g., \"most popular\") gives everyone the same list based on overall popularity."
+  },
+  {
+    "id": 100,
+    "set": 1,
+    "topic": "CBMG, capacity planning, recommender basics",
+    "question": "Content-based recommender systems require which of the following core phases?",
+    "options": [
+      "Fault-detection, redirection, revalidation, and certificate updating",
+      "Feature extraction, representation, user-profile learning, recommendation",
+      "Verification, demographic attributes selection, scoring",
+      "Conversion of logs into demographic matrices, revalidation, certificate updating"
+    ],
+    "correctAnswer": 1,
+    "marks": 2,
+    "explanation": "Content-based systems extract item features, represent items, learn a user profile from past preferences, then recommend similar items. *(The letter is partly hidden by the watermark; b is the only valid pipeline.)*"
+  },
+  {
+    "id": 101,
+    "set": 1,
+    "topic": "Collaborative filtering, Apriori, pricing, auctions",
+    "question": "Dimension reduction is used in user–user collaborative filtering mainly because:",
+    "options": [
+      "It expands the rating matrix by generating synthetic items for all users",
+      "It reduces sparsity and improves scalability",
+      "It replaces raw ratings entirely with category-level preferences for all items",
+      "It restricts similarity computations only to items most frequently purchased"
+    ],
+    "correctAnswer": 1,
+    "marks": 2,
+    "explanation": "Techniques like SVD compress the large, sparse rating matrix into fewer dimensions, easing computation and sparsity."
+  },
+  {
+    "id": 102,
+    "set": 1,
+    "topic": "Collaborative filtering, Apriori, pricing, auctions",
+    "question": "A platform observes that user similarities fluctuate drastically as new ratings arrive. Which method minimizes online fluctuations?",
+    "options": [
+      "User–user similarity computed dynamically for each session",
+      "Item–item similarity computed offline using stable co-rating patterns",
+      "Demographic clustering refreshed with every user login",
+      "Association rules generated from real-time streams of rating data"
+    ],
+    "correctAnswer": 1,
+    "marks": 2,
+    "explanation": "Item–item similarities change slowly and can be precomputed offline, giving stable results."
+  },
+  {
+    "id": 103,
+    "set": 1,
+    "topic": "Collaborative filtering, Apriori, pricing, auctions",
+    "question": "Pearson correlation used to compute similarity in user–user CF requires:",
+    "options": [
+      "All users providing ratings for the complete item collection consistently",
+      "Only the co-rated items that occur for the two users under comparison",
+      "Using rating scales uniformly defined across every user in the dataset",
+      "Selecting only the highest-scored items given by users for comparison"
+    ],
+    "correctAnswer": 1,
+    "marks": 2,
+    "explanation": "Pearson correlation is calculated over the items *both* users have rated."
+  },
+  {
+    "id": 104,
+    "set": 1,
+    "topic": "Collaborative filtering, Apriori, pricing, auctions",
+    "question": "A retailer wants extremely fast online predictions even when users rate many items.",
+    "options": [
+      "Precomputing item–item similarity offline",
+      "Dynamic similarity generation",
+      "Demographic segmentation",
+      "Frequent recalibration of user means"
+    ],
+    "correctAnswer": 0,
+    "marks": 2,
+    "explanation": "Offline precomputation moves the heavy work out of the request path, so online predictions are quick."
+  },
+  {
+    "id": 105,
+    "set": 1,
+    "topic": "Collaborative filtering, Apriori, pricing, auctions",
+    "question": "Given 200 transactions: {A} = 80, {A,B} = 30, {B} = 50. Compute support and confidence of A → B.",
+    "options": [
+      "Support = 0.15, Confidence = 0.38",
+      "Support = 0.15, Confidence = 0.60",
+      "Support = 0.38, Confidence = 0.38",
+      "Support = 0.60, Confidence = 0.15"
+    ],
+    "correctAnswer": 0,
+    "marks": 2,
+    "explanation": "Support = σ(A,B) / N = 30 / 200 = 0.15. Confidence = σ(A,B) / σ(A) = 30 / 80 = 0.375 ≈ 0.38."
+  },
+  {
+    "id": 106,
+    "set": 1,
+    "topic": "Collaborative filtering, Apriori, pricing, auctions",
+    "question": "During Apriori candidate generation for 3-itemsets, the candidate {A, B, C} is produced, but its 2-item subset {A, C} is found to be not frequent. How should the algorithm treat {A, B, C}?",
+    "options": [
+      "Keep {A, B, C} as a candidate because other subsets might satisfy the frequency requirement",
+      "Prune {A, B, C} from the candidate list because an infrequent subset violates the anti-monotone rule",
+      "Generate larger supersets containing {A, B, C} to check their potential frequencies",
+      "Merge {A, B, C} with structurally similar itemsets to form broader clusters"
+    ],
+    "correctAnswer": 1,
+    "marks": 2,
+    "explanation": "Apriori principle: every subset of a frequent itemset must be frequent. If {A, C} is infrequent, any superset containing it is infrequent too."
+  },
+  {
+    "id": 107,
+    "set": 1,
+    "topic": "Collaborative filtering, Apriori, pricing, auctions",
+    "question": "For a new user with no rating history but a complete demographic profile:",
+    "options": [
+      "User–user CF recommendation models",
+      "Item–item CF recommendation models",
+      "Demographic recommendation models",
+      "Association rules based recommendation models"
+    ],
+    "correctAnswer": 2,
+    "marks": 2,
+    "explanation": "This is the cold-start case: with no ratings, CF can't work, but demographics can be used to recommend what similar people liked."
+  },
+  {
+    "id": 108,
+    "set": 1,
+    "topic": "Collaborative filtering, Apriori, pricing, auctions",
+    "question": "The type of website personalization that changes navigation pathways based on user browsing pattern is:",
+    "options": [
+      "Content personalization",
+      "Structure personalization",
+      "Layout personalization",
+      "Format personalization"
+    ],
+    "correctAnswer": 1,
+    "marks": 2,
+    "explanation": "Structure personalisation adapts the site's links and navigation paths. Content personalisation changes what is shown; layout/format changes how it looks."
+  },
+  {
+    "id": 109,
+    "set": 1,
+    "topic": "Collaborative filtering, Apriori, pricing, auctions",
+    "question": "Which pricing method sets the product price primarily by adding a specified markup to the unit production cost?",
+    "options": [
+      "Target-return pricing that depends on desired returns and invested capital",
+      "Markup pricing that determines the unit price by applying a fixed ratio to cost",
+      "Value-based pricing that emphasizes perceived customer benefits and quality",
+      "Going-rate pricing that aligns the selling price with prevailing competitor levels"
+    ],
+    "correctAnswer": 1,
+    "marks": 2,
+    "explanation": "Price = unit cost × (1 + markup). Other methods base price on target return, perceived value or competitors."
+  },
+  {
+    "id": 110,
+    "set": 1,
+    "topic": "Collaborative filtering, Apriori, pricing, auctions",
+    "question": "A sealed-bid auction where the winner pays the second-highest bid:",
+    "options": [
+      "English auction",
+      "Dutch auction",
+      "Vickrey auction",
+      "First-price sealed"
+    ],
+    "correctAnswer": 2,
+    "marks": 2,
+    "explanation": "The Vickrey auction is sealed-bid: the highest bidder wins but pays the *second-highest* price, which encourages truthful bidding. *(The letter is partly hidden by the watermark; c is the only match.)*"
+  },
+  {
+    "id": 111,
+    "set": 2,
     "year": 2021,
     "question": "Which of the following best defines 'affiliate marketing' in e-business?",
     "options": [
@@ -118,7 +1664,8 @@
     "marks": 1
   },
   {
-    "id": 10,
+    "id": 112,
+    "set": 2,
     "year": 2021,
     "question": "Which of the following is an example of a Digital Rights Management (DRM) use case?",
     "options": [
@@ -131,7 +1678,8 @@
     "marks": 1
   },
   {
-    "id": 11,
+    "id": 113,
+    "set": 2,
     "year": 2021,
     "question": "Which of the following is a key challenge of cross-border e-business?",
     "options": [
@@ -144,7 +1692,8 @@
     "marks": 1
   },
   {
-    "id": 12,
+    "id": 114,
+    "set": 2,
     "year": 2020,
     "question": "Which of the following best describes 'Search Engine Optimization (SEO)'?",
     "options": [
@@ -157,7 +1706,8 @@
     "marks": 1
   },
   {
-    "id": 13,
+    "id": 115,
+    "set": 2,
     "year": 2020,
     "question": "In e-business, what is a 'shopping cart abandonment' rate?",
     "options": [
@@ -170,7 +1720,8 @@
     "marks": 1
   },
   {
-    "id": 14,
+    "id": 116,
+    "set": 2,
     "year": 2020,
     "question": "Which of the following technologies enables real-time inventory visibility across an e-business supply chain?",
     "options": [
@@ -183,7 +1734,8 @@
     "marks": 1
   },
   {
-    "id": 15,
+    "id": 117,
+    "set": 2,
     "year": 2019,
     "question": "Which of the following best describes 'omnichannel' retailing in e-business?",
     "options": [

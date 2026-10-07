@@ -46,12 +46,36 @@
       var el = document.getElementById(id);
       if (el) el.addEventListener("click", function (e) {
         e.preventDefault();
+        var pyqForm = document.getElementById("pyqForm");
+        if (pyqForm) pyqForm.removeAttribute("data-set");
+        var pyqTitle = document.getElementById("pyqModalTitle");
+        if (pyqTitle) pyqTitle.textContent = "Start PYQ Examination";
         openModal(modalId);
       });
     });
   }
   bindOpeners(["navExamBtn", "heroStartExam", "ctaStartExam", "footerExamLink"], "examModalOverlay");
-  bindOpeners(["navPyqBtn", "footerPyqLink"], "comingSoonModalOverlay");
+
+  // PYQ Set card openers
+  document.querySelectorAll("[data-open-pyq-set]").forEach(function (btn) {
+    btn.addEventListener("click", function (e) {
+      e.preventDefault();
+      var setNum = btn.getAttribute("data-open-pyq-set");
+      var pyqForm = document.getElementById("pyqForm");
+      var pyqTitle = document.getElementById("pyqModalTitle");
+      if (pyqForm) {
+        if (setNum) {
+          pyqForm.setAttribute("data-set", setNum);
+        } else {
+          pyqForm.removeAttribute("data-set");
+        }
+      }
+      if (pyqTitle) {
+        pyqTitle.textContent = setNum ? ("Start PYQ Examination (Set " + setNum + ")") : "Start PYQ Examination";
+      }
+      openModal("pyqModalOverlay");
+    });
+  });
 
   // Radio option highlight
   document.querySelectorAll(".radio-group").forEach(function (group) {
@@ -100,9 +124,15 @@
         color: form.querySelector("input[name=color]:checked").value
       };
       localStorage.setItem("candidate_" + examType, JSON.stringify(candidate));
-      // starting fresh clears any previous in-progress attempt of this type
+      
+      var setVal = form.getAttribute("data-set");
+      var query = redirectQuery;
+      if (setVal) {
+        query += "&set=" + encodeURIComponent(setVal);
+        localStorage.removeItem("exam_state_" + examType + "_set" + setVal);
+      }
       localStorage.removeItem("exam_state_" + examType);
-      window.location.href = "exam.html?type=" + redirectQuery;
+      window.location.href = "exam.html?type=" + query;
     });
   }
 

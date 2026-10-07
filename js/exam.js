@@ -17,8 +17,9 @@
 
   var params = new URLSearchParams(window.location.search);
   var examType = params.get("type") === "pyq" ? "pyq" : "regular";
+  var setParam = params.get("set");
   var dataFile = examType === "pyq" ? "data/pyqs.json" : "data/questions.json";
-  var stateKey = "exam_state_" + examType;
+  var stateKey = "exam_state_" + examType + (setParam ? "_set" + setParam : "");
   var candidateKey = "candidate_" + examType;
   var resultKey = "exam_result";
 
@@ -60,10 +61,14 @@
     paletteToggleIcon: document.getElementById("paletteToggleIcon")
   };
 
-  var titleText = examType === "pyq" ? "E-Business PYQ Assessment" : "E-Business Online Assessment";
+  var titleText = examType === "pyq"
+    ? (setParam ? "E-Business PYQ Assessment (Set " + setParam + ")" : "E-Business PYQ Assessment")
+    : "E-Business Online Assessment";
   els.pageTitle.textContent = titleText + " | E-Business Course Practice";
   els.examTitleText.textContent = titleText;
-  els.sectionTab.textContent = examType === "pyq" ? "Previous Year Questions" : "General Awareness";
+  els.sectionTab.textContent = examType === "pyq"
+    ? (setParam ? "Previous Year Questions · Set " + setParam : "Previous Year Questions")
+    : "General Awareness";
   els.candidateNameLabel.textContent = candidate.name + " · " + candidate.food + " · " + candidate.color;
   els.candidateCardName.textContent = candidate.name;
   setCandidateAvatar();
@@ -85,7 +90,16 @@
   fetch(dataFile)
     .then(function (res) { return res.json(); })
     .then(function (data) {
-      questions = data;
+      if (examType === "pyq" && setParam) {
+        var setNum = parseInt(setParam, 10);
+        var filtered = data.filter(function (q) {
+          if (typeof q.set !== "undefined") return q.set === setNum;
+          return setNum === 1 ? (q.id <= 8 || q.year >= 2022) : (q.id > 8 || q.year < 2022);
+        });
+        questions = filtered.length > 0 ? filtered : data;
+      } else {
+        questions = data;
+      }
       initState();
       render();
       startTimer();
@@ -281,7 +295,9 @@
 
     var result = {
       examType: examType,
-      examName: examType === "pyq" ? "E-Business PYQ Practice" : "E-Business Practice",
+      examName: examType === "pyq"
+        ? (setParam ? "E-Business PYQ Practice (Set " + setParam + ")" : "E-Business PYQ Practice")
+        : "E-Business Practice",
       candidate: candidate,
       total: total,
       totalMarks: totalMarks,
