@@ -5,7 +5,7 @@
 (function () {
   "use strict";
 
-  var EXAM_DURATION_SECONDS = 30 * 60; // change this to adjust exam duration
+  var SECONDS_PER_QUESTION = 2 * 60; // 2 minutes per MCQ question
 
   var STATUS = {
     NOT_VISITED: "not-visited",
@@ -109,12 +109,16 @@
     });
 
   function initState() {
+    var totalDurationSeconds = Math.max(1, questions.length) * SECONDS_PER_QUESTION;
     var saved = localStorage.getItem(stateKey);
     if (saved) {
       try {
         var parsed = JSON.parse(saved);
         if (parsed && Array.isArray(parsed.status) && parsed.status.length === questions.length) {
           state = parsed;
+          if (typeof state.timeLeft !== "number" || isNaN(state.timeLeft) || state.timeLeft <= 0) {
+            state.timeLeft = totalDurationSeconds;
+          }
           return;
         }
       } catch (e) { /* fall through to fresh state */ }
@@ -123,7 +127,7 @@
       current: 0,
       answers: new Array(questions.length).fill(null),
       status: new Array(questions.length).fill(STATUS.NOT_VISITED),
-      timeLeft: EXAM_DURATION_SECONDS
+      timeLeft: totalDurationSeconds
     };
     state.status[0] = STATUS.NOT_ANSWERED;
     persist();
