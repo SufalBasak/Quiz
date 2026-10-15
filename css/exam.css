@@ -426,7 +426,7 @@ body.exam-body { padding-top: 0; background: var(--bg); }
 .status-pill.correct { background: var(--success-bg); color: var(--success); }
 .status-pill.incorrect { background: var(--error-bg); color: var(--error); }
 .status-pill.unanswered { background: var(--warning-bg); color: var(--warning); }
-.review-item .q-text { font-size: 15.5px; margin-bottom: 14px; line-height: 1.6; }
+.review-item .q-text { font-size: 15.5px; margin-bottom: 14px; line-height: 1.6; white-space: pre-line; }
 .review-answers { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 10px; }
 .review-answers .ans-block { font-size: 13.5px; }
 .review-answers .ans-block .ans-label { color: var(--text-muted); font-weight: 600; margin-bottom: 4px; }

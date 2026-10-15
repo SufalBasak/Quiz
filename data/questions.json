@@ -1258,5 +1258,285 @@
     "correctAnswer": 3,
     "marks": 1,
     "explanation": "Tracking concerns present/future movement; tracing concerns past history. (Week 8 Slide: 79–80)"
+  },
+  {
+    "id": 91,
+    "topic": "DSS Models, Web Log Mining & OLAP",
+    "question": "A retail manager wants to evaluate the impact of a 20% increase in holiday-season demand on inventory levels before implementing any changes. Which DSS capability is most relevant?",
+    "options": [
+      "Maintaining historical transaction records for future auditing purposes",
+      "Generating standardized reports summarizing previous inventory performance",
+      "Monitoring website activity using predefined operational dashboards",
+      "Using analytical models to evaluate alternative scenarios before making decisions"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "DSS supports non-routine decision making by allowing managers to evaluate hypothetical scenarios using analytical models. (Week 9 Slide: 4)"
+  },
+  {
+    "id": 92,
+    "topic": "DSS Models, Web Log Mining & OLAP",
+    "question": "A business analyst develops a model that predicts customer demand while accounting for random fluctuations caused by weather and market conditions. This model is best described as:",
+    "options": [
+      "A deterministic model where outcomes are fixed once inputs are specified",
+      "A static model where system behaviour remains unchanged over time",
+      "A descriptive model used only for summarizing historical observations",
+      "A stochastic model that explicitly incorporates uncertainty into outcomes"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "Stochastic models incorporate randomness and uncertainty in the modelling process. (Week 9 Slide: 6)"
+  },
+  {
+    "id": 93,
+    "topic": "DSS Models, Web Log Mining & OLAP",
+    "question": "A company is interested in discovering frequently occurring phrases and themes from thousands of customer reviews. Which analytical approach is most suitable?",
+    "options": [
+      "Time-series forecasting to estimate future review volumes",
+      "Decision analysis to compare alternative product strategies",
+      "Simulation modelling to generate synthetic customer opinions",
+      "Text mining using natural language processing to identify patterns"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "Text mining employs natural language processing to extract patterns from textual data. (Week 9 Slide: 9)"
+  },
+  {
+    "id": 94,
+    "topic": "DSS Models, Web Log Mining & OLAP",
+    "question": "In an extended web log, which field would be most useful for determining whether a visitor arrived from a search engine or another website?",
+    "options": [
+      "A field identifying the browser version used during the request",
+      "A field specifying the number of bytes transferred to the client",
+      "A field recording the HTTP method associated with the request",
+      "A field containing the URL of the previously visited webpage"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "The Referrer field indicates the webpage from which the visitor arrived. (Week 9 Slide: 22)"
+  },
+  {
+    "id": 95,
+    "topic": "DSS Models, Web Log Mining & OLAP",
+    "question": "A company merges access logs from multiple web servers located in different regions. Which preprocessing activity is most critical before analyzing customer behaviour?",
+    "options": [
+      "Generating association rules from the combined clickstream records",
+      "Calculating transition probabilities for all observed navigation paths",
+      "Estimating customer purchase intentions using predictive models",
+      "Synchronizing and integrating data collected from different server logs"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "Data integration aligns information from multiple servers before analysis. (Week 9 Slide: 31)"
+  },
+  {
+    "id": 96,
+    "topic": "DSS Models, Web Log Mining & OLAP",
+    "question": "During web usage mining, a page view is best understood as:",
+    "options": [
+      "A sequence of user visits occurring within a predefined timeout interval",
+      "A collection of customer transactions associated with a particular purchase",
+      "A group of sessions aggregated for multidimensional reporting purposes",
+      "A set of page files and related objects contributing to one browser display"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "A page view includes the page and associated objects needed to display it. (Week 9 Slide: 32)"
+  },
+  {
+    "id": 97,
+    "topic": "DSS Models, Web Log Mining & OLAP",
+    "question": "A website experiences extensive caching, causing some user requests to bypass the server log. Which preprocessing activity specifically addresses this issue?",
+    "options": [
+      "Removing requests associated with known search-engine crawlers",
+      "Grouping page requests into visits using timeout thresholds",
+      "Mapping URLs into higher-level semantic categories for analysis",
+      "Inferring missing navigation steps through path completion techniques"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "Path completion reconstructs missing references caused by caching. (Week 9 Slide: 37)"
+  },
+  {
+    "id": 98,
+    "topic": "DSS Models, Web Log Mining & OLAP",
+    "question": "A retailer transforms URLs such as /electronics/mobile/item123 and /electronics/mobile/item456 into the concept \"Mobile Phones\". What is the primary advantage of this transformation?",
+    "options": [
+      "It reduces the need for cleaning erroneous log entries from server records",
+      "It eliminates the requirement to identify sessions before mining begins",
+      "It ensures that all customers follow identical browsing sequences",
+      "It allows navigation analysis to focus on concepts rather than specific URLs"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "Semantic modelling improves interpretation by mapping pages to business concepts. (Week 9 Slide: 38–39)"
+  },
+  {
+    "id": 99,
+    "topic": "DSS Models, Web Log Mining & OLAP",
+    "question": "A website records 4,000 hits during a day but only 800 page views. Which interpretation is most reasonable?",
+    "options": [
+      "Every page view generated exactly five user sessions on average",
+      "Most requests originated from robots rather than human visitors",
+      "The website received more visits than page views during the period",
+      "Many requests were for embedded objects such as images or scripts"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "Hits count all file requests, including images and scripts, whereas page views count pages. (Week 9 Slide: 51)"
+  },
+  {
+    "id": 100,
+    "topic": "DSS Models, Web Log Mining & OLAP",
+    "question": "An online bookstore discovers that customers frequently visit the \"Programming Books\" page and the \"Machine Learning Books\" page during the same session. Which mining technique is most likely responsible for uncovering this relationship?",
+    "options": [
+      "Classification methods assigning users to predefined reader categories",
+      "Clustering approaches grouping visitors with similar demographics",
+      "Markov-chain models estimating probabilities of future transitions",
+      "Association-rule mining identifying frequently co-occurring items"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "Association rules identify items or pages that frequently occur together. (Week 9 Slide: 58)"
+  },
+  {
+    "id": 101,
+    "topic": "CBMG, Capacity Planning & Recommender Basics",
+    "question": "A website administrator creates a Customer Behaviour Model Graph (CBMG) with Entry and Exit as special states. Which transition would violate the standard CBMG transition rules?",
+    "options": [
+      "A transition from Exit back to Entry to represent a new session",
+      "A transition from Entry to a browsing state to begin navigation",
+      "A transition directly from Entry to Exit without visiting any intermediate state",
+      "A transition from a browsing state to Exit when a session terminates"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "explanation": "In a CBMG, no transition can be made directly from Entry to Exit. Users must first visit at least one intermediate state. (Week 10 Slide: 4)"
+  },
+  {
+    "id": 102,
+    "topic": "CBMG, Capacity Planning & Recommender Basics",
+    "question": "Consider a Customer Behaviour Model Graph (CBMG). The transitions leaving the Product Page (State 3) are:\n• Product Page → Cart Page: (50, 350)\n• Product Page → Category Page: (35, 280)\n• Product Page → Exit: (20, 160)\nwhere each pair denotes (transition count, accumulated think time in seconds).\n\nWhat is the expected time spent in the Product Page state before making a transition?",
+    "options": [
+      "6.0 seconds",
+      "6.5 seconds",
+      "7.0 seconds",
+      "7.5 seconds"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "Total transitions leaving Product Page = 50 + 35 + 20 = 105. Total accumulated think time = 350 + 280 + 160 = 790 seconds (holding times: 350/50 = 7s, 280/35 = 8s, 160/20 = 8s). Expected think time = (50/105)(7) + (35/105)(8) + (20/105)(8) = 790/105 ≈ 7.52 seconds. Closest option = 7.5 seconds. (Week 10 Slide: 5, 7)"
+  },
+  {
+    "id": 103,
+    "topic": "CBMG, Capacity Planning & Recommender Basics",
+    "question": "Assume each completed purchase in a website generates ₹2,500 average revenue. If 20,000 visitors arrive and the Buy-to-Visit Ratio is 4%, what is the expected revenue?",
+    "options": [
+      "₹1.5 crore",
+      "₹20 lakh",
+      "₹50 lakh",
+      "₹2 crore"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "explanation": "Purchases = 20,000 × 0.04 = 800. Expected Revenue = 800 × ₹2,500 = ₹20,00,000 (₹20 lakh). (Week 10 Slide: 12, 38)"
+  },
+  {
+    "id": 104,
+    "topic": "CBMG, Capacity Planning & Recommender Basics",
+    "question": "In a CBMG-based customer segmentation study, suppose (Vb) represents browsing transitions and (Vs) represents searching transitions. A customer segment exhibits very high values of both. What does this most likely indicate?",
+    "options": [
+      "Customers often terminate sessions immediately after login activities",
+      "Customers repeatedly revisit payment pages before confirming purchases",
+      "Customers spend most of their time on account-maintenance activities",
+      "Customers engage extensively in exploration before making decisions"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "High browsing and searching activity indicates exploratory behaviour prior to purchase decisions. (Week 10 Slide: 12)"
+  },
+  {
+    "id": 105,
+    "topic": "CBMG, Capacity Planning & Recommender Basics",
+    "question": "Why are queueing network models generally preferred over single-queue models when analyzing large e-business infrastructures?",
+    "options": [
+      "They eliminate the need to estimate service times for individual resources",
+      "They assume every server processes requests with identical characteristics",
+      "They can represent multiple interacting resources and provide a more realistic performance model",
+      "They guarantee optimal resource allocation without workload forecasting"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "explanation": "Queueing network models capture interactions among multiple resources such as web, application, and database servers, making them more realistic. (Week 10 Slide: 31)"
+  },
+  {
+    "id": 106,
+    "topic": "CBMG, Capacity Planning & Recommender Basics",
+    "question": "After forecasting future workload and estimating the expected arrival rate of requests, what should be the next step in the capacity planning process?",
+    "options": [
+      "Increase hardware capacity immediately to accommodate future demand against quality-of-service requirements",
+      "Replace the existing forecasting model with a more complex alternative against quality-of-service requirements",
+      "Determine customer demographics to estimate future business growth against quality-of-service requirements",
+      "Evaluate performance measures such as waiting time, utilization, and bottlenecks against quality-of-service requirements"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "After obtaining the expected workload, the performance model is used to evaluate waiting time, utilization, bottlenecks, and determine whether the quality-of-service requirements are satisfied. (Week 10 Slide: 39)"
+  },
+  {
+    "id": 107,
+    "topic": "CBMG, Capacity Planning & Recommender Basics",
+    "question": "An online retailer expects rapid growth in demand during the coming year. Which statement best captures the primary objective of capacity planning?",
+    "options": [
+      "Determining the optimal website colour scheme for customer engagement",
+      "Forecasting future customer demographics for targeted advertising",
+      "Predicting when workload may exceed available resources and planning accordingly",
+      "Estimating future product prices under competitive market conditions"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "explanation": "Capacity planning predicts future saturation and determines how to delay it cost-effectively. (Week 10 Slide: 15)"
+  },
+  {
+    "id": 108,
+    "topic": "CBMG, Capacity Planning & Recommender Basics",
+    "question": "A site receives traffic from multiple business functions such as search, registration, and checkout. Why are resources often represented as queues in performance models?",
+    "options": [
+      "To classify customers into homogeneous behavioural groups",
+      "To estimate future product demand under uncertain conditions",
+      "To identify relationships among item attributes in recommendation systems",
+      "To analyze waiting times, utilizations, and response times systematically"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "Queueing models are used to estimate performance measures such as waiting time and utilization. (Week 10 Slide: 23, 30–32)"
+  },
+  {
+    "id": 109,
+    "topic": "CBMG, Capacity Planning & Recommender Basics",
+    "question": "A recommender system predicts how much a specific user will like an unseen movie based on previously expressed preferences. What type of recommendation decision is being made?",
+    "options": [
+      "Top-M user identification for a newly introduced item",
+      "Community-wide ranking of the most frequently consumed items",
+      "Selection of items solely on the basis of demographic similarity",
+      "Prediction of a user's preference for an unrated item"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "Predicting preference for an unseen item is a prediction-type recommendation decision. (Week 10 Slide: 49)"
+  },
+  {
+    "id": 110,
+    "topic": "CBMG, Capacity Planning & Recommender Basics",
+    "question": "A movie database initially contains 600 candidate features extracted from descriptions. After applying TF-IDF-based feature selection, only the top 80 features are retained for learning the user profile.\n\nWhat is the primary reason for retaining only these 80 features?",
+    "options": [
+      "To ensure that every movie has exactly the same feature values",
+      "To remove less informative features and improve the efficiency of learning",
+      "To guarantee that the recommendation accuracy becomes 100%",
+      "To make collaborative filtering independent of user ratings"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "explanation": "Feature selection retains informative features while reducing computational complexity. (Week 10 Slide: 61–62)"
   }
 ]
