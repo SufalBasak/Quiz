@@ -42,6 +42,7 @@
     questionYear: document.getElementById("questionYear"),
     questionText: document.getElementById("questionText"),
     optionsList: document.getElementById("optionsList"),
+    instantExplanation: document.getElementById("instantExplanation"),
     paletteGrid: document.getElementById("paletteGrid"),
     paletteSummary: document.getElementById("paletteSummary"),
     candidateAvatar: document.getElementById("candidateAvatar"),
@@ -49,7 +50,8 @@
     markReviewBtn: document.getElementById("markReviewBtn"),
     clearResponseBtn: document.getElementById("clearResponseBtn"),
     prevBtn: document.getElementById("prevBtn"),
-    saveNextBtn: document.getElementById("saveNextBtn"),
+    submitAnsBtn: document.getElementById("submitAnsBtn"),
+    nextBtn: document.getElementById("nextBtn"),
     submitExamBtn: document.getElementById("submitExamBtn"),
     submitModalOverlay: document.getElementById("submitModalOverlay"),
     confirmSubmitBtn: document.getElementById("confirmSubmitBtn"),
@@ -116,6 +118,9 @@
         var parsed = JSON.parse(saved);
         if (parsed && Array.isArray(parsed.status) && parsed.status.length === questions.length) {
           state = parsed;
+          if (!Array.isArray(state.submitted) || state.submitted.length !== questions.length) {
+            state.submitted = state.answers.map(function (ans) { return ans != null; });
+          }
           if (typeof state.timeLeft !== "number" || isNaN(state.timeLeft) || state.timeLeft <= 0) {
             state.timeLeft = totalDurationSeconds;
           }
@@ -126,6 +131,7 @@
     state = {
       current: 0,
       answers: new Array(questions.length).fill(null),
+      submitted: new Array(questions.length).fill(false),
       status: new Array(questions.length).fill(STATUS.NOT_VISITED),
       timeLeft: totalDurationSeconds
     };
@@ -150,6 +156,9 @@
 
   function renderQuestion() {
     var q = currentQuestion();
+    var isSubmitted = Boolean(state.submitted && state.submitted[state.current]);
+    var currentAnswer = state.answers[state.current];
+
     els.questionNoLabel.textContent = "Question No. " + (state.current + 1);
     els.questionMarks.textContent = "Marks: " + (q.marks != null ? q.marks : 1);
     els.questionYear.textContent = q.year ? ("Year: " + q.year) : "";
@@ -157,26 +166,109 @@
 
     els.optionsList.innerHTML = "";
     var letters = ["A", "B", "C", "D", "E", "F"];
+
     q.options.forEach(function (opt, idx) {
       var row = document.createElement("label");
-      row.className = "option-row" + (state.answers[state.current] === idx ? " selected" : "");
-      row.innerHTML =
-        '<input type="radio" name="option" ' + (state.answers[state.current] === idx ? "checked" : "") + '>' +
-        '<span><span class="option-label">' + letters[idx] + '.</span>' + escapeHtml(opt) + '</span>';
-      row.querySelector("input").addEventListener("change", function () {
-        state.answers[state.current] = idx;
-        if (state.status[state.current] === STATUS.MARKED || state.status[state.current] === STATUS.ANSWERED_MARKED) {
-          state.status[state.current] = STATUS.ANSWERED_MARKED;
-        } else {
-          state.status[state.current] = STATUS.ANSWERED;
+      var isSelected = (currentAnswer === idx);
+      var isCorrect = (idx === q.correctAnswer);
+
+      if (isSubmitted) {
+        var rowClass = "option-row locked";
+        if (isSelected && isCorrect) {
+          rowClass += " submitted-correct selected";
+        } else if (isSelected && !isCorrect) {
+          rowClass += " submitted-incorrect selected";
+        } else if (!isSelected && isCorrect) {
+          rowClass += " submitted-correct";
         }
-        renderQuestion();
-        renderPalette();
-        renderSummary();
-        persist();
-      });
+        row.className = rowClass;
+
+        var badgeHtml = "";
+        if (isSelected && isCorrect) {
+          badgeHtml = '<span class="option-badge correct">✓ Your Answer (Correct)</span>';
+        } else if (isSelected && !isCorrect) {
+          badgeHtml = '<span class="option-badge incorrect">✗ Your Answer</span>';
+        } else if (!isSelected && isCorrect) {
+          badgeHtml = '<span class="option-badge correct">✓ Correct Answer</span>';
+        }
+
+        row.innerHTML =
+          '<div class="option-content-wrap">' +
+            '<input type="radio" name="option" ' + (isSelected ? "checked" : "") + ' disabled>' +
+            '<span><span class="option-label">' + letters[idx] + '.</span>' + escapeHtml(opt) + '</span>' +
+          '</div>' +
+          badgeHtml;
+      } else {
+        row.className = "option-row" + (isSelected ? " selected" : "");
+        row.innerHTML =
+          '<div class="option-content-wrap">' +
+            '<input type="radio" name="option" ' + (isSelected ? "checked" : "") + '>' +
+            '<span><span class="option-label">' + letters[idx] + '.</span>' + escapeHtml(opt) + '</span>' +
+          '</div>';
+
+        row.querySelector("input").addEventListener("change", function () {
+          if (state.submitted && state.submitted[state.current]) return;
+          state.answers[state.current] = idx;
+          renderQuestion();
+          persist();
+        });
+      }
       els.optionsList.appendChild(row);
     });
+
+    if (isSubmitted) {
+      var isUserCorrect = (currentAnswer === q.correctAnswer);
+      var marks = q.marks != null ? q.marks : 1;
+      var correctLetter = letters[q.correctAnswer] || ("" + (q.correctAnswer + 1));
+      var correctOptText = q.options[q.correctAnswer] || "";
+
+      els.instantExplanation.style.display = "block";
+      els.instantExplanation.innerHTML =
+        '<div class="exp-header ' + (isUserCorrect ? "correct" : "incorrect") + '">' +
+          '<span>' + (isUserCorrect ? '✓ Correct Answer!' : '✗ Incorrect Answer') + '</span>' +
+          '<span class="exp-score-tag">' + (isUserCorrect ? ('+' + marks + ' Mark') : '0 Marks') + '</span>' +
+        '</div>' +
+        '<div class="exp-body">' +
+          '<div class="exp-correct-callout">' +
+            '<strong>Correct Answer:</strong>' +
+            '<span>Option ' + correctLetter + '. ' + escapeHtml(correctOptText) + '</span>' +
+          '</div>' +
+          (q.explanation ? (
+            '<div class="exp-text-block">' +
+              '<div class="exp-text-title">&#128161; Explanation &amp; Key Concept</div>' +
+              '<div>' + escapeHtml(q.explanation) + '</div>' +
+            '</div>'
+          ) : '') +
+        '</div>';
+    } else {
+      els.instantExplanation.style.display = "none";
+      els.instantExplanation.innerHTML = "";
+    }
+
+    updateActionButtons(isSubmitted);
+  }
+
+  function updateActionButtons(isSubmitted) {
+    var hasAnswer = (state.answers[state.current] != null);
+
+    els.prevBtn.disabled = (state.current === 0);
+    els.clearResponseBtn.disabled = (isSubmitted || !hasAnswer);
+    els.markReviewBtn.disabled = isSubmitted;
+
+    if (isSubmitted) {
+      els.submitAnsBtn.disabled = true;
+      els.submitAnsBtn.textContent = "Answer Submitted ✓";
+      els.nextBtn.style.display = "inline-flex";
+      if (state.current + 1 < questions.length) {
+        els.nextBtn.innerHTML = "Next &rarr;";
+      } else {
+        els.nextBtn.innerHTML = "Submit Exam &check;";
+      }
+    } else {
+      els.submitAnsBtn.textContent = "Submit Answer";
+      els.submitAnsBtn.disabled = !hasAnswer;
+      els.nextBtn.style.display = "none";
+    }
   }
 
   function renderPalette() {
@@ -223,24 +315,48 @@
     render();
   }
 
-  els.saveNextBtn.addEventListener("click", function () {
-    if (state.answers[state.current] != null && state.status[state.current] !== STATUS.ANSWERED_MARKED) {
+  els.submitAnsBtn.addEventListener("click", function () {
+    if (state.answers[state.current] == null) return;
+    if (state.submitted && state.submitted[state.current]) return;
+
+    state.submitted[state.current] = true;
+    if (state.status[state.current] === STATUS.MARKED || state.status[state.current] === STATUS.ANSWERED_MARKED) {
+      state.status[state.current] = STATUS.ANSWERED_MARKED;
+    } else {
       state.status[state.current] = STATUS.ANSWERED;
     }
-    goToQuestion(state.current + 1 < questions.length ? state.current + 1 : state.current);
+    render();
+    if (els.instantExplanation) {
+      els.instantExplanation.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    }
+  });
+
+  els.nextBtn.addEventListener("click", function () {
+    if (state.current + 1 < questions.length) {
+      goToQuestion(state.current + 1);
+    } else {
+      openSubmitModal();
+    }
   });
 
   els.prevBtn.addEventListener("click", function () {
-    goToQuestion(state.current - 1);
+    if (state.current > 0) {
+      goToQuestion(state.current - 1);
+    }
   });
 
   els.clearResponseBtn.addEventListener("click", function () {
+    if (state.submitted && state.submitted[state.current]) return;
     state.answers[state.current] = null;
     state.status[state.current] = STATUS.NOT_ANSWERED;
     render();
   });
 
   els.markReviewBtn.addEventListener("click", function () {
+    if (state.submitted && state.submitted[state.current]) {
+      goToQuestion(state.current + 1 < questions.length ? state.current + 1 : state.current);
+      return;
+    }
     state.status[state.current] = state.answers[state.current] != null ? STATUS.ANSWERED_MARKED : STATUS.MARKED;
     goToQuestion(state.current + 1 < questions.length ? state.current + 1 : state.current);
   });

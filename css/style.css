@@ -99,8 +99,21 @@ button {
 }
 .btn-danger:hover { background: #b91c1c; }
 
+.btn-accent {
+  background: var(--accent);
+  color: #fff;
+  box-shadow: var(--shadow);
+}
+.btn-accent:hover { background: var(--primary); box-shadow: var(--shadow-lg); }
+
 .btn-block { width: 100%; }
-.btn:disabled { opacity: 0.5; cursor: not-allowed; }
+.btn:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+  pointer-events: none;
+  transform: none !important;
+  box-shadow: none !important;
+}
 
 /* ============ Navbar ============ */
 .navbar {
