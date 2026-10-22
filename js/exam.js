@@ -280,8 +280,15 @@
     questions.forEach(function (q, idx) {
       var btn = document.createElement("button");
       btn.type = "button";
-      btn.className = "palette-btn " + state.status[idx] + (idx === state.current ? " current" : "");
+      var statusClass = state.status[idx];
+      var isSubmitted = Boolean(state.submitted && state.submitted[idx]);
+      if (isSubmitted) {
+        var isCorrect = (state.answers[idx] === q.correctAnswer);
+        statusClass = isCorrect ? "correct" : "incorrect";
+      }
+      btn.className = "palette-btn " + statusClass + (idx === state.current ? " current" : "");
       btn.textContent = idx + 1;
+      btn.title = "Question " + (idx + 1) + (isSubmitted ? ((state.answers[idx] === q.correctAnswer) ? " (Correct)" : " (Incorrect)") : "");
       btn.addEventListener("click", function () {
         goToQuestion(idx);
       });
@@ -292,22 +299,38 @@
   function renderSummary() {
     var counts = computeCounts();
     els.paletteSummary.innerHTML =
-      '<div><strong style="color:var(--success)">' + counts.answered + '</strong>Answered</div>' +
+      '<div><strong style="color:var(--success)">' + counts.correct + '</strong>Correct</div>' +
+      '<div><strong style="color:var(--error)">' + counts.incorrect + '</strong>Incorrect</div>' +
       '<div><strong style="color:var(--warning)">' + counts.notAnswered + '</strong>Not Answered</div>' +
-      '<div><strong style="color:var(--review)">' + counts.marked + '</strong>Marked</div>' +
       '<div><strong style="color:var(--not-visited)">' + counts.notVisited + '</strong>Not Visited</div>';
   }
 
   function computeCounts() {
     var answered = 0, notAnswered = 0, marked = 0, notVisited = 0;
-    state.status.forEach(function (s) {
-      if (s === STATUS.ANSWERED) answered++;
+    var correct = 0, incorrect = 0;
+    state.status.forEach(function (s, idx) {
+      var isSub = Boolean(state.submitted && state.submitted[idx]);
+      if (isSub) {
+        if (state.answers[idx] === questions[idx].correctAnswer) {
+          correct++;
+        } else {
+          incorrect++;
+        }
+      }
+      if (s === STATUS.ANSWERED || isSub) answered++;
       else if (s === STATUS.NOT_ANSWERED) notAnswered++;
       else if (s === STATUS.MARKED) { marked++; notAnswered++; }
       else if (s === STATUS.ANSWERED_MARKED) { marked++; answered++; }
       else notVisited++;
     });
-    return { answered: answered, notAnswered: notAnswered, marked: marked, notVisited: notVisited };
+    return {
+      answered: answered,
+      notAnswered: notAnswered,
+      marked: marked,
+      notVisited: notVisited,
+      correct: correct,
+      incorrect: incorrect
+    };
   }
 
   function goToQuestion(idx) {

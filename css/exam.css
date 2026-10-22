@@ -356,11 +356,14 @@ body.exam-body { padding-top: 0; background: var(--bg); }
 .palette-btn:hover { transform: scale(1.06); }
 .palette-btn.current { outline: 3px solid var(--accent); outline-offset: 2px; }
 .palette-btn.not-visited { background: var(--surface); color: var(--text); border: 1.5px solid var(--border); }
-.palette-btn.not-answered { background: var(--warning); }
-.palette-btn.answered { background: var(--success); }
-.palette-btn.marked { background: var(--review); }
+.palette-btn.not-answered { background: var(--warning); color: #fff; }
+.palette-btn.answered { background: var(--success); color: #fff; }
+.palette-btn.correct { background: var(--success) !important; color: #fff !important; }
+.palette-btn.incorrect { background: var(--error) !important; color: #fff !important; }
+.palette-btn.marked { background: var(--review); color: #fff; }
 .palette-btn.answered-marked {
   background: var(--review);
+  color: #fff;
 }
 .palette-btn.answered-marked::after {
   content: "✓";
@@ -374,6 +377,8 @@ body.exam-body { padding-top: 0; background: var(--bg); }
 .legend-item { display: flex; align-items: center; gap: 8px; }
 .legend-dot { width: 12px; height: 12px; border-radius: 3px; flex-shrink: 0; }
 .legend-dot.answered { background: var(--success); }
+.legend-dot.correct { background: var(--success); }
+.legend-dot.incorrect { background: var(--error); }
 .legend-dot.not-answered { background: var(--warning); }
 .legend-dot.marked { background: var(--review); }
 .legend-dot.not-visited { background: var(--surface); border: 1.5px solid var(--border); }
