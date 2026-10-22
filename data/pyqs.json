@@ -2038,5 +2038,2147 @@
     "marks": 1,
     "explanation": "Online auctions often involve complex structures like multi-unit, combinatorial, or multi-attribute bidding. Determining winners in these cases requires solving computationally hard optimization problems. Efficient algorithms are needed to process bids quickly and correctly.",
     "year": 2026
+  },
+  {
+    "id": 121,
+    "set": 2,
+    "week": 1,
+    "topic": "E-business models & value chain",
+    "question": "ABC company uses Amazon's fulfillment network to deliver its product directly to the customer. The customer can track the delivery status of the product online. This process can be termed as a ……….. transaction.",
+    "options": [
+      "E-Business",
+      "E-commerce",
+      "Both a) and b)",
+      "None of the above"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "explanation": "The process involves online buying and selling of products with delivery tracking, which defines e-commerce and broader e-business activities.",
+    "year": 2025
+  },
+  {
+    "id": 122,
+    "set": 2,
+    "week": 1,
+    "topic": "E-business models & value chain",
+    "question": "Pantaloons Fashion & Retail Limited retails a mix of private labels and licensed brands in apparel and accessories. It has many stores across the country. Placing orders, receipt of goods, unloading, and recording the details of received goods are a few of the activities at the store level. These activities can be termed as",
+    "options": [
+      "Value chain activities",
+      "Value delivery activities",
+      "Value creation activities",
+      "None of the above"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "explanation": "These store-level tasks are part of the value chain, which includes all activities involved in delivering a product from procurement to sale.",
+    "year": 2025
+  },
+  {
+    "id": 123,
+    "set": 2,
+    "week": 1,
+    "topic": "E-business models & value chain",
+    "question": "Enterprise Resource Planning (ERP) software automates…………. activities.",
+    "options": [
+      "Supply chain",
+      "Value chain",
+      "E-procurement",
+      "Logistics activity"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "explanation": "ERP software integrates and automates value chain activities like production, sales, finance, and HR to improve overall business efficiency.",
+    "year": 2025
+  },
+  {
+    "id": 124,
+    "set": 2,
+    "week": 1,
+    "topic": "E-business models & value chain",
+    "question": "A business model provides a road map for a company and includes:",
+    "options": [
+      "Cost structure",
+      "Revenue generation plan",
+      "Profit architecture",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "A business model outlines how a company creates, delivers, and captures value — covering cost structure, revenue plan, and profit design.",
+    "year": 2025
+  },
+  {
+    "id": 125,
+    "set": 2,
+    "week": 1,
+    "topic": "E-business models & value chain",
+    "question": "An online content streaming platform like Netflix generates its revenue using………",
+    "options": [
+      "Merchant model",
+      "Utility model",
+      "Subscription-based model",
+      "Advertisement model"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "explanation": "Netflix earns revenue through a subscription model, where users pay a recurring fee for access to its streaming content.",
+    "year": 2025
+  },
+  {
+    "id": 126,
+    "set": 2,
+    "week": 1,
+    "topic": "E-business models & value chain",
+    "question": "It is evident in TATA Steel's e-procurement study that when buy volume is low and criticality to cost or quality is low, a company should go for …………",
+    "options": [
+      "Reverse auction",
+      "Business process outsourcing",
+      "B2B market places",
+      "All of the above"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "explanation": "When buy volume and criticality are low, BPO is suitable as it allows the company to outsource non-core procurement activities and reduce operational effort.",
+    "year": 2025
+  },
+  {
+    "id": 127,
+    "set": 2,
+    "week": 1,
+    "topic": "E-business models & value chain",
+    "question": "Yatra.com is an online………… site?",
+    "options": [
+      "Manufacture",
+      "Merchant",
+      "Brokerage",
+      "Advertisement"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "explanation": "Yatra.com acts as a brokerage site, connecting travelers with airlines, hotels, and other service providers without owning the inventory.",
+    "year": 2025
+  },
+  {
+    "id": 128,
+    "set": 2,
+    "week": 1,
+    "topic": "E-business models & value chain",
+    "question": "As per Gartner's Hype Cycle, if technology is in the plateau of productivity, it indicates",
+    "options": [
+      "The product is getting very high visibility and market expectations are high",
+      "The disillusionment about the product is over, it is not accepted in the the market.",
+      "The disillusionment about the product is over, it is mature and adopted in the market.",
+      "The product has potential and is trying to improve based on market feedback"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "explanation": "In the Plateau of Productivity, a technology is stable, widely adopted, and delivers real value after initial hype and disillusionment.",
+    "year": 2025
+  },
+  {
+    "id": 129,
+    "set": 2,
+    "week": 1,
+    "topic": "E-business models & value chain",
+    "question": "ITC's eChoupal Initiative is about improving the ……….. of agricultural produces.",
+    "options": [
+      "Marketing model",
+      "Supply chain",
+      "Sales",
+      "Accountability"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "explanation": "eChoupal improves the agricultural supply chain by connecting farmers directly with markets, reducing intermediaries, and increasing efficiency.",
+    "year": 2025
+  },
+  {
+    "id": 130,
+    "set": 2,
+    "week": 1,
+    "topic": "E-business models & value chain",
+    "question": "Paying income taxes online is example of ………… transaction.",
+    "options": [
+      "G2C",
+      "G2B",
+      "C2G",
+      "G2G"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "explanation": "When a citizen pays the government online, like for income tax, it is a Citizen-to-Government (C2G) transaction.",
+    "year": 2025
+  },
+  {
+    "id": 131,
+    "set": 2,
+    "week": 2,
+    "topic": "Enterprise systems, management levels & IS resources",
+    "question": "Which of the following is not a part of the Enterprise Resource Planning (ERP) system?",
+    "options": [
+      "Manufacturing and production",
+      "Sales and marketing",
+      "Warehouse management",
+      "Finance and accounts"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "explanation": "In many ERP frameworks, warehouse management is sometimes treated as a separate logistics or supply chain module, not core to traditional ERP functions like manufacturing, finance, or accounts.",
+    "year": 2025
+  },
+  {
+    "id": 132,
+    "set": 2,
+    "week": 2,
+    "topic": "Enterprise systems, management levels & IS resources",
+    "question": "Three types of flows occur during the execution of a business process. Which one the following does not happen when you book an air ticket and receive it online.",
+    "options": [
+      "Money",
+      "Material",
+      "Information",
+      "None"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "explanation": "Booking an air ticket online involves money flow (payment) and information flow (ticket details), but no physical material is exchanged.",
+    "year": 2025
+  },
+  {
+    "id": 133,
+    "set": 2,
+    "week": 2,
+    "topic": "Enterprise systems, management levels & IS resources",
+    "question": "Data scientists belong to …………. level of management, whereas data workers belong to………..",
+    "options": [
+      "Middle, operational",
+      "Senior, middle",
+      "Senior, operational",
+      "Operational, middle"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "explanation": "Data scientists typically work at the middle management level analyzing data for decision-making, while data workers handle routine tasks at the operational level.",
+    "year": 2025
+  },
+  {
+    "id": 134,
+    "set": 2,
+    "week": 2,
+    "topic": "Enterprise systems, management levels & IS resources",
+    "question": "Which of the following entities is a stakeholder of a company?",
+    "options": [
+      "Supplier",
+      "Customer",
+      "Government",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "Suppliers, customers, and the government all have a stake in a company's operations, making them stakeholders.",
+    "year": 2025
+  },
+  {
+    "id": 135,
+    "set": 2,
+    "week": 2,
+    "topic": "Enterprise systems, management levels & IS resources",
+    "question": "What is information?",
+    "options": [
+      "data that are processed to be useful",
+      "data that has been given meaning by establishing relational connection",
+      "provides answers to \"who\", \"what\", \"where\", and \"when\" questions",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "Information is processed data that is made useful, given meaning through relationships, and can answer questions like \"who,\" \"what,\" \"where,\" and \"when.\"",
+    "year": 2025
+  },
+  {
+    "id": 136,
+    "set": 2,
+    "week": 2,
+    "topic": "Enterprise systems, management levels & IS resources",
+    "question": "Which one of the below is not a resource for an information system?",
+    "options": [
+      "People",
+      "Data",
+      "Building infrastructure",
+      "Hardware and software"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "explanation": "Information system resources include people, data, hardware, and software; the physical building itself is not considered a core resource.",
+    "year": 2025
+  },
+  {
+    "id": 137,
+    "set": 2,
+    "week": 2,
+    "topic": "Enterprise systems, management levels & IS resources",
+    "question": "Which of the following types of the information system is responsible for capturing various data generated during operational activities of the organization.",
+    "options": [
+      "TPS",
+      "MIS",
+      "DSS",
+      "All of the above"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "explanation": "Transaction Processing Systems (TPS) capture and process data from day-to-day operational activities of an organization.",
+    "year": 2025
+  },
+  {
+    "id": 138,
+    "set": 2,
+    "week": 2,
+    "topic": "Enterprise systems, management levels & IS resources",
+    "question": "Determining special offers to customers is a decision taken by……..",
+    "options": [
+      "Senior Management",
+      "Operational Management",
+      "Middle Management",
+      "None of the above"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "explanation": "Decisions like special offers to customers are typically operational, handled by staff managing day-to-day sales and customer interactions.",
+    "year": 2025
+  },
+  {
+    "id": 139,
+    "set": 2,
+    "week": 2,
+    "topic": "Enterprise systems, management levels & IS resources",
+    "question": "An academic ERP system prepares a grade sheet for the individual students at the end of the semester based on the grades entered by professors. Grade sheet generation is …………activity, whereas grade entry is………….. activity.",
+    "options": [
+      "TPS, DSS",
+      "DSS, MIS",
+      "TPS, MIS",
+      "MIS, TPS"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "Grade sheet generation is a Management Information System (MIS) activity providing summarized reports, while grade entry is a Transaction Processing System (TPS) activity handling routine data input.",
+    "year": 2025
+  },
+  {
+    "id": 140,
+    "set": 2,
+    "week": 2,
+    "topic": "Enterprise systems, management levels & IS resources",
+    "question": "Google map provides you the shortest yet less crowded path using a variation of Dijkstra's shortest path algorithm. It is an example of ………….",
+    "options": [
+      "MIS",
+      "TPS",
+      "ESS",
+      "DSS"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "Google Maps suggests optimal routes based on multiple factors, which involves decision support — making it a Decision Support System (DSS).",
+    "year": 2025
+  },
+  {
+    "id": 141,
+    "set": 2,
+    "week": 2,
+    "topic": "Enterprise systems, management levels & IS resources",
+    "question": "Which of the following is not a knowledge representation method in expert systems",
+    "options": [
+      "Hardware based",
+      "Case based",
+      "Object based",
+      "Rule based"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "explanation": "Expert systems represent knowledge using rules, cases, or objects, but hardware-based is not a method of knowledge representation.",
+    "year": 2025
+  },
+  {
+    "id": 142,
+    "set": 2,
+    "week": 2,
+    "topic": "Enterprise systems, management levels & IS resources",
+    "question": "Analyzing clickstream data for customer behavior modeling is a ……….. scenario decision support",
+    "options": [
+      "Analytical",
+      "Mathematical",
+      "Event driven",
+      "Data driven"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "Analyzing clickstream data relies on large datasets to support decisions, making it a data-driven decision support scenario.",
+    "year": 2025
+  },
+  {
+    "id": 143,
+    "set": 2,
+    "week": 2,
+    "topic": "Enterprise systems, management levels & IS resources",
+    "question": "The quality characteristics of an information system for providing up-to-date whenever accesses, is termed as",
+    "options": [
+      "Currency",
+      "Timeliness",
+      "Frequency",
+      "Reliability"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "explanation": "Currency measures whether an information system provides up-to-date information whenever it is accessed.",
+    "year": 2025
+  },
+  {
+    "id": 144,
+    "set": 2,
+    "week": 3,
+    "topic": "Portals, spend analysis & e-procurement models",
+    "question": "Who of the following stakeholders of a company is not supposed to have access to enterprise information portal",
+    "options": [
+      "Managers",
+      "Supervisors",
+      "Government",
+      "Clerks"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "explanation": "An Enterprise Information Portal (EIP) is intended for internal stakeholders like managers, supervisors, and clerks; external entities like the government do not have access.",
+    "year": 2025
+  },
+  {
+    "id": 145,
+    "set": 2,
+    "week": 3,
+    "topic": "Portals, spend analysis & e-procurement models",
+    "question": "Which of the following activities can occur only in the context of e-procurement, but does not exist in the traditional procurement process?",
+    "options": [
+      "Data aggregation",
+      "Catalog buying",
+      "Approval workflow automation",
+      "All of the above occur in the context of e-procurement"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "Activities like data aggregation, catalog buying, and automated approval workflows are enabled by e-procurement and are not typical in traditional procurement.",
+    "year": 2025
+  },
+  {
+    "id": 146,
+    "set": 2,
+    "week": 3,
+    "topic": "Portals, spend analysis & e-procurement models",
+    "question": "Which of the following is not an e-procurement model.",
+    "options": [
+      "E-Procurement software",
+      "Internet market exchanges",
+      "Internet B2B auctions",
+      "Internet C2B auctions"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "C2B auctions (Consumer-to-Business) are not a typical e-procurement model, which usually involves B2B transactions between businesses.",
+    "year": 2025
+  },
+  {
+    "id": 147,
+    "set": 2,
+    "week": 3,
+    "topic": "Portals, spend analysis & e-procurement models",
+    "question": "During spend analysis an integrated view of all the relevant data from different sources are aggregated for report generation. This process if called",
+    "options": [
+      "Data Cleansing",
+      "Data Scrubbing",
+      "Data Warehousing",
+      "Data Analytics"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "explanation": "Data warehousing involves aggregating and integrating data from multiple sources to create a central repository for reporting and analysis.",
+    "year": 2025
+  },
+  {
+    "id": 148,
+    "set": 2,
+    "week": 3,
+    "topic": "Portals, spend analysis & e-procurement models",
+    "question": "Minimum typical evaluations to consider in a supplier scorecard is",
+    "options": [
+      "Quality of the product supplied",
+      "Maintenance service quality during warranty period",
+      "Timeliness of Delivery",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "A supplier scorecard typically evaluates product quality, service during warranty, and delivery timeliness to assess overall supplier performance.",
+    "year": 2025
+  },
+  {
+    "id": 149,
+    "set": 2,
+    "week": 3,
+    "topic": "Portals, spend analysis & e-procurement models",
+    "question": "Legal documents containing the price of the items to be procured and other terms and conditions is called",
+    "options": [
+      "Bill of materials",
+      "Contracts",
+      "Quotations",
+      "Letter of credit"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "explanation": "Contracts are legal documents specifying the price, terms, and conditions for procurement between buyer and supplier.",
+    "year": 2025
+  },
+  {
+    "id": 150,
+    "set": 2,
+    "week": 3,
+    "topic": "Portals, spend analysis & e-procurement models",
+    "question": "What is purchase solicitation?",
+    "options": [
+      "The process of conducting the reverse auction through a third party.",
+      "The process of seeking information, proposals, and quotations from suppliers",
+      "The process of requisition generation and communication with the purchase department",
+      "The process of supplier management and score card generation"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "explanation": "Purchase solicitation involves requesting proposals or quotes from suppliers to evaluate options before making a procurement decision.",
+    "year": 2025
+  },
+  {
+    "id": 151,
+    "set": 2,
+    "week": 3,
+    "topic": "Portals, spend analysis & e-procurement models",
+    "question": "Which of the following is an example of external business risk while adopting e-procurement.",
+    "options": [
+      "Deteriorating buyer-supplier relationship",
+      "Technical failure to connect with supplier driven e-catalogue",
+      "Ensuring investment from the suppliers in compatible e-procurement technologies",
+      "All of the above indicate external business risk"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "External business risks in e-procurement include supplier relationships, technical connectivity issues, and ensuring suppliers invest in compatible technologies.",
+    "year": 2025
+  },
+  {
+    "id": 152,
+    "set": 2,
+    "week": 3,
+    "topic": "Portals, spend analysis & e-procurement models",
+    "question": "E-procurement initiatives by any organization may hamper buyer-supplier relationship. This is kind of",
+    "options": [
+      "Internal business risks",
+      "External business risks",
+      "Technology risks",
+      "Process risks"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "explanation": "Risks affecting buyer-supplier relationships arise from factors outside the organization, making them external business risks.",
+    "year": 2025
+  },
+  {
+    "id": 153,
+    "set": 2,
+    "week": 3,
+    "topic": "Portals, spend analysis & e-procurement models",
+    "question": "Which of the following is a solution for \"Customer Service and Support\" in",
+    "options": [
+      "Call center software",
+      "Help desk software",
+      "Web-based self-service",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "Customer service and support can be managed using call center software, help desk software, and web-based self-service tools.",
+    "year": 2025
+  },
+  {
+    "id": 154,
+    "set": 2,
+    "week": 3,
+    "topic": "Portals, spend analysis & e-procurement models",
+    "question": "The process that allows greater responsiveness to customer needs through sourcing of products and services outside of the enterprise, enabling easy collaboration with customers, suppliers, and partners, and thereby improves efficiency and integration throughout the supply chain is called ………………………… Customer Relationship Management (CRM).",
+    "options": [
+      "Collaborative CRM",
+      "Operational CRM",
+      "Analytical CRM",
+      "General CRM"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "explanation": "Collaborative CRM enhances responsiveness by enabling interaction and collaboration with customers, suppliers, and partners across the supply chain.",
+    "year": 2025
+  },
+  {
+    "id": 155,
+    "set": 2,
+    "week": 3,
+    "topic": "Portals, spend analysis & e-procurement models",
+    "question": "What is a customer touchpoint?",
+    "options": [
+      "Any communication channel through which the customer can connect",
+      "Call centers to answer customer queries",
+      "Web based customer support system",
+      "Toll free numbers for connecting with the call center"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "explanation": "A customer touchpoint is any point of interaction between the customer and the company, including calls, web support, emails, or in-person contact.",
+    "year": 2025
+  },
+  {
+    "id": 156,
+    "set": 2,
+    "week": 3,
+    "topic": "Portals, spend analysis & e-procurement models",
+    "question": "Investments needed for technological integration of e-procurement systems with the existing information infrastructure of a company, and the uncertainties associated with them can be termed as ……………..",
+    "options": [
+      "External business risk",
+      "Internal business risk",
+      "Technical risk",
+      "Process risk"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "explanation": "Investments and uncertainties related to integrating e-procurement systems with a company’s existing infrastructure are internal business risks, as they originate within the organization.",
+    "year": 2025
+  },
+  {
+    "id": 157,
+    "set": 2,
+    "week": 4,
+    "topic": "E-marketing, supply chain collaboration & VMI",
+    "question": "The Internet has transformed the marketing paradigm from undifferentiated mass marketing to mass customized marketing. Here, undifferentiated mass marketing and mass customized marketing……………. means……………… and respectably.",
+    "options": [
+      "Each customer can be used for marketing, each product has a customized marketing strategy",
+      "Tailor Made product for everyone, same product for everyone in the market,",
+      "Same product for everyone in the market, tailor made product for everyone",
+      "Both the concepts are essentially same"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "explanation": "Undifferentiated mass marketing offers the same product to everyone, while mass customized marketing provides tailor-made products to meet individual customer needs.",
+    "year": 2025
+  },
+  {
+    "id": 158,
+    "set": 2,
+    "week": 4,
+    "topic": "E-marketing, supply chain collaboration & VMI",
+    "question": "A visitors to an online store is called an online key customers if he/she",
+    "options": [
+      "Is willing to share personal details",
+      "Carefully browses through all the products",
+      "Makes multiple purchases",
+      "Makes one purchase"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "explanation": "An online key customer is defined by repeated purchases, indicating loyalty and significant value to the store.",
+    "year": 2025
+  },
+  {
+    "id": 159,
+    "set": 2,
+    "week": 4,
+    "topic": "E-marketing, supply chain collaboration & VMI",
+    "question": "Two-way transactions through chat and discussion groups, web forms and questionnaires, instant messaging, and e-mail correspondence, are called ……………..",
+    "options": [
+      "Interactive marketing",
+      "Customer Relationship Management",
+      "Advertising and promotion",
+      "Product management"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "explanation": "Interactive marketing involves two-way communication with customers via chats, forms, instant messaging, and emails to engage and respond in real time.",
+    "year": 2025
+  },
+  {
+    "id": 160,
+    "set": 2,
+    "week": 4,
+    "topic": "E-marketing, supply chain collaboration & VMI",
+    "question": "The increase in the variability as we travel up in the supply chain is referred to as the bullwhip effect. This effect can be reduced by the adoption of e-procurement practices due to",
+    "options": [
+      "Controlled price fluctuations",
+      "Information sharing across the supply chain",
+      "Reduction in batch ordering",
+      "All of the above"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "explanation": "The bullwhip effect is reduced when accurate, real-time information is shared across the supply chain, minimizing overreactions to demand fluctuations.",
+    "year": 2025
+  },
+  {
+    "id": 161,
+    "set": 2,
+    "week": 4,
+    "topic": "E-marketing, supply chain collaboration & VMI",
+    "question": "Inter-enterprise Supply Chain Management information systems at strategic level can help in",
+    "options": [
+      "Demand forecast",
+      "Production, procurement, logistics plan",
+      "Customer Order Fulfillment/Service",
+      "Establish objectives, policies, and operating footprint"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "At the strategic level, Supply Chain Management systems help define long-term objectives, policies, and the overall operating footprint rather than day-to-day operations.",
+    "year": 2025
+  },
+  {
+    "id": 162,
+    "set": 2,
+    "week": 4,
+    "topic": "E-marketing, supply chain collaboration & VMI",
+    "question": "If both planning and inventory level collaboration is established between two business partners. it is called a",
+    "options": [
+      "Collaborative planning and forecasting supply chain",
+      "Vendor managed inventory supply chain",
+      "Synchronized Supply Chain",
+      "None of the above"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "explanation": "A synchronized supply chain occurs when both planning and inventory levels are collaboratively managed between business partners for efficiency.",
+    "year": 2025
+  },
+  {
+    "id": 163,
+    "set": 2,
+    "week": 4,
+    "topic": "E-marketing, supply chain collaboration & VMI",
+    "question": "In a vendor managed inventory system, the supplier forecasts the demand the inventory level of the retailer. This is possible because",
+    "options": [
+      "Inventory level information from the retailer is seamlessly shared with the supplier.",
+      "Planning level information from the retailer is seamlessly shared with the supplier",
+      "Both planning and inventory level information from the retailer is seamlessly shared with the supplier",
+      "None of the above"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "explanation": "In a Vendor Managed Inventory (VMI) system, the supplier monitors the retailer’s inventory levels in real time to forecast demand and manage replenishment efficiently.",
+    "year": 2025
+  },
+  {
+    "id": 164,
+    "set": 2,
+    "week": 4,
+    "topic": "E-marketing, supply chain collaboration & VMI",
+    "question": "Carbon Footprint Calculations, the process of calculating the CO, footprint of the distribution network, is a part of?",
+    "options": [
+      "Strategic transportation functionality",
+      "Tactical transportation functionality",
+      "Operational transportation functionality",
+      "None of the above, as it is not a transportation functionality"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "explanation": "Carbon footprint calculations are part of strategic transportation planning, helping design sustainable distribution networks and long-term environmental policies.",
+    "year": 2025
+  },
+  {
+    "id": 165,
+    "set": 2,
+    "week": 4,
+    "topic": "E-marketing, supply chain collaboration & VMI",
+    "question": "Which of the following is a concern in the context of digital distribution of goods and services.",
+    "options": [
+      "Digital products can be copied and distributed illegally.",
+      "The distribution costs are in most cases passed on to the customer directly",
+      "No social and interpersonal contact",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "Digital distribution faces concerns like illegal copying, direct cost transfer to customers, and lack of social interaction compared to physical distribution.",
+    "year": 2025
+  },
+  {
+    "id": 166,
+    "set": 2,
+    "week": 4,
+    "topic": "E-marketing, supply chain collaboration & VMI",
+    "question": "You ordered some items from an online retailer. The item is delivered to your local retailer. You visit the retailer and collect your item. This model of distribution is called",
+    "options": [
+      "Distributor storage with package carrier delivery",
+      "Retail storage with customer pickup",
+      "Distributor storage with last mile delivery",
+      "None of the above"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "explanation": "When items are delivered to a local retailer for the customer to collect, it is called retail storage with customer pickup, also known as a \"click-and-collect\" model.",
+    "year": 2025
+  },
+  {
+    "id": 167,
+    "set": 2,
+    "week": 5,
+    "topic": "System performance, load balancing, cookies & memory",
+    "question": "Which of the following metrics does not relate to maintenance of an information system.",
+    "options": [
+      "MTTF (meantime to failure)",
+      "MTTR (meantime to repair)",
+      "Response time",
+      "All of the above"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "explanation": "Response time measures system performance during use, whereas MTTF and MTTR specifically relate to the maintenance and reliability of an information system.",
+    "year": 2025
+  },
+  {
+    "id": 168,
+    "set": 2,
+    "week": 5,
+    "topic": "System performance, load balancing, cookies & memory",
+    "question": "Splitting the traffic across the servers is called……………",
+    "options": [
+      "Dynamic load balancing",
+      "Multi-threading",
+      "Forking",
+      "Traffic handling"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "explanation": "Dynamic load balancing distributes incoming traffic across multiple servers to optimize resource use and improve performance.",
+    "year": 2025
+  },
+  {
+    "id": 169,
+    "set": 2,
+    "week": 5,
+    "topic": "System performance, load balancing, cookies & memory",
+    "question": "The proxy server is responsible for which of the following tasks",
+    "options": [
+      "Caching for traffic reduction",
+      "Firewalls for security and privacy",
+      "Load balancing",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "A proxy server can cache content, act as a firewall for security, and assist in load balancing to improve network efficiency and protection.",
+    "year": 2025
+  },
+  {
+    "id": 170,
+    "set": 2,
+    "week": 5,
+    "topic": "System performance, load balancing, cookies & memory",
+    "question": "If an http response is marked as \"non-authoritative\", it is sent by the…………….",
+    "options": [
+      "Name servers",
+      "Internet Corporation for Assigned Names and Numbers",
+      "Internet service provider's cache",
+      "None of the above"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "explanation": "A non-authoritative HTTP response comes from a cached copy at the ISP or intermediary server, not directly from the authoritative source.",
+    "year": 2025
+  },
+  {
+    "id": 171,
+    "set": 2,
+    "week": 5,
+    "topic": "System performance, load balancing, cookies & memory",
+    "question": "Which of the following is not true for the cookies",
+    "options": [
+      "It creates security threat by sending local information",
+      "It contains the browsing history of the associated website",
+      "It creates privacy issues for a website",
+      "They are just small text files"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "explanation": "Cookies are small text files used for session management and personalization; they do not inherently send local information, so they are not direct security threats.",
+    "year": 2025
+  },
+  {
+    "id": 172,
+    "set": 2,
+    "week": 5,
+    "topic": "System performance, load balancing, cookies & memory",
+    "question": "During memory reference, a page fault occurs if,",
+    "options": [
+      "A page is not present in the cache memory",
+      "A page is not present in the virtual memory",
+      "A page is not present in the main memory",
+      "A page is not present in the register memory"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "explanation": "A page fault occurs when the CPU tries to access a page that is not currently loaded in main memory, requiring it to be fetched from secondary storage.",
+    "year": 2025
+  },
+  {
+    "id": 173,
+    "set": 2,
+    "week": 5,
+    "topic": "System performance, load balancing, cookies & memory",
+    "question": "Hard disk of a computer is a",
+    "options": [
+      "Optical memory",
+      "Magnetic memory",
+      "Semiconductor memory",
+      "Flash memory"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "explanation": "A hard disk stores data using magnetic patterns on spinning platters, making it a type of magnetic memory.",
+    "year": 2025
+  },
+  {
+    "id": 174,
+    "set": 2,
+    "week": 5,
+    "topic": "System performance, load balancing, cookies & memory",
+    "question": "Operating system is a",
+    "options": [
+      "System management software",
+      "System development software",
+      "Application software",
+      "None of the above"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "explanation": "An operating system manages hardware and software resources, coordinating system operations, so it is system management software.",
+    "year": 2025
+  },
+  {
+    "id": 175,
+    "set": 2,
+    "week": 5,
+    "topic": "System performance, load balancing, cookies & memory",
+    "question": "System CPU time is the time taken by",
+    "options": [
+      "User specific program module running in a system",
+      "Operating system and other system management software",
+      "All the application programs running in a system",
+      "All of the above"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "explanation": "System CPU time measures the time the CPU spends executing operating system routines and system management tasks, not user programs.",
+    "year": 2025
+  },
+  {
+    "id": 176,
+    "set": 2,
+    "week": 5,
+    "topic": "System performance, load balancing, cookies & memory",
+    "question": "Which of the following is not a part of TCP/IP protocol stack",
+    "options": [
+      "Physical Layer",
+      "Data Link Layer",
+      "Network Layer",
+      "Transport Layer"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "explanation": "The TCP/IP protocol stack starts from the Network Interface Layer, not the Physical Layer; the Physical Layer belongs to the OSI model, not TCP/IP.",
+    "year": 2025
+  },
+  {
+    "id": 177,
+    "set": 2,
+    "week": 6,
+    "topic": "Security categories, attacks, TLS & PKI",
+    "question": "I observed that some additional income tax is charged to me. I placed a complaint with the tax department and got the details of the financial transaction that led to this additional tax deduction. The security category that best explains this process is…..",
+    "options": [
+      "Integrity",
+      "Availability",
+      "Non-repudiation",
+      "Auditing"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "Auditing involves tracking and reviewing financial or system transactions to verify correctness and compliance, which explains the process of checking the additional tax charge.",
+    "year": 2025
+  },
+  {
+    "id": 178,
+    "set": 2,
+    "week": 6,
+    "topic": "Security categories, attacks, TLS & PKI",
+    "question": "Denial of Service Attacks is a compromise on the…. system at the protocol stack. layer of TCP/IP",
+    "options": [
+      "IP",
+      "TCP",
+      "Application",
+      "Link"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "explanation": "Denial of Service Attacks is a compromise on the TCP layer / protocol stack, creating extra workload that the server cannot handle (e.g. partially opened TCP connections).",
+    "year": 2025
+  },
+  {
+    "id": 179,
+    "set": 2,
+    "week": 6,
+    "topic": "Security categories, attacks, TLS & PKI",
+    "question": "The strength of a cryptographic algorithm is high if the……. size is………",
+    "options": [
+      "Data packet, high",
+      "Key, high",
+      "Data packet, low",
+      "Key, low"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "explanation": "The strength of a cryptographic algorithm depends on the key size; a larger key makes it harder to break, enhancing security.",
+    "year": 2025
+  },
+  {
+    "id": 180,
+    "set": 2,
+    "week": 6,
+    "topic": "Security categories, attacks, TLS & PKI",
+    "question": "I was getting frequent email communications from my bank for sharing my personal details and sharing my password to update this information. Upon sharing, I lost my money. While putting my complaints to the bank. I came to know that the emails were not from the bank. This type of attack is called",
+    "options": [
+      "Hackinging",
+      "Phishing",
+      "Intruding",
+      "None of the above"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "explanation": "Phishing is a type of fraud where attackers pretend to be legitimate entities (like a bank) to steal personal information, passwords, or money.",
+    "year": 2025
+  },
+  {
+    "id": 181,
+    "set": 2,
+    "week": 6,
+    "topic": "Security categories, attacks, TLS & PKI",
+    "question": "Which of the following can be prevented using hash functions",
+    "options": [
+      "Insertion of message from fraudulent source",
+      "Changing content of message",
+      "Insertion, deletion and reordering of message sequence",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "Hash functions ensure data integrity by detecting any insertion, deletion, reordering, or modification of messages, preventing tampering from fraudulent sources.",
+    "year": 2025
+  },
+  {
+    "id": 182,
+    "set": 2,
+    "week": 6,
+    "topic": "Security categories, attacks, TLS & PKI",
+    "question": "Which of the following cryptographic algorithms are used in TLS protocol",
+    "options": [
+      "Symmetric key algorithms",
+      "Asymmetric key algorithms",
+      "Both symmetric and asymmetric key algorithms",
+      "Hashing algorithms"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "explanation": "TLS (Transport Layer Security) uses asymmetric algorithms for key exchange and symmetric algorithms for encrypting the actual data, ensuring secure communication.",
+    "year": 2025
+  },
+  {
+    "id": 183,
+    "set": 2,
+    "week": 6,
+    "topic": "Security categories, attacks, TLS & PKI",
+    "question": "During the TLS protocol the digital certificate verification requires",
+    "options": [
+      "Certifying Authority's public and private key pair",
+      "Certifying Authority's private key",
+      "Certifying Authority's public key",
+      "Certifying Authority's hash key"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "explanation": "To verify a digital certificate, the receiver uses the Certifying Authority’s public key to check the signature and ensure the certificate’s authenticity.",
+    "year": 2025
+  },
+  {
+    "id": 184,
+    "set": 2,
+    "week": 6,
+    "topic": "Security categories, attacks, TLS & PKI",
+    "question": "A web server throughput is 19.3 requests per sec. It turns out that server disk is the bottleneck resource. What is the service demand at the disk?",
+    "options": [
+      "0.051694 sec",
+      "0.01405 sec",
+      "0.001737 sec",
+      "0.01sec"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "explanation": "The service demand is the average time the disk spends per request, calculated as the reciprocal of the throughput (1 / 19.3 = 0.0518 ≈ 0.051694 sec).",
+    "year": 2025
+  },
+  {
+    "id": 185,
+    "set": 2,
+    "week": 6,
+    "topic": "Security categories, attacks, TLS & PKI",
+    "question": "During the execution of TLS protocol, if cached session states are available at client/server side and valid, which the following will happen",
+    "options": [
+      "The time taken to execute handshake protocol will reduce",
+      "Information exchange for creating symmetric key for bulk message transfer is not necessary",
+      "Time taken to execute record protocol will remain unchanged",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "When cached session states are valid, the TLS handshake is faster, key exchange for symmetric encryption can be skipped, and the record protocol timing remains unchanged, improving overall efficiency.",
+    "year": 2025
+  },
+  {
+    "id": 186,
+    "set": 2,
+    "week": 6,
+    "topic": "Security categories, attacks, TLS & PKI",
+    "question": "Which of the following is the work of Public Key Infrastructure (PKI) of a country",
+    "options": [
+      "Building public infrastructure for key exchange",
+      "Development of security protocols",
+      "Digital certificate issuance, validation and revocation",
+      "Development of cryptographic algorithms"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "explanation": "A Public Key Infrastructure (PKI) manages digital certificates, ensuring their issuance, validation, and revocation to support secure communications and trust.",
+    "year": 2025
+  },
+  {
+    "id": 187,
+    "set": 2,
+    "week": 7,
+    "topic": "E-payments, EDI, XML wrappers & cloud models",
+    "question": "Every payment system has four components: Instruments. Rules. Institutions. and Legal systems. In the Indian payment system which of the following is an example of an instrument.",
+    "options": [
+      "Bank",
+      "Cheque",
+      "ATM",
+      "RBI"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "explanation": "In a payment system, instruments are the means of transferring money, such as cheques, cards, or electronic transfers, whereas banks, ATMs, and RBI are institutions or infrastructure.",
+    "year": 2025
+  },
+  {
+    "id": 188,
+    "set": 2,
+    "week": 7,
+    "topic": "E-payments, EDI, XML wrappers & cloud models",
+    "question": "Which of the following entities is responsible for connecting merchants with the credit card companies.",
+    "options": [
+      "The card processing center",
+      "Merchant's payment device",
+      "The credit card company",
+      "Merchant's bank"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "explanation": "The card processing center acts as an intermediary, connecting merchants with credit card companies to authorize and settle transactions.",
+    "year": 2025
+  },
+  {
+    "id": 189,
+    "set": 2,
+    "week": 7,
+    "topic": "E-payments, EDI, XML wrappers & cloud models",
+    "question": "Why is TLS not suitable for credit card payment transactions?",
+    "options": [
+      "TLS supports mutual authentication between client and server",
+      "TLS cannot guarantee that the payment information is secured and not misused at the merchant's server.",
+      "TLS cannot ensure that the merchant is authorized to get the payment through the specified credit card.",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "While TLS secures communication, it cannot guarantee proper handling or authorization of payment data on the merchant’s side, nor fully authenticate the merchant, making it insufficient alone for credit card transactions.",
+    "year": 2025
+  },
+  {
+    "id": 190,
+    "set": 2,
+    "week": 7,
+    "topic": "E-payments, EDI, XML wrappers & cloud models",
+    "question": "The communication level interoperability between two information system is possible due to",
+    "options": [
+      "REST",
+      "EDI",
+      "TCP/IP",
+      "SOAP"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "explanation": "TCP/IP provides the communication protocols that enable interoperability between information systems by ensuring reliable data transmission across networks.",
+    "year": 2025
+  },
+  {
+    "id": 191,
+    "set": 2,
+    "week": 7,
+    "topic": "E-payments, EDI, XML wrappers & cloud models",
+    "question": "\"Preparation of Electronic Documents\" stage during EDI process does the following",
+    "options": [
+      "Translates a paper-based business document to standard EDI",
+      "Translates an electronic business document to standard EDI format",
+      "Translates a paper-based business document to some electronic format as per the requirement of the outbound translation software",
+      "Translates a paper-based business document to some electronic format as per the requirement of the inbound translation software"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "explanation": "In EDI, the preparation of electronic documents converts paper documents into an electronic format that the outbound translation software can process for standard EDI transmission.",
+    "year": 2025
+  },
+  {
+    "id": 192,
+    "set": 2,
+    "week": 7,
+    "topic": "E-payments, EDI, XML wrappers & cloud models",
+    "question": "The cost involved in preparation of EDI Trading Partner Agreement, is termed as",
+    "options": [
+      "Consulting cost",
+      "Legal cost",
+      "Networking cost",
+      "Training cost"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "explanation": "The cost of preparing an EDI Trading Partner Agreement involves legal review and formalization, so it is classified as a legal cost.",
+    "year": 2025
+  },
+  {
+    "id": 193,
+    "set": 2,
+    "week": 7,
+    "topic": "E-payments, EDI, XML wrappers & cloud models",
+    "question": "The difference between XML wrapper and parser is, the former is used for……and the latter is for ………",
+    "options": [
+      "Preparing an XML document from a database. Extracting the data from an XML document",
+      "Extracting the data from an XML document. Preparing an XML document from a database",
+      "Preparing an XML document from EDI Document. Extracting the data from an EDI document",
+      "Extracting the EDI data from an XML document, Preparing an XML document from a EDI"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "explanation": "An XML wrapper converts data from a source (like a database) into XML format, while an XML parser reads an XML document and extracts the data for use by applications.",
+    "year": 2025
+  },
+  {
+    "id": 194,
+    "set": 2,
+    "week": 7,
+    "topic": "E-payments, EDI, XML wrappers & cloud models",
+    "question": "Gmail is example of an ………….. cloud model",
+    "options": [
+      "Infrastructure as a service (IaaS)",
+      "Platform as a service (PaaS)",
+      "Software as a service (SaaS)",
+      "Email as a service (EaaS)"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "explanation": "Gmail provides software applications over the internet without requiring local installation, making it a classic example of SaaS.",
+    "year": 2025
+  },
+  {
+    "id": 195,
+    "set": 2,
+    "week": 7,
+    "topic": "E-payments, EDI, XML wrappers & cloud models",
+    "question": "Our organization has adopted cloud service hosted in the institute premises. Since we do not have inhouse expertise in managing the cloud, we have a contract with Google to help us out.Our cloud can be termed as",
+    "options": [
+      "Private cloud",
+      "Public cloud",
+      "Hybrid cloud",
+      "Community cloud"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "explanation": "The cloud is hosted on the organization’s premises (institute) and used privately by the organization, making it a private cloud, even though management support is outsourced to Google.",
+    "year": 2025
+  },
+  {
+    "id": 196,
+    "set": 2,
+    "week": 7,
+    "topic": "E-payments, EDI, XML wrappers & cloud models",
+    "question": "A software system designed to support interoperable machine-to-machine interaction over a network is called a …………….",
+    "options": [
+      "CORBA",
+      "XML",
+      "Web service",
+      "None of the above"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "explanation": "A web service enables interoperable machine-to-machine communication over a network using standard protocols like SOAP or REST.",
+    "year": 2025
+  },
+  {
+    "id": 197,
+    "set": 2,
+    "week": 8,
+    "topic": "RFID, Barcodes, GIS, IoT & Big Data",
+    "question": "Which of the following is benefit of RFID over Barcode",
+    "options": [
+      "Item level identification",
+      "Keeping item details in a code",
+      "Low cost",
+      "No need for a scanner"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "explanation": "RFID can uniquely identify individual items and track them automatically, unlike barcodes which typically identify only the product type.",
+    "year": 2025
+  },
+  {
+    "id": 198,
+    "set": 2,
+    "week": 8,
+    "topic": "RFID, Barcodes, GIS, IoT & Big Data",
+    "question": "What are the three elements of an RFID setup?",
+    "options": [
+      "EPC. Savant, PML",
+      "Tag, reader, middleware",
+      "Tag. EPC, PML",
+      "Tag, reader, EPC"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "explanation": "An RFID setup consists of a tag (stores data), a reader (reads/writes tag data), and middleware (processes and integrates the data into systems).",
+    "year": 2025
+  },
+  {
+    "id": 199,
+    "set": 2,
+    "week": 8,
+    "topic": "RFID, Barcodes, GIS, IoT & Big Data",
+    "question": "Which of the following RFID tags is suitable for supply chain applications?",
+    "options": [
+      "Active read write tag",
+      "Semi-active read write tag",
+      "Passive read write tag",
+      "Passive read only tag"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "Passive read-only RFID tags are widely used in supply chain applications because they are very low-cost, require no internal power, and are sufficient for tracking items with fixed information like serial numbers or IDs.",
+    "year": 2025
+  },
+  {
+    "id": 200,
+    "set": 2,
+    "week": 8,
+    "topic": "RFID, Barcodes, GIS, IoT & Big Data",
+    "question": "Which of the following tag types have highest read range",
+    "options": [
+      "Passive",
+      "Active",
+      "Semi-active",
+      "Readonly"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "explanation": "Active RFID tags have their own internal power source, which allows them to transmit signals over much longer distances compared to passive or semi-active tags.",
+    "year": 2025
+  },
+  {
+    "id": 201,
+    "set": 2,
+    "week": 8,
+    "topic": "RFID, Barcodes, GIS, IoT & Big Data",
+    "question": "Which of the following technical concern may arise if an RFID tag is attached to an electric motor and sends distorted data:",
+    "options": [
+      "Electromagnetic interferences",
+      "Data formats in compatibility",
+      "Standard incompatibility",
+      "Lack of reader coordination"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "explanation": "When an RFID tag is attached to an electric motor, the motor’s electromagnetic field can interfere with the tag’s signal, causing distorted or lost data.",
+    "year": 2025
+  },
+  {
+    "id": 202,
+    "set": 2,
+    "week": 8,
+    "topic": "RFID, Barcodes, GIS, IoT & Big Data",
+    "question": "TIGER files are an important data source for",
+    "options": [
+      "GPS",
+      "GIS",
+      "RFID",
+      "IOT"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "explanation": "TIGER (Topologically Integrated Geographic Encoding and Referencing) files are developed by the U.S. Census Bureau and contain detailed geographic and mapping data used for GIS.",
+    "year": 2025
+  },
+  {
+    "id": 203,
+    "set": 2,
+    "week": 8,
+    "topic": "RFID, Barcodes, GIS, IoT & Big Data",
+    "question": "Which of the following is an IoT device",
+    "options": [
+      "GPS device",
+      "RFID reader",
+      "RFID tags",
+      "GIS software"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "explanation": "An IoT device is a physical device that collects and shares data over the internet. An RFID reader qualifies because it reads tags and transmits data.",
+    "year": 2025
+  },
+  {
+    "id": 204,
+    "set": 2,
+    "week": 8,
+    "topic": "RFID, Barcodes, GIS, IoT & Big Data",
+    "question": "Mobile phone is a powerful IoT device. You have a home security APP installed in the phone that not only shows the visuals from the home, it creates alert messages when some unusual movements happen in the home. This detection process is at the …….. layer of IoT architecture.",
+    "options": [
+      "Integrated application",
+      "Information processing",
+      "Network construction",
+      "Sensing and identification"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "explanation": "The detection of unusual movements and generating alerts involves processing the data collected by sensors, which is done at the information processing layer of IoT architecture.",
+    "year": 2025
+  },
+  {
+    "id": 205,
+    "set": 2,
+    "week": 8,
+    "topic": "RFID, Barcodes, GIS, IoT & Big Data",
+    "question": "Under which condition, barcode is a preferred option over RFID.",
+    "options": [
+      "The items are packed in a wooden box",
+      "The items are packed in a metal box",
+      "The items are packed in a plastic box",
+      "Items are packed in a carton"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "explanation": "Barcodes are preferred over RFID when items are in metal boxes, because metal interferes with RFID radio signals, while barcodes are unaffected by metal surfaces.",
+    "year": 2025
+  },
+  {
+    "id": 206,
+    "set": 2,
+    "week": 8,
+    "topic": "RFID, Barcodes, GIS, IoT & Big Data",
+    "question": "Which of the following application domain does not generate Big Data",
+    "options": [
+      "Data generated from a social networking site like Facebook",
+      "Data generated from the traffic cameras from installed in a city",
+      "Your online transactions in Amazon prime website",
+      "Tracking the locations of all the moving vehicles from Uber's control room"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "explanation": "Social media, traffic cameras, and Uber tracking generate massive, continuous Big Data, while individual online transactions are relatively small and structured.",
+    "year": 2025
+  },
+  {
+    "id": 207,
+    "set": 2,
+    "week": 9,
+    "topic": "Web crawlers, web logs, sessionization & CBMG",
+    "question": "What do web crawlers do?",
+    "options": [
+      "Downloads access log files from all the websites",
+      "Analyze user behavior of a target website",
+      "Download contents from various websites and index them.",
+      "Hacks target websites"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "explanation": "Web crawlers systematically browse the web to collect and index website content for search engines, not for analyzing users or hacking.",
+    "year": 2025
+  },
+  {
+    "id": 208,
+    "set": 2,
+    "week": 9,
+    "topic": "Web crawlers, web logs, sessionization & CBMG",
+    "question": "Where is the access log file stored?",
+    "options": [
+      "In the web server",
+      "In the client browser",
+      "In the proxy server",
+      "In the name server"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "explanation": "Access log files are stored on the web server to record requests made by clients, including IP addresses, requested URLs, and timestamps.",
+    "year": 2025
+  },
+  {
+    "id": 209,
+    "set": 2,
+    "week": 9,
+    "topic": "Web crawlers, web logs, sessionization & CBMG",
+    "question": "Web usage mining is the process of discovering the interesting patterns from",
+    "options": [
+      "Customer blogs",
+      "Robort.txt",
+      "The website",
+      "The access log"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "Web usage mining analyzes access logs to uncover user behavior patterns, like frequently visited pages and navigation paths.",
+    "year": 2025
+  },
+  {
+    "id": 210,
+    "set": 2,
+    "week": 9,
+    "topic": "Web crawlers, web logs, sessionization & CBMG",
+    "question": "During access log analysis, \"path completion\" is a task which follows sessionization. The purpose of path completion is to fill up the missing links due to caching in a user session. Which of the following information is used by a typical path completion heuristic.",
+    "options": [
+      "Referrer information in server logs",
+      "Knowledge of the link structure within the site",
+      "Associating each requested page with one or more domain concepts",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "Path completion uses referrer info, site link structure, and page-domain associations to infer missing pages in a user session caused by caching.",
+    "year": 2025
+  },
+  {
+    "id": 211,
+    "set": 2,
+    "week": 9,
+    "topic": "Web crawlers, web logs, sessionization & CBMG",
+    "question": "Time oriented sessionization heuristics assume",
+    "options": [
+      "Time taken for a http request to reach the website must not exceed a set limit",
+      "Time taken for a http response to reach the user must not exceed a set limit",
+      "The page stay time must not exceed a maximum set limit.",
+      "None of the above"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "explanation": "Time-oriented sessionization splits user sessions based on the time spent on pages, assuming a session ends if page stay exceeds a preset threshold.",
+    "year": 2025
+  },
+  {
+    "id": 212,
+    "set": 2,
+    "week": 9,
+    "topic": "Web crawlers, web logs, sessionization & CBMG",
+    "question": "What is Page View?",
+    "options": [
+      "No of all requests made to a web server and collected in the access log file",
+      "No of requests for a valid html page made to a web server and collected in the access log file",
+      "List of all the referrer URLs for the website",
+      "The sequence of hyperlinks one or more website visitors follows on a given site"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "explanation": "A page view counts only requests for actual web pages (HTML), not images, scripts, or the visitor’s navigation path.",
+    "year": 2025
+  },
+  {
+    "id": 213,
+    "set": 2,
+    "week": 9,
+    "topic": "Web crawlers, web logs, sessionization & CBMG",
+    "question": "Any website can use the online log analysis software \"Google Analytics\", if",
+    "options": [
+      "The page tagging information is added to every page of the website.",
+      "The website is hosted in cloud",
+      "The page tagging request is sent to google.com using HTTP protocol.",
+      "The website installs google analytics on its server."
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "explanation": "Google Analytics works by embedding a tracking code (page tag) on each page, which collects visitor data and sends it to Google’s servers for analysis.",
+    "year": 2025
+  },
+  {
+    "id": 214,
+    "set": 2,
+    "week": 9,
+    "topic": "Web crawlers, web logs, sessionization & CBMG",
+    "question": "Association rule mining in the context of web log analysis can discover ……. relationships.",
+    "options": [
+      "Co-occurrence",
+      "Causal",
+      "Sequential",
+      "Similarity"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "explanation": "Association rule mining identifies patterns of pages or items that are frequently accessed together in web logs, revealing co-occurrence relationships.",
+    "year": 2025
+  },
+  {
+    "id": 215,
+    "set": 2,
+    "week": 9,
+    "topic": "Web crawlers, web logs, sessionization & CBMG",
+    "question": "Cross-selling of products can be enhanced through web usage mining by",
+    "options": [
+      "Mapping of Web pages/objects to products",
+      "Discovery of associated products",
+      "Placement of associated products on the same page",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "Effective cross-selling uses all three steps: mapping pages to products, discovering product associations, and placing related products together to increase purchase likelihood.",
+    "year": 2025
+  },
+  {
+    "id": 216,
+    "set": 2,
+    "week": 9,
+    "topic": "Web crawlers, web logs, sessionization & CBMG",
+    "question": "The dynamic part of a Customer Behavior Model Graph represented by a transition probability matrix. The sum of all the elements in each row is",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "explanation": "In a transition probability matrix, each row represents all possible state transitions from one state, so their probabilities must sum to 1.",
+    "year": 2025
+  },
+  {
+    "id": 217,
+    "set": 2,
+    "week": 10,
+    "topic": "CBMG, bottleneck analysis & content-based recommendations",
+    "question": "In a customer behavior model graph, no transition can be made to the Entry state from any state other than the Exit state. This is because, the model assumes……………",
+    "options": [
+      "The exit state to be the last state of the visit for every website user.",
+      "The customer cannot leave the site without going to the exit URL",
+      "The entry and exit states are dummy states",
+      "Transitions can be made from a dummy state to another dummy state only"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "explanation": "The model assumes once a user reaches the exit state, their session ends — so only the exit can transition back to entry for a new visit.",
+    "year": 2025
+  },
+  {
+    "id": 218,
+    "set": 2,
+    "week": 10,
+    "topic": "CBMG, bottleneck analysis & content-based recommendations",
+    "question": "Maximum throughput of a computer system is same as that of the throughput of the",
+    "options": [
+      "Processor",
+      "Input-Output device",
+      "Memory",
+      "Any resource which is a bottleneck, not limited to the above"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "The overall system throughput is constrained by the slowest (bottleneck) component, regardless of whether it’s CPU, memory, or I/O.",
+    "year": 2025
+  },
+  {
+    "id": 219,
+    "set": 2,
+    "week": 10,
+    "topic": "CBMG, bottleneck analysis & content-based recommendations",
+    "question": "Average session length of a website is synonymous with",
+    "options": [
+      "Mean time spent to reach the payment state",
+      "Mean time spent in the website per session",
+      "Mean number of transitions in the process starting",
+      "Mean number of transitions in the process starting from the entry state"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "In customer behavior models, average session length refers to the average number of transitions (page moves or actions) a user makes from the entry state until reaching the exit state.",
+    "year": 2025
+  },
+  {
+    "id": 220,
+    "set": 2,
+    "week": 10,
+    "topic": "CBMG, bottleneck analysis & content-based recommendations",
+    "question": "Future workload is a function of",
+    "options": [
+      "Number of web pages in a website",
+      "Changes in customer behavior",
+      "Performance Models",
+      "Customer behavior model graph"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "explanation": "Future workload depends on how customers’ browsing and interaction patterns change over time, directly affecting system demand.",
+    "year": 2025
+  },
+  {
+    "id": 221,
+    "set": 2,
+    "week": 10,
+    "topic": "CBMG, bottleneck analysis & content-based recommendations",
+    "question": "What is Bottleneck Analysis in the context of capacity planning?",
+    "options": [
+      "Assessment of a system throughput and response time",
+      "Identification of the component of a system, whose capacity caps the capacity of the entire system",
+      "Analyzing the customers' response towards inadequate capacity",
+      "Analyzing the impact of deployment of new application and services on response time of a system"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "explanation": "Bottleneck analysis finds the slowest or most constrained component that limits the overall system performance and capacity.",
+    "year": 2025
+  },
+  {
+    "id": 222,
+    "set": 2,
+    "week": 10,
+    "topic": "CBMG, bottleneck analysis & content-based recommendations",
+    "question": "It is observed from the access log that on an average there are 18.000 number of requests per hour to the product search page of the website. The average time to execute a search is 48 ms. What is the average response time of the server?",
+    "options": [
+      "0.063 minute",
+      "0.063 sec",
+      "0.063 hour",
+      "None of the above."
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "explanation": "Average response time formula with utilization U = (18000/3600)*0.048 = 0.24 gives Response Time = 0.048/(1-0.24) = 0.063 sec.",
+    "year": 2025
+  },
+  {
+    "id": 223,
+    "set": 2,
+    "week": 10,
+    "topic": "CBMG, bottleneck analysis & content-based recommendations",
+    "question": "In order to plan for the future waves of demand on an ecommerce server,................. forecasted based on the business goals. has to be",
+    "options": [
+      "Average session length",
+      "Queueing model parameters",
+      "Future workload",
+      "Changes in user behavior"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "explanation": "Capacity planning relies on forecasting future workload based on business goals to ensure the system can handle upcoming demand efficiently.",
+    "year": 2025
+  },
+  {
+    "id": 224,
+    "set": 2,
+    "week": 10,
+    "topic": "CBMG, bottleneck analysis & content-based recommendations",
+    "question": "News recommendation engines primarily use the concept of",
+    "options": [
+      "User Based recommendation",
+      "Item based recommendation",
+      "Popularity based recommendation",
+      "Content based recommendation"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "News recommendation engines typically suggest articles similar to what a user has read before, relying on content features rather than other users’ behavior.",
+    "year": 2025
+  },
+  {
+    "id": 225,
+    "set": 2,
+    "week": 10,
+    "topic": "CBMG, bottleneck analysis & content-based recommendations",
+    "question": "Various machine learning models can be used at …………. recommendation. phase of content based",
+    "options": [
+      "Feature extraction and selection",
+      "Data Representation",
+      "User profile creation",
+      "Recommendation generation"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "explanation": "In content-based recommendation, machine learning models are used to analyze user interactions and preferences to create a personalized user profile, which drives future recommendations.",
+    "year": 2025
+  },
+  {
+    "id": 226,
+    "set": 2,
+    "week": 10,
+    "topic": "CBMG, bottleneck analysis & content-based recommendations",
+    "question": "The growth of a particular branch in a decision tree is curbed at a certain level if……",
+    "options": [
+      "All the values in the dependent variable column are the same",
+      "50% values in the dependent variable column are the same",
+      "All the values in all the columns are the same",
+      "50% values in all the columns are the same"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "explanation": "A branch stops growing when the dependent variable (target) is pure, meaning all its values are identical, so no further splitting is needed.",
+    "year": 2025
+  },
+  {
+    "id": 227,
+    "set": 2,
+    "week": 11,
+    "topic": "Collaborative filtering, association rules & dynamic pricing",
+    "question": "Which of the following is an automated method for dimensionality reduction?",
+    "options": [
+      "Adjusted Product Taxonomy",
+      "Latent Semantic Indexing",
+      "None of a and b",
+      "Both a and b"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "explanation": "LSI automatically reduces dimensions by capturing patterns in word-document matrices, whereas Adjusted Product Taxonomy is a manual categorization method.",
+    "year": 2025
+  },
+  {
+    "id": 228,
+    "set": 2,
+    "week": 11,
+    "topic": "Collaborative filtering, association rules & dynamic pricing",
+    "question": "The major difference between user-user based collaborative filtering (UBCF) and item-item based collaborative filtering (IBCF) is",
+    "options": [
+      "Recommendation generation can be done offline only in case of UBCF",
+      "All computations can be done offline only in case of UBCF",
+      "All computations can be done offline only in case of IBCF",
+      "Recommendation generation can be done offline only in case of IBCF"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "explanation": "In item-item collaborative filtering, item similarities are precomputed offline, making real-time recommendations fast, whereas user-user CF requires online computation of user similarities.",
+    "year": 2025
+  },
+  {
+    "id": 229,
+    "set": 2,
+    "week": 11,
+    "topic": "Collaborative filtering, association rules & dynamic pricing",
+    "question": "The probability that a transaction contains product X also contains product Y is called",
+    "options": [
+      "Association",
+      "Confidence",
+      "Support",
+      "Priority"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "explanation": "Confidence measures how likely product Y is bought when product X is bought, showing the strength of the association rule.",
+    "year": 2025
+  },
+  {
+    "id": 230,
+    "set": 2,
+    "week": 11,
+    "topic": "Collaborative filtering, association rules & dynamic pricing",
+    "question": "A frequent item set satisfying minimum support count contains 3 items. How many association rules can be generated from this.",
+    "options": [
+      "12",
+      "10",
+      "8",
+      "6"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "For a frequent itemset with 3 items, the number of non-empty subsets is 2^3 - 1 = 7. Association rules are generated by dividing the itemset into antecedent and consequent (both non-empty), giving 6 valid rules.",
+    "year": 2025
+  },
+  {
+    "id": 231,
+    "set": 2,
+    "week": 11,
+    "topic": "Collaborative filtering, association rules & dynamic pricing",
+    "question": "Market equilibrium comes at the price at which the quantity supplied is ….. demanded the quantity",
+    "options": [
+      "Greater than",
+      "Less than",
+      "Equal to",
+      "Randomly relate to"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "explanation": "Market equilibrium occurs when the quantity supplied exactly matches the quantity demanded, meaning there is no surplus or shortage.",
+    "year": 2025
+  },
+  {
+    "id": 232,
+    "set": 2,
+    "week": 11,
+    "topic": "Collaborative filtering, association rules & dynamic pricing",
+    "question": "E-Commerce is a driver of dynamic pricing. Which of the following has made this possible.",
+    "options": [
+      "The buyers can easily search for the substitutes that fits their budget",
+      "The sellers can monitor customer behavior and make customized price",
+      "The seller can easily change price after sensing demand",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "Dynamic pricing is enabled because buyers can compare alternatives, sellers can track behavior for personalized pricing, and prices can be quickly adjusted based on demand.",
+    "year": 2025
+  },
+  {
+    "id": 233,
+    "set": 2,
+    "week": 11,
+    "topic": "Collaborative filtering, association rules & dynamic pricing",
+    "question": "In which of the dynamic pricing models, customer preference and buying patterns can be utilized to decide the price.",
+    "options": [
+      "Inventory based model",
+      "Data driven models",
+      "Auctions",
+      "Simulation models"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "explanation": "Data-driven models use customer preferences and purchase patterns to set personalized or optimized prices, unlike inventory, auction, or simulation-based models.",
+    "year": 2025
+  },
+  {
+    "id": 234,
+    "set": 2,
+    "week": 11,
+    "topic": "Collaborative filtering, association rules & dynamic pricing",
+    "question": "In reverse auction the price …………. over the time In the Dutch auction price….. over the time",
+    "options": [
+      "Increases. Increases",
+      "Increases. Decreases",
+      "Decreases, decreases",
+      "Decreases, increases"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "explanation": "In a reverse auction, sellers keep lowering the price to win the bid. In a Dutch auction, the auctioneer gradually lowers the price until a buyer accepts. So both decrease over time.",
+    "year": 2025
+  },
+  {
+    "id": 235,
+    "set": 2,
+    "week": 11,
+    "topic": "Collaborative filtering, association rules & dynamic pricing",
+    "question": "Dynamic pricing is age old and natural, still businesses prefer fixed pricing. Which of the following is the reason to do so",
+    "options": [
+      "It is designed to recover the cost of production",
+      "It is difficult to estimate demand",
+      "Decrease in price uncertainty in the market create loyal customers",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "Businesses often prefer fixed pricing because it ensures cost recovery, avoids the difficulty of estimating demand, and reduces price uncertainty, which helps build customer loyalty.",
+    "year": 2025
+  },
+  {
+    "id": 236,
+    "set": 2,
+    "week": 11,
+    "topic": "Collaborative filtering, association rules & dynamic pricing",
+    "question": "The price of a particular configuration of Dell laptop is different in different countries. This is an example of",
+    "options": [
+      "Temporal price differentiation",
+      "Spatial price differentiation",
+      "Temporal price dispersion",
+      "Spatial price dispersion"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "Spatial price dispersion/differentiation occurs when the same product is priced differently in different locations or countries, reflecting local market conditions, taxes, or demand.",
+    "year": 2025
+  },
+  {
+    "id": 237,
+    "set": 2,
+    "week": 12,
+    "topic": "Auctions, revenue equivalence & fraud",
+    "question": "Maximization of social surplus in the context of efficient auction is about …….. ?",
+    "options": [
+      "Minimizing buyer's cost",
+      "Maximizing the welfare of the entire system",
+      "Maximizing Seller's profit",
+      "Conducting auction for public goods"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "explanation": "Social surplus refers to the total benefit to buyers and sellers combined, so an efficient auction aims to allocate resources to maximize overall welfare, not just individual profit.",
+    "year": 2025
+  },
+  {
+    "id": 238,
+    "set": 2,
+    "week": 12,
+    "topic": "Auctions, revenue equivalence & fraud",
+    "question": "All the bidders in a coal mine auction have the same knowledge about the market potential of the mine. It is an example of",
+    "options": [
+      "Common value model",
+      "Private value model",
+      "Interdependent Value Models",
+      "Primary value model"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "explanation": "In a common value auction, the item has the same underlying value for all bidders, but they may estimate it differently. Here, all bidders share knowledge about the coal mine’s market potential.",
+    "year": 2025
+  },
+  {
+    "id": 239,
+    "set": 2,
+    "week": 12,
+    "topic": "Auctions, revenue equivalence & fraud",
+    "question": "English auctions an example of",
+    "options": [
+      "Common value model",
+      "Interdependent value model",
+      "Iterative value model",
+      "Multiple value model"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "explanation": "In an English auction, bidders update their valuation based on others’ bids, meaning the value of the item depends on information revealed by competitors, which is characteristic of interdependent value models.",
+    "year": 2025
+  },
+  {
+    "id": 240,
+    "set": 2,
+    "week": 12,
+    "topic": "Auctions, revenue equivalence & fraud",
+    "question": "Bidding Strategy in second price auction ensures:",
+    "options": [
+      "Efficiency",
+      "Truthfulness of the bidders",
+      "The item goes to the buyer, who values it most.",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "In a second-price (Vickrey) auction, bidding your true value ensures truthfulness, the item goes to the highest valuer, and the allocation is efficient, maximizing social welfare.",
+    "year": 2025
+  },
+  {
+    "id": 241,
+    "set": 2,
+    "week": 12,
+    "topic": "Auctions, revenue equivalence & fraud",
+    "question": "As per revenue equivalence theorem first price, second price and English auctions generate the same revenue under which of the following conditions?",
+    "options": [
+      "Bidder's values are independent and identical random variables",
+      "Bidders are risk neutral",
+      "They show no collusion or predatory behavior",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "marks": 1,
+    "explanation": "The revenue equivalence theorem holds when bidders’ values are independent and identically distributed, bidders are risk neutral, and there is no collusion or predatory behavior, ensuring all standard auction formats yield the same expected revenue.",
+    "year": 2025
+  },
+  {
+    "id": 242,
+    "set": 2,
+    "week": 12,
+    "topic": "Auctions, revenue equivalence & fraud",
+    "question": "Incentive compatible direct mechanism ensures",
+    "options": [
+      "Social welfare",
+      "Maximum profit",
+      "Truthful bidding",
+      "Collusion"
+    ],
+    "correctAnswer": 2,
+    "marks": 1,
+    "explanation": "An incentive compatible mechanism is designed so that each participant’s best strategy is to report their true preferences or values, ensuring honesty in the process.",
+    "year": 2025
+  },
+  {
+    "id": 243,
+    "set": 2,
+    "week": 12,
+    "topic": "Auctions, revenue equivalence & fraud",
+    "question": "In a double auction the market price is determined from",
+    "options": [
+      "Arranging the ask prices of all the buyers in increasing order and choosing the median",
+      "The intersection of demand and supply curves generated from bid and ask prices",
+      "Mean price of both demand and supply units in the market.",
+      "Median values of both ask and bid prices of both buyers and sellers"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "explanation": "In a double auction, buyers’ bids and sellers’ asks are used to construct demand and supply curves, and the market-clearing price is set at their intersection.",
+    "year": 2025
+  },
+  {
+    "id": 244,
+    "set": 2,
+    "week": 12,
+    "topic": "Auctions, revenue equivalence & fraud",
+    "question": "A single-unit and single-item forward auction is an integer programming problem, but can be solved as a",
+    "options": [
+      "Searching problem",
+      "Sorting problem",
+      "Linear programming problem",
+      "Combinatorial optimization problem"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "explanation": "In a single-unit, single-item forward auction, finding the highest bidder (winner) can be efficiently solved by sorting the bids rather than using complex integer or combinatorial optimization methods.",
+    "year": 2025
+  },
+  {
+    "id": 245,
+    "set": 2,
+    "week": 12,
+    "topic": "Auctions, revenue equivalence & fraud",
+    "question": "The bid for a volume discount auction consists of a",
+    "options": [
+      "Quantity schedule",
+      "Price schedule",
+      "Bid schedule",
+      "Auction schedule"
+    ],
+    "correctAnswer": 1,
+    "marks": 1,
+    "explanation": "In a volume discount auction, the bidder specifies a price schedule showing how the price per unit decreases as the quantity purchased increases.",
+    "year": 2025
+  },
+  {
+    "id": 246,
+    "set": 2,
+    "week": 12,
+    "topic": "Auctions, revenue equivalence & fraud",
+    "question": "If a perpetrator buys items from an online merchant using stolen credit card number and then sells them to unsuspecting buyers, the fraud committed is called",
+    "options": [
+      "Triangulation",
+      "Fee stacking",
+      "Selling of black-market goods",
+      "misrepresentation of the items"
+    ],
+    "correctAnswer": 0,
+    "marks": 1,
+    "explanation": "Triangulation fraud occurs when a perpetrator uses a stolen credit card to buy items and then sells them to others, forming a “triangle” between the merchant, the fraudster, and the unsuspecting buyer.",
+    "year": 2025
   }
 ]
