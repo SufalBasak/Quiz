@@ -110,6 +110,37 @@
       els.questionText.textContent = "Could not load questions from " + dataFile + ".";
     });
 
+  function shuffleOptions(options, correctAnswer) {
+    if (!options || options.length <= 1) {
+      return { options: options, correctAnswer: correctAnswer };
+    }
+    var correctText = options[correctAnswer];
+    var shuffled = options.slice();
+    for (var i = shuffled.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var temp = shuffled[i];
+      shuffled[i] = shuffled[j];
+      shuffled[j] = temp;
+    }
+    var isSame = true;
+    for (var k = 0; k < options.length; k++) {
+      if (options[k] !== shuffled[k]) {
+        isSame = false;
+        break;
+      }
+    }
+    if (isSame && shuffled.length >= 2) {
+      var t = shuffled[0];
+      shuffled[0] = shuffled[1];
+      shuffled[1] = t;
+    }
+    var newCorrectIndex = shuffled.indexOf(correctText);
+    return {
+      options: shuffled,
+      correctAnswer: newCorrectIndex !== -1 ? newCorrectIndex : correctAnswer
+    };
+  }
+
   function initState() {
     var totalDurationSeconds = Math.max(1, questions.length) * SECONDS_PER_QUESTION;
     var saved = localStorage.getItem(stateKey);
@@ -118,6 +149,14 @@
         var parsed = JSON.parse(saved);
         if (parsed && Array.isArray(parsed.status) && parsed.status.length === questions.length) {
           state = parsed;
+          if (Array.isArray(state.questionOptions) && state.questionOptions.length === questions.length) {
+            state.questionOptions.forEach(function (qo, idx) {
+              if (qo && qo.options && typeof qo.correctAnswer === "number") {
+                questions[idx].options = qo.options;
+                questions[idx].correctAnswer = qo.correctAnswer;
+              }
+            });
+          }
           if (!Array.isArray(state.submitted) || state.submitted.length !== questions.length) {
             state.submitted = state.answers.map(function (ans) { return ans != null; });
           }
@@ -128,12 +167,25 @@
         }
       } catch (e) { /* fall through to fresh state */ }
     }
+
+    var questionOptions = [];
+    questions.forEach(function (q) {
+      var shuffled = shuffleOptions(q.options, q.correctAnswer);
+      q.options = shuffled.options;
+      q.correctAnswer = shuffled.correctAnswer;
+      questionOptions.push({
+        options: shuffled.options,
+        correctAnswer: shuffled.correctAnswer
+      });
+    });
+
     state = {
       current: 0,
       answers: new Array(questions.length).fill(null),
       submitted: new Array(questions.length).fill(false),
       status: new Array(questions.length).fill(STATUS.NOT_VISITED),
-      timeLeft: totalDurationSeconds
+      timeLeft: totalDurationSeconds,
+      questionOptions: questionOptions
     };
     state.status[0] = STATUS.NOT_ANSWERED;
     persist();
