@@ -201,12 +201,12 @@ body.exam-body { padding-top: 0; background: var(--bg); }
 
 /* ============ Instant Explanation Box ============ */
 .instant-explanation {
-  margin-top: 24px;
-  border-radius: var(--radius);
+  margin-top: 18px;
+  border-radius: var(--radius-lg);
   border: 1.5px solid var(--border);
   background: #ffffff;
   overflow: hidden;
-  box-shadow: 0 4px 16px rgba(15, 35, 65, 0.06);
+  box-shadow: var(--shadow);
   animation: expSlideDown 0.25s ease-out;
 }
 @keyframes expSlideDown {
