@@ -18,7 +18,7 @@
   var params = new URLSearchParams(window.location.search);
   var examType = params.get("type") === "pyq" ? "pyq" : "regular";
   var setParam = params.get("set");
-  var dataFile = examType === "pyq" ? "data/pyqs.json" : "data/questions.json";
+  var dataFile = (examType === "pyq" ? "data/pyqs.json" : "data/questions.json") + "?v=" + Date.now();
   var stateKey = "exam_state_" + examType + (setParam ? "_set" + setParam : "");
   var candidateKey = "candidate_" + examType;
   var resultKey = "exam_result";
