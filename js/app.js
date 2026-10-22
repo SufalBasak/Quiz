@@ -35,6 +35,12 @@
       closeModal(btn.getAttribute("data-close-modal"));
     });
   });
+  document.querySelectorAll("[data-open-modal]").forEach(function (btn) {
+    btn.addEventListener("click", function (e) {
+      e.preventDefault();
+      openModal(btn.getAttribute("data-open-modal"));
+    });
+  });
   document.querySelectorAll(".modal-overlay").forEach(function (overlay) {
     overlay.addEventListener("click", function (e) {
       if (e.target === overlay) overlay.classList.remove("open");

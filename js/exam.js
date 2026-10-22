@@ -5,7 +5,7 @@
 (function () {
   "use strict";
 
-  var SECONDS_PER_QUESTION = 2 * 60; // 2 minutes per MCQ question
+  var SECONDS_PER_QUESTION = 60; // 1 minute per question (120 mins for 120 PYQs)
 
   var STATUS = {
     NOT_VISITED: "not-visited",
@@ -161,7 +161,11 @@
 
     els.questionNoLabel.textContent = "Question No. " + (state.current + 1);
     els.questionMarks.textContent = "Marks: " + (q.marks != null ? q.marks : 1);
-    els.questionYear.textContent = q.year ? ("Year: " + q.year) : "";
+    var metaText = "";
+    if (q.week) metaText += "Week " + q.week;
+    if (q.topic) metaText += (metaText ? " · " : "") + q.topic;
+    else if (q.year) metaText += (metaText ? " · " : "") + "Year: " + q.year;
+    els.questionYear.textContent = metaText;
     els.questionText.textContent = q.question;
 
     els.optionsList.innerHTML = "";
@@ -257,15 +261,15 @@
 
     if (isSubmitted) {
       els.submitAnsBtn.disabled = true;
-      els.submitAnsBtn.textContent = "Answer Submitted ✓";
+      els.submitAnsBtn.textContent = "Submitted ✓";
       els.nextBtn.style.display = "inline-flex";
       if (state.current + 1 < questions.length) {
-        els.nextBtn.innerHTML = "Next &rarr;";
+        els.nextBtn.innerHTML = "Next Qs &rarr;";
       } else {
-        els.nextBtn.innerHTML = "Submit Exam &check;";
+        els.nextBtn.innerHTML = "Finish &amp; Submit Exam &check;";
       }
     } else {
-      els.submitAnsBtn.textContent = "Submit Answer";
+      els.submitAnsBtn.textContent = "Submit Qs";
       els.submitAnsBtn.disabled = !hasAnswer;
       els.nextBtn.style.display = "none";
     }
@@ -313,10 +317,14 @@
       state.status[idx] = STATUS.NOT_ANSWERED;
     }
     render();
+    window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
   els.submitAnsBtn.addEventListener("click", function () {
-    if (state.answers[state.current] == null) return;
+    if (state.answers[state.current] == null) {
+      alert("Please select an answer option first.");
+      return;
+    }
     if (state.submitted && state.submitted[state.current]) return;
 
     state.submitted[state.current] = true;
@@ -353,12 +361,15 @@
   });
 
   els.markReviewBtn.addEventListener("click", function () {
-    if (state.submitted && state.submitted[state.current]) {
-      goToQuestion(state.current + 1 < questions.length ? state.current + 1 : state.current);
-      return;
+    if (state.submitted && state.submitted[state.current]) return;
+    if (state.status[state.current] === STATUS.MARKED || state.status[state.current] === STATUS.ANSWERED_MARKED) {
+      state.status[state.current] = state.answers[state.current] != null ? STATUS.ANSWERED : STATUS.NOT_ANSWERED;
+    } else {
+      state.status[state.current] = state.answers[state.current] != null ? STATUS.ANSWERED_MARKED : STATUS.MARKED;
     }
-    state.status[state.current] = state.answers[state.current] != null ? STATUS.ANSWERED_MARKED : STATUS.MARKED;
-    goToQuestion(state.current + 1 < questions.length ? state.current + 1 : state.current);
+    renderPalette();
+    renderSummary();
+    persist();
   });
 
   if (els.paletteToggleBtn) {
